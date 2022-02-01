@@ -5,21 +5,36 @@ import './App.css';
 import Body from './components/available_rooms';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { json } from 'stream/consumers';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [data, setData] = useState<any>()
+
+  useEffect(() => {
+    const url='http://jsonplaceholder.typicode.com/users'
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url);
+        const json = await response.json();
+        console.log(json);
+        setData(json);
+      } catch (error) {
+          console.log("error", error);
+      }
+    }
+
+    fetchData()
+  }, []);
+
   
   return (
     <div className="App">
       <header className="App-header">
-        <Title/>
-        <Body room1 = 'Available' room2 = 'Not Available' />
-        <button onClick={() => setCount(count + 1)}>Add</button>
-        <button onClick={() => setCount(count - 1)}>Subtract</button>
-        <p>{count}</p>
+          {data ? <p>{data.length}</p> : null}
       </header>
     </div>
   );
 }
- 
+
 export default App;

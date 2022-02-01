@@ -1,11 +1,11 @@
-import React from 'react';
 import RoomCard from './card';
+import { useEffect } from 'react';
 
 function Body(props: any) {
+
   return (
     <div>
-      <RoomCard room = {props.room1}/>
-      <RoomCard room = {props.room2}/>
+      <h1>Test</h1>
     </div>
     
   );
