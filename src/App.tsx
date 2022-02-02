@@ -1,11 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import Title from './components/title'
 import './App.css';
-import Body from './components/available_rooms';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { json } from 'stream/consumers';
+import Card from './components/card';
+import Body from './components/available_rooms';
 
 function App() {
   const [data, setData] = useState<any>()
@@ -31,10 +28,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          {data ? <p>{data.length}</p> : null}
+        <div className='header'>
+          <h2>SSF</h2>
+        </div>
+        <h1 className='logo'>Study Space Finder</h1>
+        <div className='container2'>
+          {data ? data.map((user: any)=>{
+            return <Card key={user.id} user={user}/>
+          }) : null}
+        </div>
       </header>
     </div>
   );
 }
+
+//.filter((user: any)=>user.id < 5)
 
 export default App;

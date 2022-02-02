@@ -1,9 +1,13 @@
-import React from 'react';
+import '../App.css';
 
-function RoomCard(props: any) {
+function Card(props: any) {
   return (
-    <p>This room is: {props.room}</p>
-  );
+    <div key={props.key} className='card'>
+      <h2>{props.user.name}</h2>
+      <p>{props.user.phone}</p>
+      <p>{props.user.website}</p>
+    </div>
+  )
 }
 
-export default RoomCard;
+export default Card;

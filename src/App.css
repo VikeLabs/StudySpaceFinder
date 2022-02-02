@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +31,46 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  min-height: 80px;
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1em;
+}
+
+.logo {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+  background-color: rgb(27, 7, 145);
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+}
+
+.header h2 {
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 @keyframes App-logo-spin {
