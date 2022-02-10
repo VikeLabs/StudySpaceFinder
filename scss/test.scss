@@ -1,0 +1,8 @@
+@use 'foundation/code';
+@use 'foundation/lists';
+
+$radius: 3px;
+
+.button {
+  padding: 15px + $radius;
+}

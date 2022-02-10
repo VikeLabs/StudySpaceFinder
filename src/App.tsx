@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Title from './components/title'
-import './App.css';
+import './css/test.css';
 import Body from './components/available_rooms';
 import { useEffect } from 'react';
 import { useState } from 'react';
