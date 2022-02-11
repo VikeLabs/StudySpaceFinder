@@ -1,6 +1,7 @@
 @use 'foundation/code';
 @use 'foundation/lists';
 .button {
-  padding: 18px;
-}
-/*# sourceMappingURL=test.css.map */
+  padding: 18px; }
+
+.div {
+  padding: 18px; }
