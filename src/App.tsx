@@ -6,17 +6,29 @@ import Body from './components/available_rooms';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
+import {getDatabase, ref, child, get} from 'firebase/database'
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const handleClick = (()=>{
+    const database = getDatabase()
+    const dbref = ref(database);
+  
+    get(child(dbref,`Bob Wright`)).then((snapshot) => {
+      if(snapshot.exists()){
+        console.log(snapshot.val())
+      } else {
+        console.log("No data available")
+      }
+    }).catch((error)=>{
+      console.log(error)
+    });
+  })
   
   return (
     <div className="App">
       <header className="App-header">
-        <Title/>
-        <Body room1 = 'Available' room2 = 'Not Available' />
-        <button onClick={() => setCount(count + 1)}>Add</button>
-        <button onClick={() => setCount(count - 1)}>Subtract</button>
-        <p>{count}</p>
+        Study Space Finder
+      <button onClick={handleClick}>Click me</button>
       </header>
     </div>
   );
