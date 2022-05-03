@@ -13,6 +13,8 @@ function App() {
     const date = "202205";
     const courseListUrl = `https://courseup.vikelabs.ca/api/courses/${date}`;
 
+    let queries:any = [];
+
     const response = await fetch(courseListUrl)
       .then((response) => {return response.json()})
       .then(data =>{
@@ -20,9 +22,24 @@ function App() {
           let code = element.code
           let subject = element.subject
           let query = `https://courseup.vikelabs.ca/api/sections/${date}?subject=${subject}&code=${code}`
-          console.log(query)
+          queries.push(query)
+          // console.log(query)
         });
+
+      // queries.forEach((query: any) => {
+      //   let classData = fetchClassData(query)
+      //   console.log(classData)
+      // })
+      console.log(fetchClassData("https://courseup.vikelabs.ca/api/sections/202205?subject=ECE&code=310"))
     })
+  }
+
+  const fetchClassData = async (url: string) => {
+    const data = await fetch(url)
+      .then((response) => {return response.json()})
+      .then((data => {return data}))
+
+    return data    
   }
   
   const handleClick = ( async ()=>{
