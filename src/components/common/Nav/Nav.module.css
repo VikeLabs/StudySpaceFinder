@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: var(--accent-main);
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+  color: hsl(0deg, 0%, 90%);
+  font-size: 1.1em;
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1.1em;
+  height: 1.1em;
+  width: 100%;
+  background-color: var(--accent-lighter);
+}
+
+.container,
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 0 3em;
+  max-width: 1500px;
+  flex-grow: 1;
+}
+
+.container h1 {
+  font-weight: 500;
+}
+
+.container ul {
+  list-style: none;
+  gap: 1.2em;
+}
+
+ul > li {
+  cursor: pointer;
+}
