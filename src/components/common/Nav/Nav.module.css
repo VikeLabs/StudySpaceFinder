@@ -8,6 +8,7 @@
   z-index: 999;
   color: hsl(0deg, 0%, 90%);
   font-size: 1.1em;
+  z-index: 999;
 }
 
 .nav::before {
@@ -42,6 +43,11 @@
   gap: 1.2em;
 }
 
-ul > li {
-  cursor: pointer;
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul a.active {
+  /* active style? */
 }
