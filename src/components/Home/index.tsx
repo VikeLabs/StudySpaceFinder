@@ -3,18 +3,14 @@ import { useEffect } from "react";
 import { mockFetch } from "mock";
 
 function Home() {
-  /*
   useEffect(() => {
     mockFetch("resolve")
       .then((response) => response.json())
       .then((buildings) => {
-        for (let i = 0; i < buildings.length; i++) {
-          console.log(buildings[i]);
-        }
+        console.log(buildings);
       })
       .catch((e) => console.log(e));
   }, []);
-  */
 
   return (
     <div>
