@@ -11,6 +11,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "react": "^18.2.0",
+    "react-calendar": "^4.0.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-calendar": "^3.9.0",
     "prettier": "^2.7.1"
   }
 }

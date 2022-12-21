@@ -7,4 +7,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buildingCard:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease-in-out;
+    background-color: whitesmoke;
+    transition: padding-left 3s;
+    transition: padding-right 3s;
+    transition: background-color 0.5s;
 }

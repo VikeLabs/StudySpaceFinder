@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import style from "./BuildingCard.module.css"
 
 function BuildingCard(props: any) {
     return (
-        <p className={style.buildingCard}>{String(props.building)}</p>
+        <Link className={style.buildingCard} to={`classrooms?building=${props.building}`}>{props.building}</Link>
     );
   }
   
