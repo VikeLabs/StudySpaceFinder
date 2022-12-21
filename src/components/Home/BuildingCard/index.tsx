@@ -1,6 +1,8 @@
-function BuildingCard() {
+import style from "./BuildingCard.module.css"
+
+function BuildingCard(props: any) {
     return (
-        <div>BuildingCard</div>
+        <p className={style.buildingCard}>{String(props.building)}</p>
     );
   }
   

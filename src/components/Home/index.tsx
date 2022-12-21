@@ -3,13 +3,14 @@ import { useEffect, useState } from "react";
 import { mockFetch } from "mock";
 import Container from "components/common/Container";
 import style from "./Home.module.css"
+import BuildingCard from "./BuildingCard";
 
 function Home() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    mockFetch("resolve", 1000)
+    mockFetch("resolve", 0)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -22,13 +23,12 @@ function Home() {
   return (
     <div className={style.home}>
       <Container>
-      {/* <Link to="about">Click to view our about page</Link> */}
-        <h1>StudySpaceFinder</h1>
+        <h1 className={style.h1}>StudySpaceFinder</h1>
 
         {loading ? <p>Loading...</p> : 
-          <div className="buildingContainer">
+          <div className={style.buildingContainer}>
             { data && Object.keys(data).map((key: any) => {
-              return <p>{key}</p>
+              return <BuildingCard building={key}/>
             })}
           </div>}
       </Container>

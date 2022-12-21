@@ -1,0 +1,10 @@
+.buildingCard {
+    width: 30%;
+    height: 120px;
+    background-color: white;
+    border-radius: 0.75em;
+    box-shadow: rgba(100, 100, 110, 0.4) 0px 8px 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
