@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    height: 100vw;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(233, 232, 232);
+}
+
+.buildingContainer {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 4rem;
+}
+
+.h1 {
+    width: 100%;
+    display: block;
+    margin-top: 4em;
+}

@@ -18,11 +18,11 @@
     border-radius: 10px;
     padding: 1%;
     -webkit-box-shadow: 2px 2px 2px 0px rgba(121,58,255,0.38); 
-box-shadow: 2px 2px 2px 0px rgba(77, 77, 77, 0.38);
-width: 80%;
-margin: 2% auto 2% auto;
-background-color: rgb(216, 216, 216);
-transition: background-color 0.5s;
+    box-shadow: 2px 2px 2px 0px rgba(77, 77, 77, 0.38);
+    width: 80%;
+    margin: 2% auto 2% auto;
+    background-color: white;
+    transition: background-color 0.5s;
 }
 
 .cardOuter:hover{
@@ -37,10 +37,13 @@ transition: background-color 0.5s;
 .cardText{
     font-weight: 5000;
     font-size: large;
-    float: right;
-    
+    float: right;   
 }
 
-.cardTitle{
-
+.home {
+    display: flex;
+    height: 100vw;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(233, 232, 232);
 }
