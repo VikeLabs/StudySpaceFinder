@@ -10,6 +10,9 @@ const Nav = () => {
         {/* TODO: get links for NavLink */}
         <ul>
           <li>
+            <NavLink to="/">Classrooms</NavLink>
+          </li>
+          <li>
             <NavLink to="about">About</NavLink>
           </li>
         </ul>
