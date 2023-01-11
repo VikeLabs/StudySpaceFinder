@@ -2140,27 +2140,27 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -2725,242 +2725,6 @@
       ]
     },
     "B119": {
-      "Monday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": false
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
-      "Thursday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": false
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Tuesday": [
         {
           "time": "8:00",
@@ -4930,11 +4694,11 @@
         },
         {
           "time": "16:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:30",
@@ -5215,124 +4979,6 @@
       ]
     },
     "170": {
-      "Friday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Monday": [
         {
           "time": "8:00",
@@ -5807,6 +5453,124 @@
       ]
     },
     "180": {
+      "Friday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": false
+        },
+        {
+          "time": "15:00",
+          "isAvailable": false
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
       "Monday": [
         {
           "time": "8:00",
@@ -9302,11 +9066,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -10706,11 +10470,11 @@
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:30",
@@ -11228,27 +10992,27 @@
         },
         {
           "time": "18:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "21:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "21:30",
@@ -11426,11 +11190,11 @@
         },
         {
           "time": "13:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:30",
@@ -13328,15 +13092,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:00",
@@ -13446,15 +13210,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:00",
@@ -15216,11 +14980,11 @@
         },
         {
           "time": "13:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:30",
@@ -15768,15 +15532,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -15886,15 +15650,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -16827,124 +16591,6 @@
           "isAvailable": true
         }
       ],
-      "Thursday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": false
-        },
-        {
-          "time": "16:00",
-          "isAvailable": false
-        },
-        {
-          "time": "16:30",
-          "isAvailable": false
-        },
-        {
-          "time": "17:00",
-          "isAvailable": false
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Tuesday": [
         {
           "time": "8:00",
@@ -17206,11 +16852,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
@@ -17560,11 +17206,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
@@ -17678,11 +17324,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
@@ -20776,19 +20422,19 @@
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:30",
@@ -20862,15 +20508,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -20980,15 +20626,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -21248,11 +20894,11 @@
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:30",
@@ -22110,27 +21756,27 @@
         },
         {
           "time": "16:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "17:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "17:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:30",
@@ -22204,27 +21850,27 @@
         },
         {
           "time": "13:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:30",
@@ -22330,19 +21976,19 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:30",
@@ -23230,15 +22876,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -23254,15 +22900,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -23348,15 +22994,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -23372,15 +23018,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -23728,15 +23374,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -23846,15 +23492,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -24001,126 +23647,6 @@
         {
           "time": "16:00",
           "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ]
-    },
-    "C116": {
-      "Tuesday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": false
-        },
-        {
-          "time": "16:00",
-          "isAvailable": false
         },
         {
           "time": "16:30",
@@ -24249,6 +23775,244 @@
         {
           "time": "17:00",
           "isAvailable": false
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    "C214": {
+      "Monday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": false
+        },
+        {
+          "time": "10:30",
+          "isAvailable": false
+        },
+        {
+          "time": "11:00",
+          "isAvailable": false
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": true
+        },
+        {
+          "time": "15:00",
+          "isAvailable": true
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
+      "Thursday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": false
+        },
+        {
+          "time": "10:30",
+          "isAvailable": false
+        },
+        {
+          "time": "11:00",
+          "isAvailable": false
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": true
+        },
+        {
+          "time": "15:00",
+          "isAvailable": true
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
         },
         {
           "time": "17:30",
@@ -24916,15 +24680,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -25034,15 +24798,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -25477,6 +25241,124 @@
           "isAvailable": true
         }
       ],
+      "Monday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": false
+        },
+        {
+          "time": "12:00",
+          "isAvailable": false
+        },
+        {
+          "time": "12:30",
+          "isAvailable": false
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": true
+        },
+        {
+          "time": "15:00",
+          "isAvailable": true
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
       "Thursday": [
         {
           "time": "8:00",
@@ -25508,15 +25390,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -30368,11 +30250,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -30510,11 +30392,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -30628,11 +30510,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -30722,11 +30604,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -30840,11 +30722,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -30864,11 +30746,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -30944,27 +30826,27 @@
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -31481,6 +31363,126 @@
         {
           "time": "17:30",
           "isAvailable": false
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    "A132": {
+      "Thursday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": false
+        },
+        {
+          "time": "15:00",
+          "isAvailable": false
+        },
+        {
+          "time": "15:30",
+          "isAvailable": false
+        },
+        {
+          "time": "16:00",
+          "isAvailable": false
+        },
+        {
+          "time": "16:30",
+          "isAvailable": false
+        },
+        {
+          "time": "17:00",
+          "isAvailable": false
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
         },
         {
           "time": "18:00",
@@ -32894,27 +32896,27 @@
         },
         {
           "time": "16:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
@@ -34038,15 +34040,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -34156,15 +34158,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -35672,11 +35674,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
@@ -36026,11 +36028,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
@@ -36144,11 +36146,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
@@ -36752,11 +36754,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -40652,15 +40654,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -40700,15 +40702,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
@@ -40770,15 +40772,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -40818,15 +40820,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
@@ -42266,27 +42268,27 @@
         },
         {
           "time": "17:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:30",
@@ -42384,27 +42386,27 @@
         },
         {
           "time": "17:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:30",
@@ -43168,11 +43170,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -43522,11 +43524,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -43640,11 +43642,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -44246,23 +44248,23 @@
         },
         {
           "time": "13:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
@@ -44364,23 +44366,23 @@
         },
         {
           "time": "13:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
@@ -44612,11 +44614,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
@@ -44760,27 +44762,27 @@
         },
         {
           "time": "18:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "21:00",
@@ -45276,15 +45278,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -45394,15 +45396,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
@@ -46710,15 +46712,15 @@
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -46828,15 +46830,15 @@
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -47283,124 +47285,6 @@
           "isAvailable": true
         }
       ],
-      "Monday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": false
-        },
-        {
-          "time": "12:00",
-          "isAvailable": false
-        },
-        {
-          "time": "12:30",
-          "isAvailable": false
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Thursday": [
         {
           "time": "8:00",
@@ -47432,15 +47316,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -55935,6 +55819,124 @@
       ]
     },
     "136": {
+      "Friday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": false
+        },
+        {
+          "time": "13:00",
+          "isAvailable": false
+        },
+        {
+          "time": "13:30",
+          "isAvailable": false
+        },
+        {
+          "time": "14:00",
+          "isAvailable": false
+        },
+        {
+          "time": "14:30",
+          "isAvailable": false
+        },
+        {
+          "time": "15:00",
+          "isAvailable": false
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
       "Monday": [
         {
           "time": "8:00",
@@ -56582,19 +56584,19 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:30",
@@ -56606,19 +56608,19 @@
         },
         {
           "time": "17:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
@@ -58098,11 +58100,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -58150,27 +58152,27 @@
         },
         {
           "time": "18:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "20:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "21:00",
@@ -58564,11 +58566,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -58918,11 +58920,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -59036,11 +59038,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -65918,11 +65920,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -66272,11 +66274,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -66390,11 +66392,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -67198,15 +67200,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -67316,15 +67318,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -67514,27 +67516,27 @@
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "21:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "21:30",
@@ -67568,11 +67570,11 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
@@ -67672,11 +67674,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
@@ -68026,11 +68028,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
@@ -68144,11 +68146,11 @@
         },
         {
           "time": "8:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "9:30",
@@ -70625,124 +70627,6 @@
       ]
     },
     "128": {
-      "Monday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": false
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Thursday": [
         {
           "time": "8:00",
@@ -70762,15 +70646,15 @@
         },
         {
           "time": "10:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
@@ -72100,11 +71984,11 @@
         },
         {
           "time": "14:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -72335,6 +72219,124 @@
         {
           "time": "14:00",
           "isAvailable": false
+        },
+        {
+          "time": "14:30",
+          "isAvailable": true
+        },
+        {
+          "time": "15:00",
+          "isAvailable": true
+        },
+        {
+          "time": "15:30",
+          "isAvailable": true
+        },
+        {
+          "time": "16:00",
+          "isAvailable": true
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
+      "Thursday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": false
+        },
+        {
+          "time": "9:00",
+          "isAvailable": false
+        },
+        {
+          "time": "9:30",
+          "isAvailable": false
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
         },
         {
           "time": "14:30",
@@ -75011,124 +75013,6 @@
   },
   "Engineering Lab Wing": {
     "A127": {
-      "Friday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Monday": [
         {
           "time": "8:00",
@@ -75212,11 +75096,11 @@
         },
         {
           "time": "18:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "19:00",
@@ -75326,11 +75210,11 @@
         },
         {
           "time": "17:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "18:30",
@@ -80109,124 +79993,6 @@
       ]
     },
     "B232": {
-      "Friday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": false
-        },
-        {
-          "time": "9:00",
-          "isAvailable": false
-        },
-        {
-          "time": "9:30",
-          "isAvailable": false
-        },
-        {
-          "time": "10:00",
-          "isAvailable": false
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Monday": [
         {
           "time": "8:00",
@@ -81296,124 +81062,6 @@
     },
     "B326": {
       "Tuesday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": false
-        },
-        {
-          "time": "16:00",
-          "isAvailable": false
-        },
-        {
-          "time": "16:30",
-          "isAvailable": false
-        },
-        {
-          "time": "17:00",
-          "isAvailable": false
-        },
-        {
-          "time": "17:30",
-          "isAvailable": false
-        },
-        {
-          "time": "18:00",
-          "isAvailable": false
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
-      "Wednesday": [
         {
           "time": "8:00",
           "isAvailable": true
@@ -85800,244 +85448,6 @@
           "time": "22:00",
           "isAvailable": true
         }
-      ],
-      "Tuesday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": false
-        },
-        {
-          "time": "12:00",
-          "isAvailable": false
-        },
-        {
-          "time": "12:30",
-          "isAvailable": false
-        },
-        {
-          "time": "13:00",
-          "isAvailable": false
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ]
-    },
-    "162": {
-      "Wednesday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": false
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": false
-        },
-        {
-          "time": "12:00",
-          "isAvailable": false
-        },
-        {
-          "time": "12:30",
-          "isAvailable": false
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
       ]
     }
   },
@@ -86283,124 +85693,6 @@
   },
   "Fraser Building": {
     "142": {
-      "Friday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": false
-        },
-        {
-          "time": "11:00",
-          "isAvailable": false
-        },
-        {
-          "time": "11:30",
-          "isAvailable": false
-        },
-        {
-          "time": "12:00",
-          "isAvailable": false
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": true
-        },
-        {
-          "time": "15:00",
-          "isAvailable": true
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ],
       "Monday": [
         {
           "time": "8:00",
@@ -86542,19 +85834,19 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -86660,19 +85952,19 @@
         },
         {
           "time": "10:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -88000,7 +87292,7 @@
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
@@ -88354,7 +87646,7 @@
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
@@ -91940,27 +91232,27 @@
         },
         {
           "time": "18:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "19:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "20:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "21:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "21:30",
@@ -92016,15 +91308,15 @@
         },
         {
           "time": "13:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:30",
@@ -92134,15 +91426,15 @@
         },
         {
           "time": "13:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "14:30",
@@ -92360,11 +91652,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -92714,11 +92006,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -92832,11 +92124,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -93631,126 +92923,6 @@
           "isAvailable": true
         }
       ]
-    },
-    "LAB": {
-      "Thursday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": true
-        },
-        {
-          "time": "12:00",
-          "isAvailable": true
-        },
-        {
-          "time": "12:30",
-          "isAvailable": true
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": true
-        },
-        {
-          "time": "16:00",
-          "isAvailable": true
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ]
     }
   },
   "Ian Stewart Complex": {
@@ -94258,15 +93430,15 @@
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -94290,7 +93462,7 @@
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -94360,15 +93532,15 @@
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:30",
@@ -94478,15 +93650,15 @@
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:30",
@@ -94612,15 +93784,15 @@
         },
         {
           "time": "11:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
@@ -94644,7 +93816,7 @@
         },
         {
           "time": "15:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "15:30",
@@ -102326,15 +101498,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -102444,15 +101616,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "12:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "13:00",
@@ -104016,27 +103188,27 @@
         },
         {
           "time": "15:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "16:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "17:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "18:30",
@@ -104934,11 +104106,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -105052,11 +104224,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -105288,11 +104460,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -105406,11 +104578,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -105510,19 +104682,19 @@
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -105864,19 +105036,19 @@
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -105982,19 +105154,19 @@
         },
         {
           "time": "9:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "10:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "11:30",
@@ -106852,15 +106024,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
@@ -106970,15 +106142,15 @@
         },
         {
           "time": "14:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "15:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "16:00",
@@ -108486,11 +107658,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -108840,11 +108012,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -108958,11 +108130,11 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
@@ -110356,15 +109528,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -110474,15 +109646,15 @@
         },
         {
           "time": "8:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:00",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "9:30",
-          "isAvailable": false
+          "isAvailable": true
         },
         {
           "time": "10:00",
@@ -111334,11 +110506,11 @@
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:30",
@@ -114619,6 +113791,126 @@
           "isAvailable": true
         }
       ],
+      "Wednesday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": false
+        },
+        {
+          "time": "15:00",
+          "isAvailable": false
+        },
+        {
+          "time": "15:30",
+          "isAvailable": false
+        },
+        {
+          "time": "16:00",
+          "isAvailable": false
+        },
+        {
+          "time": "16:30",
+          "isAvailable": true
+        },
+        {
+          "time": "17:00",
+          "isAvailable": true
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ]
+    },
+    "081": {
       "Tuesday": [
         {
           "time": "8:00",
@@ -114752,126 +114044,6 @@
         },
         {
           "time": "9:30",
-          "isAvailable": true
-        },
-        {
-          "time": "10:00",
-          "isAvailable": true
-        },
-        {
-          "time": "10:30",
-          "isAvailable": true
-        },
-        {
-          "time": "11:00",
-          "isAvailable": true
-        },
-        {
-          "time": "11:30",
-          "isAvailable": false
-        },
-        {
-          "time": "12:00",
-          "isAvailable": false
-        },
-        {
-          "time": "12:30",
-          "isAvailable": false
-        },
-        {
-          "time": "13:00",
-          "isAvailable": true
-        },
-        {
-          "time": "13:30",
-          "isAvailable": true
-        },
-        {
-          "time": "14:00",
-          "isAvailable": true
-        },
-        {
-          "time": "14:30",
-          "isAvailable": false
-        },
-        {
-          "time": "15:00",
-          "isAvailable": false
-        },
-        {
-          "time": "15:30",
-          "isAvailable": false
-        },
-        {
-          "time": "16:00",
-          "isAvailable": false
-        },
-        {
-          "time": "16:30",
-          "isAvailable": true
-        },
-        {
-          "time": "17:00",
-          "isAvailable": true
-        },
-        {
-          "time": "17:30",
-          "isAvailable": true
-        },
-        {
-          "time": "18:00",
-          "isAvailable": true
-        },
-        {
-          "time": "18:30",
-          "isAvailable": true
-        },
-        {
-          "time": "19:00",
-          "isAvailable": true
-        },
-        {
-          "time": "19:30",
-          "isAvailable": true
-        },
-        {
-          "time": "20:00",
-          "isAvailable": true
-        },
-        {
-          "time": "20:30",
-          "isAvailable": true
-        },
-        {
-          "time": "21:00",
-          "isAvailable": true
-        },
-        {
-          "time": "21:30",
-          "isAvailable": true
-        },
-        {
-          "time": "22:00",
-          "isAvailable": true
-        }
-      ]
-    },
-    "081": {
-      "Wednesday": [
-        {
-          "time": "8:00",
-          "isAvailable": true
-        },
-        {
-          "time": "8:30",
-          "isAvailable": true
-        },
-        {
-          "time": "9:00",
-          "isAvailable": true
-        },
-        {
-          "time": "9:30",
           "isAvailable": false
         },
         {
@@ -114888,15 +114060,15 @@
         },
         {
           "time": "11:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:00",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "12:30",
-          "isAvailable": true
+          "isAvailable": false
         },
         {
           "time": "13:00",
@@ -115454,6 +114626,124 @@
         }
       ],
       "Tuesday": [
+        {
+          "time": "8:00",
+          "isAvailable": true
+        },
+        {
+          "time": "8:30",
+          "isAvailable": true
+        },
+        {
+          "time": "9:00",
+          "isAvailable": true
+        },
+        {
+          "time": "9:30",
+          "isAvailable": true
+        },
+        {
+          "time": "10:00",
+          "isAvailable": true
+        },
+        {
+          "time": "10:30",
+          "isAvailable": true
+        },
+        {
+          "time": "11:00",
+          "isAvailable": true
+        },
+        {
+          "time": "11:30",
+          "isAvailable": true
+        },
+        {
+          "time": "12:00",
+          "isAvailable": true
+        },
+        {
+          "time": "12:30",
+          "isAvailable": true
+        },
+        {
+          "time": "13:00",
+          "isAvailable": true
+        },
+        {
+          "time": "13:30",
+          "isAvailable": true
+        },
+        {
+          "time": "14:00",
+          "isAvailable": true
+        },
+        {
+          "time": "14:30",
+          "isAvailable": false
+        },
+        {
+          "time": "15:00",
+          "isAvailable": false
+        },
+        {
+          "time": "15:30",
+          "isAvailable": false
+        },
+        {
+          "time": "16:00",
+          "isAvailable": false
+        },
+        {
+          "time": "16:30",
+          "isAvailable": false
+        },
+        {
+          "time": "17:00",
+          "isAvailable": false
+        },
+        {
+          "time": "17:30",
+          "isAvailable": true
+        },
+        {
+          "time": "18:00",
+          "isAvailable": true
+        },
+        {
+          "time": "18:30",
+          "isAvailable": true
+        },
+        {
+          "time": "19:00",
+          "isAvailable": true
+        },
+        {
+          "time": "19:30",
+          "isAvailable": true
+        },
+        {
+          "time": "20:00",
+          "isAvailable": true
+        },
+        {
+          "time": "20:30",
+          "isAvailable": true
+        },
+        {
+          "time": "21:00",
+          "isAvailable": true
+        },
+        {
+          "time": "21:30",
+          "isAvailable": true
+        },
+        {
+          "time": "22:00",
+          "isAvailable": true
+        }
+      ],
+      "Wednesday": [
         {
           "time": "8:00",
           "isAvailable": true
