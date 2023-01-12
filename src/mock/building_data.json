@@ -268,322 +268,6 @@
         }
       ]
     },
-    "A107": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "ASTR150"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ASTR150"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "ASTR150"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "ASTR150"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ASTR150"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ASTR150"
-        }
-      ]
-    },
-    "A111": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
-            "time_end": 44400
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ASTR101"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 12:50 pm",
-            "time_start": 36000,
-            "time_end": 46200
-          },
-          "course": "ASTR102"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "ASTR102"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ASTR101"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "ASTR101"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ASTR101"
-        }
-      ]
-    },
-    "B117": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "EOS120"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "EOS120"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "EOS120"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "EOS120"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "EOS120"
-        },
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "EOS120"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "EOS120"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "EOS120"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "EOS120"
-        },
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "EOS120"
-        }
-      ]
-    },
-    "B118": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "EOS240"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "EOS240"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 7:20 pm",
-            "time_start": 55800,
-            "time_end": 69600
-          },
-          "course": "EOS312"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS240"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 6:20 pm",
-            "time_start": 52200,
-            "time_end": 66000
-          },
-          "course": "EOS312"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "EOS313"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "EOS313"
-        }
-      ]
-    },
     "B119": {
       "Tuesday": [
         {
@@ -593,46 +277,6 @@
             "time_end": 37200
           },
           "course": "EOS340"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS201"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS201"
-        }
-      ]
-    },
-    "B120": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS460"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "EOS480"
         }
       ]
     },
@@ -645,26 +289,6 @@
             "time_end": 44400
           },
           "course": "PHYS426"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS202"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "EOS202"
         }
       ],
       "Tuesday": [
@@ -967,16 +591,6 @@
   },
   "Business \u0026 Economics Building": {
     "160": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "STAT256"
-        }
-      ],
       "Monday": [
         {
           "time": {
@@ -988,14 +602,6 @@
         }
       ],
       "Thursday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "SOCI271"
-        },
         {
           "time": {
             "time_display": "2:30 pm - 3:50 pm",
@@ -1011,26 +617,6 @@
             "time_end": 62400
           },
           "course": "STAT252"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "5:00 pm - 6:50 pm",
-            "time_start": 61200,
-            "time_end": 67800
-          },
-          "course": "HINF265"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "HINF450"
         }
       ]
     },
@@ -1043,33 +629,9 @@
             "time_end": 51600
           },
           "course": "ENGR120"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON345"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON345"
         }
       ],
       "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 10:50 am",
-            "time_start": 36000,
-            "time_end": 39000
-          },
-          "course": "SOCI471"
-        },
         {
           "time": {
             "time_display": "1:00 pm - 2:20 pm",
@@ -1077,120 +639,10 @@
             "time_end": 51600
           },
           "course": "ENGR120"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON245"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON245"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "STAT123"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 6:20 pm",
-            "time_start": 63000,
-            "time_end": 66000
-          },
-          "course": "STAT123"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON246"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON366"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "ECON366"
         }
       ]
     },
     "180": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON245"
-        }
-      ],
       "Monday": [
         {
           "time": {
@@ -1212,55 +664,11 @@
         },
         {
           "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON457"
-        },
-        {
-          "time": {
             "time_display": "3:30 pm - 4:20 pm",
             "time_start": 55800,
             "time_end": 58800
           },
           "course": "STAT252"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "HINF130"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON345"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON345"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON345"
         }
       ]
     },
@@ -1411,41 +819,11 @@
           "course": "FRAN180"
         }
       ]
-    },
-    "LAB": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG373"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG373"
-        }
-      ]
     }
   },
   "Clearihue Building": {
     "A031": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "STAT261"
-        },
         {
           "time": {
             "time_display": "3:30 pm - 4:50 pm",
@@ -1568,27 +946,11 @@
       "Friday": [
         {
           "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "SOCI271"
-        },
-        {
-          "time": {
             "time_display": "1:30 pm - 2:50 pm",
             "time_start": 48600,
             "time_end": 53400
           },
           "course": "ENGR240"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "STAT261"
         }
       ],
       "Monday": [
@@ -1659,14 +1021,6 @@
             "time_end": 53400
           },
           "course": "ENGR240"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "STAT123"
         },
         {
           "time": {
@@ -1782,49 +1136,7 @@
         }
       ]
     },
-    "A105": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "GEOG226"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "GEOG226"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "GEOG226"
-        }
-      ]
-    },
     "A108": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "STAT256"
-        }
-      ],
       "Monday": [
         {
           "time": {
@@ -1887,6 +1199,28 @@
             "time_end": 64200
           },
           "course": "ENGR240"
+        }
+      ]
+    },
+    "A118": {
+      "Monday": [
+        {
+          "time": {
+            "time_display": "2:30 pm - 3:50 pm",
+            "time_start": 52200,
+            "time_end": 57000
+          },
+          "course": "WRIT315"
+        }
+      ],
+      "Thursday": [
+        {
+          "time": {
+            "time_display": "2:30 pm - 3:50 pm",
+            "time_start": 52200,
+            "time_end": 57000
+          },
+          "course": "WRIT315"
         }
       ]
     },
@@ -2507,14 +1841,6 @@
             "time_end": 51600
           },
           "course": "ENGL146"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON104"
         }
       ]
     },
@@ -3074,14 +2400,6 @@
       "Friday": [
         {
           "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "PSYC300B"
-        },
-        {
-          "time": {
             "time_display": "11:30 am - 12:20 pm",
             "time_start": 41400,
             "time_end": 44400
@@ -3255,14 +2573,6 @@
             "time_end": 51600
           },
           "course": "LING261"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "PSYC300B"
         }
       ]
     },
@@ -3452,14 +2762,6 @@
     },
     "A313": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC300B"
-        },
         {
           "time": {
             "time_display": "1:30 pm - 2:20 pm",
@@ -4332,6 +3634,14 @@
         },
         {
           "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "CSC482A"
+        },
+        {
+          "time": {
             "time_display": "2:30 pm - 3:20 pm",
             "time_start": 52200,
             "time_end": 55200
@@ -4355,6 +3665,14 @@
             "time_end": 46200
           },
           "course": "GREE304"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "CSC482A"
         },
         {
           "time": {
@@ -4647,14 +3965,6 @@
             "time_end": 44400
           },
           "course": "ENGL225"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "FRAN100"
         },
         {
           "time": {
@@ -5274,14 +4584,6 @@
       "Wednesday": [
         {
           "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC201"
-        },
-        {
-          "time": {
             "time_display": "12:30 pm - 1:20 pm",
             "time_start": 45000,
             "time_end": 48000
@@ -5342,24 +4644,6 @@
           },
           "course": "ENGL341"
         }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC201"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "PSYC201"
-        }
       ]
     },
     "C118": {
@@ -5375,6 +4659,16 @@
       ]
     },
     "C214": {
+      "Friday": [
+        {
+          "time": {
+            "time_display": "1:30 pm - 2:20 pm",
+            "time_start": 48600,
+            "time_end": 51600
+          },
+          "course": "ENGL330"
+        }
+      ],
       "Monday": [
         {
           "time": {
@@ -5393,6 +4687,26 @@
             "time_end": 40800
           },
           "course": "CIVE480C"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": {
+            "time_display": "1:30 pm - 2:20 pm",
+            "time_start": 48600,
+            "time_end": 51600
+          },
+          "course": "ENGL330"
+        }
+      ],
+      "Wednesday": [
+        {
+          "time": {
+            "time_display": "1:30 pm - 2:20 pm",
+            "time_start": 48600,
+            "time_end": 51600
+          },
+          "course": "ENGL330"
         }
       ]
     },
@@ -5528,14 +4842,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
-        {
-          "time": {
             "time_display": "9:30 am - 10:20 am",
             "time_start": 34200,
             "time_end": 37200
@@ -5568,14 +4874,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
         {
           "time": {
             "time_display": "9:30 am - 10:20 am",
@@ -5635,14 +4933,6 @@
             "time_end": 40800
           },
           "course": "SPAN100B"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "FRAN120"
         }
       ],
       "Monday": [
@@ -5872,14 +5162,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
-        {
-          "time": {
             "time_display": "9:30 am - 10:20 am",
             "time_start": 34200,
             "time_end": 37200
@@ -5912,14 +5194,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
         {
           "time": {
             "time_display": "9:30 am - 10:20 am",
@@ -6245,46 +5519,6 @@
             "time_end": 46200
           },
           "course": "HSTR426A"
-        }
-      ]
-    },
-    "LAB": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL330"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL330"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL330"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL330"
         }
       ]
     }
@@ -6669,14 +5903,6 @@
             "time_end": 48000
           },
           "course": "MATH212"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "ECON482"
         }
       ],
       "Wednesday": [
@@ -7064,14 +6290,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
-        {
-          "time": {
             "time_display": "9:30 am - 11:20 am",
             "time_start": 34200,
             "time_end": 40800
@@ -7088,14 +6306,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:20 am",
-            "time_start": 30600,
-            "time_end": 33600
-          },
-          "course": "PSYC201"
-        },
         {
           "time": {
             "time_display": "9:30 am - 11:20 am",
@@ -7271,6 +6481,26 @@
             "time_end": 62400
           },
           "course": "HSTR436F"
+        }
+      ],
+      "Tuesday": [
+        {
+          "time": {
+            "time_display": "4:00 pm - 5:20 pm",
+            "time_start": 57600,
+            "time_end": 62400
+          },
+          "course": "ECON482"
+        }
+      ],
+      "Wednesday": [
+        {
+          "time": {
+            "time_display": "4:00 pm - 5:20 pm",
+            "time_start": 57600,
+            "time_end": 62400
+          },
+          "course": "ECON482"
         }
       ]
     },
@@ -8168,14 +7398,6 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "MATH346"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -8215,14 +7437,6 @@
             "time_end": 46200
           },
           "course": "PSYC338"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "MATH346"
         },
         {
           "time": {
@@ -9490,88 +8704,6 @@
         }
       ]
     },
-    "B235": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "ANTH250"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 1:20 pm",
-            "time_start": 41400,
-            "time_end": 48000
-          },
-          "course": "ANTH250"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "ANTH250"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ANTH250"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 8:20 pm",
-            "time_start": 66600,
-            "time_end": 73200
-          },
-          "course": "ANTH250"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "ANTH240"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ANTH240"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "ANTH240"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ANTH240"
-        }
-      ]
-    },
     "B250": {
       "Friday": [
         {
@@ -9606,540 +8738,6 @@
     }
   },
   "Cunningham Building": {
-    "004": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ]
-    },
-    "018": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL186"
-        }
-      ]
-    },
-    "102": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 1:20 pm",
-            "time_start": 37800,
-            "time_end": 48000
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "BIOL230"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL230"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL230"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "BIOL230"
-        }
-      ]
-    },
-    "116": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL230"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL362"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL230"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL230"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL230"
-        }
-      ]
-    },
-    "118": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL324"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL324"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL324"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL324"
-        }
-      ]
-    },
-    "132": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL186"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL186"
-        }
-      ]
-    },
-    "136": {
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL366"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL366"
-        }
-      ]
-    },
     "146": {
       "Friday": [
         {
@@ -10277,58 +8875,6 @@
             "time_end": 51600
           },
           "course": "BIOL366"
-        }
-      ]
-    },
-    "228": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL329"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL329"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL329"
-        }
-      ]
-    },
-    "245": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL449"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL449"
         }
       ]
     }
@@ -11510,14 +10056,6 @@
       "Thursday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "COM450"
-        },
-        {
-          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
@@ -11531,6 +10069,14 @@
             "time_end": 46200
           },
           "course": "COM322"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "COM450"
         },
         {
           "time": {
@@ -11560,14 +10106,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "COM450"
-        },
-        {
-          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
@@ -11581,6 +10119,14 @@
             "time_end": 46200
           },
           "course": "COM322"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "COM450"
         },
         {
           "time": {
@@ -11677,14 +10223,6 @@
             "time_end": 48000
           },
           "course": "MATH498"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL309"
         }
       ],
       "Wednesday": [
@@ -11699,24 +10237,6 @@
       ]
     },
     "C126": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ECON103"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECON103"
-        }
-      ],
       "Monday": [
         {
           "time": {
@@ -11741,14 +10261,6 @@
             "time_end": 46200
           },
           "course": "PHIL210"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON104"
         }
       ],
       "Thursday": [
@@ -11775,58 +10287,6 @@
             "time_end": 46200
           },
           "course": "PHIL210"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON103"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON103"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON103"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "ECON103"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON104"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON104"
         }
       ]
     },
@@ -13150,222 +11610,6 @@
         }
       ]
     },
-    "A251": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG222"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG328"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "GEOG428"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:50 am",
-            "time_start": 36000,
-            "time_end": 42600
-          },
-          "course": "GEOG323"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG222"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG322"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG222"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG323"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG328"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG222"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG322"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG328"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG222"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "GEOG428"
-        }
-      ]
-    },
-    "A253": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG329"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG370"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG228"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG329"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "GEOG422"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG228"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG370"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG228"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG228"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG329"
-        }
-      ]
-    },
     "A357": {
       "Thursday": [
         {
@@ -13406,184 +11650,8 @@
         }
       ]
     },
-    "B303": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG276"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG103"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG103"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:50 am",
-            "time_start": 36000,
-            "time_end": 42600
-          },
-          "course": "GEOG103"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG276"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG103"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG103"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG276"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG276"
-        }
-      ]
-    },
-    "B307": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG274"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG274"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG101A"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG101A"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG101A"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG101A"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG274"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG274"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG101A"
-        }
-      ]
-    },
     "B311": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG218"
-        },
         {
           "time": {
             "time_display": "12:30 pm - 3:20 pm",
@@ -13591,86 +11659,6 @@
             "time_end": 55200
           },
           "course": "GEOG380"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:50 am",
-            "time_start": 36000,
-            "time_end": 42600
-          },
-          "course": "GEOG101B"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:50 am",
-            "time_start": 36000,
-            "time_end": 42600
-          },
-          "course": "GEOG101B"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG218"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG101B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG101B"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "GEOG218"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "GEOG101B"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "GEOG218"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "GEOG101B"
         }
       ]
     }
@@ -13779,14 +11767,6 @@
             "time_end": 48000
           },
           "course": "MATH379"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON203"
         }
       ],
       "Wednesday": [
@@ -13851,14 +11831,6 @@
             "time_end": 51600
           },
           "course": "GEOG353"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:50 pm",
-            "time_start": 52200,
-            "time_end": 57000
-          },
-          "course": "WRIT315"
         }
       ],
       "Thursday": [
@@ -13893,14 +11865,6 @@
             "time_end": 51600
           },
           "course": "GEOG353"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:50 pm",
-            "time_start": 52200,
-            "time_end": 57000
-          },
-          "course": "WRIT315"
         }
       ],
       "Tuesday": [
@@ -13919,14 +11883,6 @@
             "time_end": 48000
           },
           "course": "HSTR308"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON203"
         }
       ],
       "Wednesday": [
@@ -14193,464 +12149,6 @@
             "time_end": 62400
           },
           "course": "PHYS499"
-        }
-      ]
-    },
-    "125": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS317"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS317"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS317"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "PHYS317"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS317"
-        }
-      ]
-    },
-    "128": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS130"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS130"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS130"
-        }
-      ]
-    },
-    "129": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "PHYS248"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "PHYS248"
-        }
-      ]
-    },
-    "131": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS325"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS325"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS325"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS325"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS325"
-        }
-      ]
-    },
-    "136": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "PHYS110"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS110"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS110"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS110"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "PHYS110"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "PHYS110"
-        }
-      ]
-    },
-    "139": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS215"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "PHYS215"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS215"
-        }
-      ]
-    },
-    "140": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS102B"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS102B"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 11:20 am",
-            "time_start": 30600,
-            "time_end": 40800
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS102B"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "PHYS102B"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS102B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS102B"
-        }
-      ]
-    },
-    "144": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS111"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS111"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "PHYS111"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "PHYS111"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "PHYS111"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "PHYS111"
         }
       ]
     },
@@ -15061,14 +12559,6 @@
             "time_end": 55200
           },
           "course": "MATH101"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "FRAN335"
         }
       ],
       "Wednesday": [
@@ -15476,6 +12966,14 @@
         },
         {
           "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "MATH346"
+        },
+        {
+          "time": {
             "time_display": "2:30 pm - 3:20 pm",
             "time_start": 52200,
             "time_end": 55200
@@ -15523,6 +13021,14 @@
             "time_end": 46200
           },
           "course": "CSC226"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "MATH346"
         },
         {
           "time": {
@@ -15779,56 +13285,6 @@
             "time_end": 58800
           },
           "course": "CHEM231"
-        }
-      ]
-    },
-    "227": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "CHEM102"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
-            "time_end": 44400
-          },
-          "course": "CHEM102"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "CHEM150"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "CHEM102"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "CHEM150"
         }
       ]
     },
@@ -16436,14 +13892,6 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "CSC482A"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -16478,14 +13926,6 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "CSC482A"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -16509,14 +13949,6 @@
             "time_end": 33600
           },
           "course": "STAT450"
-        },
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC201"
         },
         {
           "time": {
@@ -17305,6 +14737,14 @@
             "time_end": 48000
           },
           "course": "SOCI205"
+        },
+        {
+          "time": {
+            "time_display": "4:30 pm - 7:20 pm",
+            "time_start": 59400,
+            "time_end": 69600
+          },
+          "course": "FRAN335"
         }
       ],
       "Wednesday": [
@@ -17619,16 +15059,6 @@
       ]
     },
     "128": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:00 pm - 5:50 pm",
-            "time_start": 54000,
-            "time_end": 64200
-          },
-          "course": "CIVE444"
-        }
-      ],
       "Tuesday": [
         {
           "time": {
@@ -17637,14 +15067,6 @@
             "time_end": 37200
           },
           "course": "ES301"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ANTH395"
         }
       ],
       "Wednesday": [
@@ -17663,22 +15085,6 @@
             "time_end": 40800
           },
           "course": "ES301"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL309"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL309"
         }
       ]
     },
@@ -17806,1116 +15212,16 @@
         },
         {
           "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "PSYC300B"
-        },
-        {
-          "time": {
             "time_display": "4:30 pm - 5:50 pm",
             "time_start": 59400,
             "time_end": 64200
           },
           "course": "TS400"
-        },
-        {
-          "time": {
-            "time_display": "6:00 pm - 6:50 pm",
-            "time_start": 64800,
-            "time_end": 67800
-          },
-          "course": "PSYC300B"
-        }
-      ]
-    },
-    "242": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CSC485E"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC226"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC226"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 1:20 pm",
-            "time_start": 41400,
-            "time_end": 48000
-          },
-          "course": "CSC111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC485E"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC485E"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "CSC226"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC226"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "CSC226"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "CSC111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC226"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 1:20 pm",
-            "time_start": 41400,
-            "time_end": 48000
-          },
-          "course": "CSC111"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "CSC111"
-        }
-      ]
-    },
-    "249": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "CSC230"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "CSC230"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "CSC230"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:50 am",
-            "time_start": 34200,
-            "time_end": 39000
-          },
-          "course": "CSC230"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:50 pm",
-            "time_start": 48600,
-            "time_end": 53400
-          },
-          "course": "CSC230"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:00 am - 12:20 pm",
-            "time_start": 39600,
-            "time_end": 44400
-          },
-          "course": "CSC230"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:50 pm",
-            "time_start": 48600,
-            "time_end": 53400
-          },
-          "course": "CSC230"
-        }
-      ]
-    },
-    "250": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC105"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "CSC110"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "CSC130"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 1:20 pm",
-            "time_start": 41400,
-            "time_end": 48000
-          },
-          "course": "CSC110"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC130"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC105"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "CSC110"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "CSC110"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC105"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "CSC110"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC130"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "CSC130"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CSC105"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "CSC110"
-        }
-      ]
-    },
-    "258": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "12:00 pm - 12:50 pm",
-            "time_start": 43200,
-            "time_end": 46200
-          },
-          "course": "CSC225"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 1:50 pm",
-            "time_start": 46800,
-            "time_end": 49800
-          },
-          "course": "CSC225"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "CSC115"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "CSC115"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC225"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC225"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "CSC115"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "CSC115"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 5:20 pm",
-            "time_start": 55800,
-            "time_end": 62400
-          },
-          "course": "CSC115"
-        }
-      ]
-    },
-    "342": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "SENG275"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 3:20 pm",
-            "time_start": 48600,
-            "time_end": 55200
-          },
-          "course": "SENG275"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 5:20 pm",
-            "time_start": 55800,
-            "time_end": 62400
-          },
-          "course": "SENG275"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 5:20 pm",
-            "time_start": 55800,
-            "time_end": 62400
-          },
-          "course": "SENG275"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "CSC106"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CSC106"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC106"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "CSC106"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC106"
-        }
-      ]
-    },
-    "354": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC473"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC473"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "CSC473"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 6:20 pm",
-            "time_start": 63000,
-            "time_end": 66000
-          },
-          "course": "CSC473"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC305"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CSC305"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC305"
-        }
-      ]
-    },
-    "360": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "CSC361"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "12:00 pm - 12:50 pm",
-            "time_start": 43200,
-            "time_end": 46200
-          },
-          "course": "CSC361"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "CSC361"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "CSC361"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "CSC361"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "CSC361"
         }
       ]
     }
   },
   "Engineering Lab Wing": {
-    "A127": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "5:00 pm - 5:50 pm",
-            "time_start": 61200,
-            "time_end": 64200
-          },
-          "course": "MECH390"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "MECH390"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "MECH390"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "MECH390"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "5:00 pm - 5:50 pm",
-            "time_start": 61200,
-            "time_end": 64200
-          },
-          "course": "MECH390"
-        }
-      ]
-    },
-    "A135": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "MECH320"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:20 am",
-            "time_start": 36000,
-            "time_end": 40800
-          },
-          "course": "MECH320"
-        },
-        {
-          "time": {
-            "time_display": "2:00 pm - 4:50 pm",
-            "time_start": 50400,
-            "time_end": 60600
-          },
-          "course": "MECH220"
-        },
-        {
-          "time": {
-            "time_display": "5:00 pm - 6:20 pm",
-            "time_start": 61200,
-            "time_end": 66000
-          },
-          "course": "MECH320"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:20 am",
-            "time_start": 36000,
-            "time_end": 40800
-          },
-          "course": "MECH320"
-        },
-        {
-          "time": {
-            "time_display": "4:00 pm - 5:20 pm",
-            "time_start": 57600,
-            "time_end": 62400
-          },
-          "course": "MECH320"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 6:50 pm",
-            "time_start": 63000,
-            "time_end": 67800
-          },
-          "course": "MECH320"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "MECH220"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "MECH220"
-        }
-      ]
-    },
-    "A140": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "MECH345"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "MECH345"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "5:00 pm - 7:50 pm",
-            "time_start": 61200,
-            "time_end": 71400
-          },
-          "course": "MECH345"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:00 am - 1:50 pm",
-            "time_start": 39600,
-            "time_end": 49800
-          },
-          "course": "CIVE345"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "MECH345"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "CIVE345"
-        },
-        {
-          "time": {
-            "time_display": "5:00 pm - 7:50 pm",
-            "time_start": 61200,
-            "time_end": 71400
-          },
-          "course": "MECH345"
-        }
-      ]
-    },
-    "A229": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "6:00 pm - 7:20 pm",
-            "time_start": 64800,
-            "time_end": 69600
-          },
-          "course": "BME320"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "6:00 pm - 7:20 pm",
-            "time_start": 64800,
-            "time_end": 69600
-          },
-          "course": "BME320"
-        }
-      ]
-    },
-    "A309": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE320"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE320"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE320"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "ECE340"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "ECE340"
-        }
-      ]
-    },
-    "A317": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "ECE360"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE360"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE360"
-        }
-      ]
-    },
-    "A321": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE458"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "ECE458"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE458"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE458"
-        }
-      ]
-    },
-    "B118": {
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 3:20 pm",
-            "time_start": 45000,
-            "time_end": 55200
-          },
-          "course": "BME350"
-        }
-      ]
-    },
     "B203": {
       "Thursday": [
         {
@@ -18948,90 +15254,8 @@
         }
       ]
     },
-    "B215": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "SENG474"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "SENG474"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "SENG474"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "SENG310"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "SENG310"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "SENG310"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:50 pm",
-            "time_start": 59400,
-            "time_end": 64200
-          },
-          "course": "SENG321"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:50 pm",
-            "time_start": 59400,
-            "time_end": 64200
-          },
-          "course": "SENG321"
-        }
-      ]
-    },
     "B220": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "SENG371"
-        },
         {
           "time": {
             "time_display": "12:30 pm - 1:20 pm",
@@ -19039,442 +15263,6 @@
             "time_end": 48000
           },
           "course": "CIVE445"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 3:20 pm",
-            "time_start": 48600,
-            "time_end": 55200
-          },
-          "course": "SENG371"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 5:20 pm",
-            "time_start": 55800,
-            "time_end": 62400
-          },
-          "course": "SENG371"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:50 pm",
-            "time_start": 59400,
-            "time_end": 64200
-          },
-          "course": "SENG321"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:50 pm",
-            "time_start": 59400,
-            "time_end": 64200
-          },
-          "course": "SENG321"
-        }
-      ]
-    },
-    "B228": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "MECH335"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "MECH335"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:20 am",
-            "time_start": 36000,
-            "time_end": 40800
-          },
-          "course": "MECH335"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:00 am - 11:20 am",
-            "time_start": 36000,
-            "time_end": 40800
-          },
-          "course": "MECH335"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:50 pm",
-            "time_start": 52200,
-            "time_end": 57000
-          },
-          "course": "MECH335"
-        },
-        {
-          "time": {
-            "time_display": "5:00 pm - 6:20 pm",
-            "time_start": 61200,
-            "time_end": 66000
-          },
-          "course": "MECH335"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "MECH495"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "MECH410"
-        }
-      ]
-    },
-    "B232": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "MECH458"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "MECH285"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "MECH285"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "MECH458"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "MECH458"
-        }
-      ]
-    },
-    "B238": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 11:50 am",
-            "time_start": 37800,
-            "time_end": 42600
-          },
-          "course": "SENG265"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:50 pm",
-            "time_start": 48600,
-            "time_end": 53400
-          },
-          "course": "SENG265"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 11:50 am",
-            "time_start": 37800,
-            "time_end": 42600
-          },
-          "course": "SENG265"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "SENG265"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:50 pm",
-            "time_start": 52200,
-            "time_end": 57000
-          },
-          "course": "SENG265"
-        }
-      ]
-    },
-    "B324": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE300"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "ECE300"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 7:20 pm",
-            "time_start": 59400,
-            "time_end": 69600
-          },
-          "course": "ECE300"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:00 pm - 3:50 pm",
-            "time_start": 46800,
-            "time_end": 57000
-          },
-          "course": "ECE300"
-        }
-      ]
-    },
-    "B326": {
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE404"
-        }
-      ]
-    },
-    "B328": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "4:00 pm - 6:50 pm",
-            "time_start": 57600,
-            "time_end": 67800
-          },
-          "course": "ECE449"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE455"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE455"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "ECE455"
-        }
-      ]
-    },
-    "B336": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "ENGR121"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 8:20 pm",
-            "time_start": 66600,
-            "time_end": 73200
-          },
-          "course": "ENGR121"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "7:00 pm - 8:50 pm",
-            "time_start": 68400,
-            "time_end": 75000
-          },
-          "course": "ENGR121"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 10:20 am",
-            "time_start": 30600,
-            "time_end": 37200
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 1:20 pm",
-            "time_start": 41400,
-            "time_end": 48000
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 8:20 pm",
-            "time_start": 66600,
-            "time_end": 73200
-          },
-          "course": "ENGR121"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "ENGR121"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "ENGR121"
         }
       ]
     }
@@ -20526,7 +16314,7 @@
             "time_start": 32400,
             "time_end": 37200
           },
-          "course": "LAW105"
+          "course": "LAW105I"
         },
         {
           "time": {
@@ -20568,7 +16356,7 @@
             "time_start": 32400,
             "time_end": 37200
           },
-          "course": "LAW105"
+          "course": "LAW105I"
         },
         {
           "time": {
@@ -21300,14 +17088,6 @@
         },
         {
           "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ECON104"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 3:20 pm",
             "time_start": 52200,
             "time_end": 55200
@@ -21384,18 +17164,6 @@
     }
   },
   "Human \u0026 Social Development": {
-    "A160": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
-            "time_end": 44400
-          },
-          "course": "GEOG226"
-        }
-      ]
-    },
     "A240": {
       "Friday": [
         {
@@ -21931,6 +17699,14 @@
             "time_end": 48000
           },
           "course": "SPAN490B"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 4:20 pm",
+            "time_start": 52200,
+            "time_end": 58800
+          },
+          "course": "ANTH395"
         }
       ],
       "Wednesday": [
@@ -21969,50 +17745,6 @@
             "time_end": 44400
           },
           "course": "CYC152"
-        }
-      ]
-    }
-  },
-  "Ian Stewart Complex": {
-    "370": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "CIVE310"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 1:20 pm",
-            "time_start": 37800,
-            "time_end": 48000
-          },
-          "course": "CIVE310"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:00 am - 1:50 pm",
-            "time_start": 39600,
-            "time_end": 49800
-          },
-          "course": "CIVE385"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "1:30 pm - 4:20 pm",
-            "time_start": 48600,
-            "time_end": 58800
-          },
-          "course": "CIVE385"
         }
       ]
     }
@@ -22792,14 +18524,6 @@
       "Thursday": [
         {
           "time": {
-            "time_display": "9:00 am - 9:50 am",
-            "time_start": 32400,
-            "time_end": 35400
-          },
-          "course": "MUS270B"
-        },
-        {
-          "time": {
             "time_display": "11:30 am - 12:50 pm",
             "time_start": 41400,
             "time_end": 46200
@@ -22824,14 +18548,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "MUS270B"
-        },
         {
           "time": {
             "time_display": "4:30 pm - 5:50 pm",
@@ -23127,16 +18843,6 @@
           "course": "MUS306"
         }
       ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 12:20 pm",
-            "time_start": 41400,
-            "time_end": 44400
-          },
-          "course": "MUS345"
-        }
-      ],
       "Thursday": [
         {
           "time": {
@@ -23145,14 +18851,6 @@
             "time_end": 35400
           },
           "course": "MUS306"
-        },
-        {
-          "time": {
-            "time_display": "10:00 am - 10:50 am",
-            "time_start": 36000,
-            "time_end": 39000
-          },
-          "course": "MUS345"
         }
       ]
     },
@@ -23173,14 +18871,6 @@
             "time_end": 48000
           },
           "course": "ANTH336"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ENGL330"
         }
       ],
       "Monday": [
@@ -23207,14 +18897,6 @@
             "time_end": 51600
           },
           "course": "EUS300"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "CIVE400"
         }
       ],
       "Thursday": [
@@ -23267,14 +18949,6 @@
             "time_end": 48000
           },
           "course": "ANTH336"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ENGL330"
         }
       ],
       "Wednesday": [
@@ -23293,14 +18967,6 @@
             "time_end": 48000
           },
           "course": "ANTH336"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ENGL330"
         }
       ]
     },
@@ -23392,14 +19058,6 @@
         }
       ],
       "Tuesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC201"
-        },
         {
           "time": {
             "time_display": "10:30 am - 11:20 am",
@@ -23495,14 +19153,6 @@
             "time_end": 51600
           },
           "course": "EDCI305A"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON104"
         }
       ],
       "Thursday": [
@@ -23523,30 +19173,6 @@
             "time_end": 48000
           },
           "course": "ENGL146"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "ECON104"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON104"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "ECON104"
         }
       ],
       "Wednesday": [
@@ -23639,14 +19265,6 @@
             "time_end": 40800
           },
           "course": "PAAS340"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "ECON103"
         }
       ],
       "Wednesday": [
@@ -23684,7 +19302,7 @@
             "time_start": 55800,
             "time_end": 66000
           },
-          "course": "WRIT402"
+          "course": "WRIT304"
         }
       ],
       "Wednesday": [
@@ -23790,6 +19408,14 @@
       "Friday": [
         {
           "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "EDCI300"
+        },
+        {
+          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
@@ -23845,14 +19471,6 @@
             "time_end": 44400
           },
           "course": "MATH101"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 6:20 pm",
-            "time_start": 55800,
-            "time_end": 66000
-          },
-          "course": "CIVE400"
         }
       ],
       "Thursday": [
@@ -23882,6 +19500,14 @@
         }
       ],
       "Tuesday": [
+        {
+          "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "EDCI300"
+        },
         {
           "time": {
             "time_display": "10:00 am - 11:20 am",
@@ -23944,14 +19570,6 @@
     },
     "D111": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "SPAN450B"
-        },
         {
           "time": {
             "time_display": "11:30 am - 12:20 pm",
@@ -24048,14 +19666,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "SPAN450B"
-        },
-        {
-          "time": {
             "time_display": "11:30 am - 12:20 pm",
             "time_start": 41400,
             "time_end": 44400
@@ -24072,14 +19682,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "SPAN450B"
-        },
         {
           "time": {
             "time_display": "11:30 am - 12:20 pm",
@@ -24116,14 +19718,6 @@
     },
     "D114": {
       "Friday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "EDCI300"
-        },
         {
           "time": {
             "time_display": "10:00 am - 11:20 am",
@@ -24204,14 +19798,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "EDCI300"
-        },
-        {
-          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
@@ -24220,14 +19806,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC201"
-        },
         {
           "time": {
             "time_display": "2:30 pm - 3:20 pm",
@@ -24341,14 +19919,6 @@
             "time_end": 58800
           },
           "course": "MATH202"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "ECON203"
         },
         {
           "time": {
@@ -24599,14 +20169,6 @@
             "time_end": 49800
           },
           "course": "EDCI447"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "PSYC300B"
         }
       ],
       "Monday": [
@@ -24627,22 +20189,6 @@
             "time_end": 51600
           },
           "course": "MEDS433"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "PSYC300B"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "PSYC300B"
         }
       ],
       "Tuesday": [
@@ -24653,41 +20199,9 @@
             "time_end": 49800
           },
           "course": "EDCI447"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "PSYC300B"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "PSYC300B"
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:20 am",
-            "time_start": 34200,
-            "time_end": 37200
-          },
-          "course": "PSYC300B"
-        },
-        {
-          "time": {
-            "time_display": "10:30 am - 11:20 am",
-            "time_start": 37800,
-            "time_end": 40800
-          },
-          "course": "PSYC300B"
-        },
         {
           "time": {
             "time_display": "1:30 pm - 4:20 pm",
@@ -24965,24 +20479,6 @@
             "time_end": 48000
           },
           "course": "EDCI336"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "EPHE200"
-        },
-        {
-          "time": {
-            "time_display": "10:00 am - 11:20 am",
-            "time_start": 36000,
-            "time_end": 40800
-          },
-          "course": "EPHE200"
         }
       ]
     },
@@ -25441,14 +20937,6 @@
             "time_end": 53400
           },
           "course": "MECH400"
-        },
-        {
-          "time": {
-            "time_display": "3:00 pm - 4:50 pm",
-            "time_start": 54000,
-            "time_end": 60600
-          },
-          "course": "MECH400"
         }
       ],
       "Wednesday": [
@@ -25518,54 +21006,6 @@
         }
       ]
     },
-    "043": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 10:50 am",
-            "time_start": 34200,
-            "time_end": 39000
-          },
-          "course": "EPHE344"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "EPHE344"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "9:00 am - 10:20 am",
-            "time_start": 32400,
-            "time_end": 37200
-          },
-          "course": "EPHE344"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE355"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE355"
-        }
-      ]
-    },
     "069": {
       "Tuesday": [
         {
@@ -25575,48 +21015,6 @@
             "time_end": 55200
           },
           "course": "EPHE133"
-        }
-      ]
-    },
-    "080": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "EPHE348"
-        }
-      ],
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE348"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE348"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE348"
         }
       ]
     },
@@ -26009,325 +21407,9 @@
           "course": "ENGL225"
         }
       ]
-    },
-    "166": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE141"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "EPHE141"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE141"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE141"
-        }
-      ]
-    },
-    "171": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE444"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE444"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE444"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE444"
-        }
-      ]
-    },
-    "179": {
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE380"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "EPHE380"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "10:30 am - 12:20 pm",
-            "time_start": 37800,
-            "time_end": 44400
-          },
-          "course": "EPHE341"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE341"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE380"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 6:20 pm",
-            "time_start": 59400,
-            "time_end": 66000
-          },
-          "course": "EPHE380"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "EPHE341"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 4:20 pm",
-            "time_start": 52200,
-            "time_end": 58800
-          },
-          "course": "EPHE341"
-        }
-      ]
     }
   },
   "Petch Building": {
-    "107": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL336"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL336"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL336"
-        }
-      ]
-    },
-    "109": {
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL319"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL319"
-        }
-      ]
-    },
-    "110": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL307"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL307"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL335"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL335"
-        },
-        {
-          "time": {
-            "time_display": "5:30 pm - 8:20 pm",
-            "time_start": 63000,
-            "time_end": 73200
-          },
-          "course": "BIOL335"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "11:30 am - 2:20 pm",
-            "time_start": 41400,
-            "time_end": 51600
-          },
-          "course": "BIOL307"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "BIOL307"
-        }
-      ]
-    },
     "141": {
       "Monday": [
         {
@@ -26367,72 +21449,6 @@
             "time_end": 62400
           },
           "course": "BCMB301B"
-        }
-      ]
-    },
-    "145": {
-      "Monday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "MICR200B"
-        },
-        {
-          "time": {
-            "time_display": "12:00 pm - 1:50 pm",
-            "time_start": 43200,
-            "time_end": 49800
-          },
-          "course": "MICR200B"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 11:20 am",
-            "time_start": 34200,
-            "time_end": 40800
-          },
-          "course": "MICR200B"
-        },
-        {
-          "time": {
-            "time_display": "12:00 pm - 1:50 pm",
-            "time_start": 43200,
-            "time_end": 49800
-          },
-          "course": "MICR200B"
-        }
-      ],
-      "Tuesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "MICR200B"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "12:30 pm - 2:20 pm",
-            "time_start": 45000,
-            "time_end": 51600
-          },
-          "course": "MICR200B"
-        },
-        {
-          "time": {
-            "time_display": "3:00 pm - 4:50 pm",
-            "time_start": 54000,
-            "time_end": 60600
-          },
-          "course": "MICR200B"
         }
       ]
     },
@@ -26552,14 +21568,6 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
-            "time_end": 44400
-          },
-          "course": "THEA105"
-        },
-        {
-          "time": {
             "time_display": "2:00 pm - 3:20 pm",
             "time_start": 50400,
             "time_end": 55200
@@ -26568,14 +21576,6 @@
         }
       ],
       "Wednesday": [
-        {
-          "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
-            "time_end": 44400
-          },
-          "course": "THEA105"
-        },
         {
           "time": {
             "time_display": "2:00 pm - 3:20 pm",
