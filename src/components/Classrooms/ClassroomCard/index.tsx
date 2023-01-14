@@ -18,7 +18,7 @@ function ClassroomCards (props: any){
         <div className={styles.cardOuter}>
             <div className={styles.cardInner}>
                 <h1 className={styles.cardTitle}>{props.name}</h1>
-                <RoomCalendar name="WAH" times={props.classroom}/>
+                <RoomCalendar times={props.classroom}/>
                 {/* <span className={styles.cardText}>Seating Capacity: {props.classroom.seatingCapacity}</span> */}
             </div>
         </div>
