@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import {Component} from 'react'
-import props from 'react'
-import { Link } from 'react-router-dom'
-import { mockFetch } from "mock";
 import {DayPilot, DayPilotCalendar} from "@daypilot/daypilot-lite-react";
 
 
@@ -26,9 +22,9 @@ function RoomCalendar (props){
     //do it for every day, filling events
 
     //function to help string organization for registering calendar events
-    function getTimeByIndex (index) {
-        let day = DayPilot.Date.today().toString()
-        let dayString = day.substring(0, day.length-8)
+    function getTimeByIndex (index, day) {
+        const dayToDateMap = new Map([["Monday","2023-01-09T"],["Tuesday","2023-01-10T"],["Wednesday","2023-01-11T"],["Thursday","2023-01-12T"],["Friday","2023-01-13T"]])
+        let dayString = dayToDateMap.get(day);
         let hour = 8;
         let minute = 30;
         let startTime = index*30
@@ -41,14 +37,16 @@ function RoomCalendar (props){
         if(hour < 10) {
             hour = "0" + hour;
         }
-        return /*dayString*/"2023-01-12T" + hour + ":" + minute + ":" + "00";
+        return dayString + hour + ":" + minute + ":" + "00";
     }
 
     if (Object.keys(data).length !== 0) {  //This checks whether a classroom has no data, and although I haven't found a class like this, it's necesarry
+        
         let daysIncluded = Object.keys(data.times);
-        if(daysIncluded.includes("Thursday")) {
-            let lastTime = "2023-01-12T08:30:00";
-            let currentTime = "2023-01-12T08:30:00";
+
+        daysIncluded.forEach(day => { //for each day of the week, create a set availability events
+            let lastTime = getTimeByIndex(0, day);
+            let currentTime = lastTime;
             let lookingFor = false;
 
             //For through length of monday
@@ -60,8 +58,8 @@ function RoomCalendar (props){
             //Set currentTime to lastTime
 
             console.log("Classoom: " + data)
-            for (let index = 0; index < props.times.Thursday.length; index++) {
-                const element = props.times.Thursday[index];
+            for (let index = 0; index < props.times[day].length; index++) {
+                const element = props.times[day][index];
                 console.log("Element is: " + element)
                 console.log("Looking for: " + lookingFor)
 
@@ -72,7 +70,7 @@ function RoomCalendar (props){
 
                 if(element === false && lookingFor === false) {
                     console.log("newEntry Available")
-                    currentTime = getTimeByIndex(index);
+                    currentTime = getTimeByIndex(index, day);
                     calendarEvents.push({
                         text: "Available",
                         start: lastTime,
@@ -86,8 +84,8 @@ function RoomCalendar (props){
 
 
                 if(element === true && lookingFor === true) {
-                    console.log("newEntry Available")
-                    currentTime = getTimeByIndex(index);
+                    console.log("newEntry unavailable")
+                    currentTime = getTimeByIndex(index, day);
                     calendarEvents.push({
                         text: "Unavailable",
                         start: lastTime,
@@ -99,9 +97,9 @@ function RoomCalendar (props){
                     lookingFor = false;
                 }
 
-                if(index === props.times.Thursday.length - 1) { //Handle the final event of the day
+                if(index === props.times[day].length - 1) { //Handle the final event of the day
                     if(lookingFor === true) {
-                        currentTime = getTimeByIndex(index + 1);
+                        currentTime = getTimeByIndex(index + 1, day);
                         calendarEvents.push({
                             text: "Unavailable",
                             start: lastTime,
@@ -111,7 +109,7 @@ function RoomCalendar (props){
                         })
                     }
                     if(lookingFor === false) {
-                        currentTime = getTimeByIndex(index + 1);
+                        currentTime = getTimeByIndex(index + 1, day);
                     calendarEvents.push({
                         text: "Available",
                         start: lastTime,
@@ -124,16 +122,18 @@ function RoomCalendar (props){
 
                     //Todo: Add last event
                     //Make the first event make sense
-                //Make it log for every thursday this semester
-                //Make it log for every day
+                    //Make it log for every thursday this semester -- update, no need, but the dates will need to be changed each semester
+                    //Make it log for every day
+                //Make the events unmovable
+                //Decrease the time range to only university hours
             }
-        }
+        });
     }
 
 
     let calendarSettings = {
         viewType: "WorkWeek",
-        // headerDateFormat: "dddd",
+        headerDateFormat: "dddd",
         events: calendarEvents,
         
     };
@@ -146,12 +146,12 @@ function RoomCalendar (props){
     //     //     sum++;
     //     // }
     // }
-    
+
     return(
         <DayPilotCalendar
             {...calendarSettings}
         />
-        // <p>{getTimeByIndex(0)}</p>
+        // <p>{getTimeByIndex(0, "Monday")}</p>
     );
     
 }
