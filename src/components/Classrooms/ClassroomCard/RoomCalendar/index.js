@@ -49,7 +49,7 @@ function RoomCalendar (props){
             let currentTime = lastTime;
             let lookingFor = false;
 
-            //For through length of monday
+            //For through array for each day
             //look for false
             //create event from lastTime to currentTime
             //Set currentTime to lastTime
@@ -120,7 +120,7 @@ function RoomCalendar (props){
                     }
                 }
 
-                    //Todo: Add last event
+                    //TODO: Add last event
                     //Make the first event make sense
                     //Make it log for every thursday this semester -- update, no need, but the dates will need to be changed each semester
                     //Make it log for every day
@@ -135,17 +135,9 @@ function RoomCalendar (props){
         viewType: "WorkWeek",
         headerDateFormat: "dddd",
         events: calendarEvents,
-        
+        startDate: "2023-01-09",
     };
 
-    // let sum = 0;
-    // let sums = ["Control"];
-    // for (let index = 0; index < props.times.Monday.length; index++) {
-    //     // const available = props.Monday[index];
-    //     // if(available === true) {
-    //     //     sum++;
-    //     // }
-    // }
 
     return(
         <DayPilotCalendar
@@ -160,6 +152,6 @@ export default RoomCalendar
 
     //Figure out how to display names of days of the week (Monday, Tuesday, ...)
     //Figure out how to add events to the calendar
-//Populate calendars // Switch to the new data set
+    //Populate calendars // Switch to the new data set
 //Make it so the calendar only appears when the classroom card is clicked
 //Style the calendar (there is an online theme maker?)
