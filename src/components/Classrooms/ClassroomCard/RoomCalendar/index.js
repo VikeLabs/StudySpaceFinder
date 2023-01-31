@@ -26,12 +26,11 @@ function RoomCalendar (props){
         const dayToDateMap = new Map([["Monday","2023-01-09T"],["Tuesday","2023-01-10T"],["Wednesday","2023-01-11T"],["Thursday","2023-01-12T"],["Friday","2023-01-13T"]])
         let dayString = dayToDateMap.get(day);
         let hour = 8;
-        let minute = 30;
-        let startTime = index*30
+        let minute = 0;
+
         hour = Math.floor(hour + index/2);
-        minute = (30+index*30)%60
+        minute = (index*30)%60
         if(minute === 0) {
-            hour++;
             minute = "00";
         }
         if(hour < 10) {
@@ -57,11 +56,8 @@ function RoomCalendar (props){
             //create event from lastTime to currentTime
             //Set currentTime to lastTime
 
-            console.log("Classoom: " + data)
             for (let index = 0; index < props.times[day].length; index++) {
                 const element = props.times[day][index];
-                console.log("Element is: " + element)
-                console.log("Looking for: " + lookingFor)
 
                 if(index === 0) { //Set the first value of lookingFor
                     lookingFor = !element;
@@ -69,7 +65,6 @@ function RoomCalendar (props){
 
 
                 if(element === false && lookingFor === false) {
-                    console.log("newEntry Available")
                     currentTime = getTimeByIndex(index, day);
                     calendarEvents.push({
                         text: "Available",
@@ -84,7 +79,6 @@ function RoomCalendar (props){
 
 
                 if(element === true && lookingFor === true) {
-                    console.log("newEntry unavailable")
                     currentTime = getTimeByIndex(index, day);
                     calendarEvents.push({
                         text: "Unavailable",
@@ -110,13 +104,13 @@ function RoomCalendar (props){
                     }
                     if(lookingFor === false) {
                         currentTime = getTimeByIndex(index + 1, day);
-                    calendarEvents.push({
-                        text: "Available",
-                        start: lastTime,
-                        end: currentTime,
-                        barColor: "#6aa84f",
-                        id: DayPilot.guid(),
-                    })
+                        calendarEvents.push({
+                            text: "Available",
+                            start: lastTime,
+                            end: currentTime,
+                            barColor: "#6aa84f",
+                            id: DayPilot.guid(),
+                        })
                     }
                 }
 
@@ -124,8 +118,9 @@ function RoomCalendar (props){
                     //Make the first event make sense
                     //Make it log for every thursday this semester -- update, no need, but the dates will need to be changed each semester
                     //Make it log for every day
-                //Make the events unmovable
-                //Decrease the time range to only university hours
+                    //Time is off by 30mins?
+                    //Make the events unmovable
+                //Decrease the time range to only university hours -- requires pro version
             }
         });
     }
@@ -136,6 +131,9 @@ function RoomCalendar (props){
         headerDateFormat: "dddd",
         events: calendarEvents,
         startDate: "2023-01-09",
+        eventMoveHandling: "Disabled",
+        dayBeginsHour: "8",
+        scrollPositionHour: "8"
     };
 
 
@@ -143,7 +141,6 @@ function RoomCalendar (props){
         <DayPilotCalendar
             {...calendarSettings}
         />
-        // <p>{getTimeByIndex(0, "Monday")}</p>
     );
     
 }
