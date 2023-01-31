@@ -5,9 +5,7 @@ const Nav = () => {
   return (
     <nav className={style.nav}>
       <div className={style.container}>
-        <h1>Study Space Finder</h1>
-
-        {/* TODO: get links for NavLink */}
+      <NavLink to="/"><h1 className={style.title}/></NavLink>
         <ul>
           <li>
             <NavLink to="about">About</NavLink>

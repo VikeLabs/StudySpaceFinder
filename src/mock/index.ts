@@ -3,7 +3,7 @@
  *                         - passing in "reject" will ensure the operation fails.
  * @param {number?} timeout: time in milliseconds, mock fetching request time.
  * */
-import data from "./data.json";
+import data from "./building_time_intervals_0.1.json";
 
 export const mockFetch = (
   status: "resolve" | "reject",

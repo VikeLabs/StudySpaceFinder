@@ -4,7 +4,7 @@
   background-color: var(--accent-main);
   position: sticky;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
   color: hsl(0deg, 0%, 90%);
   font-size: 1.1em;
@@ -30,7 +30,6 @@
 
 .container {
   padding: 0 3em;
-  max-width: 1500px;
   flex-grow: 1;
 }
 
@@ -43,8 +42,26 @@
   gap: 1.2em;
 }
 
-ul a {
+.title::after {
+  color: white;
+  content: "Study Space Finder";
+}
+
+@media (max-width:700px){
+  .title::after {
+    content: "SSF";
+  }
+}
+
+a {
   text-decoration: none;
+}
+
+ul a {
+  color: inherit;
+}
+
+ul a :hover{
   color: inherit;
 }
 
