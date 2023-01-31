@@ -24,7 +24,7 @@ function Home() {
   return (
     <Container>
       {/* <h1 className={style.h1}>StudySpaceFinder</h1> */}
-      <PageTitle name={"StudySpaceFinder"}/>
+      <PageTitle name={"Buildings"}/>
       {loading ? <p>Loading...</p> : 
         <div className={style.buildingContainer}>
           { data && Object.keys(data).map((key: any) => {

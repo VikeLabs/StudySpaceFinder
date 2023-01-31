@@ -1,23 +1,19 @@
-import React, { useEffect, useState } from 'react'
 import props from 'react'
-import { Link } from 'react-router-dom'
-import { mockFetch } from "mock";
 import styles from "./classrooms.module.css"; 
 
 function ClassroomCards (props: any){
-    
-    const [data, setData] = useState([] as any[]);
-    useEffect(() => {
-        setData(props);
-    }, [])
+    let i = props.time;
+    let timeAvailable = 0;
+    while(i <= 27 && (!props.data[props.day] || props.data[props.day][i])) {
+        timeAvailable += 0.5;
+        i++;
+    }    
 
-// {data.seatingCapacity in that span - is not working}
-    
     return(
         <div className={styles.cardOuter}>
             <div className={styles.cardInner}>
                 <h1 className={styles.cardTitle}>{props.name}</h1>
-                <span className={styles.cardText}>Seating Capacity: {props.classroom.seatingCapacity}</span>
+                <p>Hours available: {timeAvailable}</p>
             </div>
         </div>
     );
