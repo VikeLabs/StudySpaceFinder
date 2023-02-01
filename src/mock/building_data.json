@@ -49,6 +49,14 @@
             "time_end": 55200
           },
           "course": "MECH220"
+        },
+        {
+          "time": {
+            "time_display": "3:30 pm - 4:20 pm",
+            "time_start": 55800,
+            "time_end": 58800
+          },
+          "course": "HSTR112A"
         }
       ],
       "Monday": [
@@ -194,6 +202,14 @@
         },
         {
           "time": {
+            "time_display": "3:30 pm - 4:20 pm",
+            "time_start": 55800,
+            "time_end": 58800
+          },
+          "course": "HSTR112A"
+        },
+        {
+          "time": {
             "time_display": "5:00 pm - 6:20 pm",
             "time_start": 61200,
             "time_end": 66000
@@ -257,6 +273,14 @@
             "time_end": 55200
           },
           "course": "MECH220"
+        },
+        {
+          "time": {
+            "time_display": "3:30 pm - 4:20 pm",
+            "time_start": 55800,
+            "time_end": 58800
+          },
+          "course": "HSTR112A"
         },
         {
           "time": {
@@ -609,14 +633,6 @@
             "time_end": 57000
           },
           "course": "HINF201"
-        },
-        {
-          "time": {
-            "time_display": "4:30 pm - 5:20 pm",
-            "time_start": 59400,
-            "time_end": 62400
-          },
-          "course": "STAT252"
         }
       ]
     },
@@ -1841,6 +1857,14 @@
             "time_end": 51600
           },
           "course": "ENGL146"
+        },
+        {
+          "time": {
+            "time_display": "4:30 pm - 5:20 pm",
+            "time_start": 59400,
+            "time_end": 62400
+          },
+          "course": "MATH100"
         }
       ]
     },
@@ -3364,6 +3388,14 @@
       "Monday": [
         {
           "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "HSTR344C"
+        },
+        {
+          "time": {
             "time_display": "1:00 pm - 2:20 pm",
             "time_start": 46800,
             "time_end": 51600
@@ -3380,6 +3412,14 @@
         }
       ],
       "Thursday": [
+        {
+          "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "HSTR344C"
+        },
         {
           "time": {
             "time_display": "1:00 pm - 2:20 pm",
@@ -4223,6 +4263,14 @@
             "time_end": 46200
           },
           "course": "PSYC431I"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "PHIL390"
         }
       ],
       "Thursday": [
@@ -4233,6 +4281,14 @@
             "time_end": 46200
           },
           "course": "PSYC431I"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "PHIL390"
         },
         {
           "time": {
@@ -4513,6 +4569,14 @@
             "time_end": 51600
           },
           "course": "ENGL376B"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 5:20 pm",
+            "time_start": 52200,
+            "time_end": 62400
+          },
+          "course": "HSTR430"
         }
       ]
     },
@@ -4530,6 +4594,14 @@
       "Monday": [
         {
           "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "PHIL306"
+        },
+        {
+          "time": {
             "time_display": "4:00 pm - 6:50 pm",
             "time_start": 57600,
             "time_end": 67800
@@ -4538,6 +4610,14 @@
         }
       ],
       "Thursday": [
+        {
+          "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "PHIL306"
+        },
         {
           "time": {
             "time_display": "1:30 pm - 4:20 pm",
@@ -4771,16 +4851,6 @@
             "time_end": 55200
           },
           "course": "ENGL310"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "HSTR430"
         }
       ]
     },
@@ -5225,6 +5295,14 @@
             "time_end": 51600
           },
           "course": "SPAN100A"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 5:20 pm",
+            "time_start": 52200,
+            "time_end": 62400
+          },
+          "course": "HDCC300"
         }
       ]
     },
@@ -5297,14 +5375,6 @@
             "time_end": 51600
           },
           "course": "HSTR210B"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "ES446"
         }
       ],
       "Tuesday": [
@@ -5590,7 +5660,7 @@
             "time_start": 41400,
             "time_end": 46200
           },
-          "course": "EPHE445"
+          "course": "CIVE452"
         },
         {
           "time": {
@@ -5640,7 +5710,7 @@
             "time_start": 41400,
             "time_end": 46200
           },
-          "course": "EPHE445"
+          "course": "CIVE452"
         },
         {
           "time": {
@@ -6123,6 +6193,14 @@
             "time_end": 51600
           },
           "course": "BIOL329"
+        },
+        {
+          "time": {
+            "time_display": "3:30 pm - 4:20 pm",
+            "time_start": 55800,
+            "time_end": 58800
+          },
+          "course": "MATH202"
         }
       ],
       "Wednesday": [
@@ -6537,14 +6615,6 @@
             "time_end": 48000
           },
           "course": "ECE485"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "HSTR112A"
         }
       ],
       "Monday": [
@@ -6695,14 +6765,6 @@
             "time_end": 48000
           },
           "course": "ECE485"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "HSTR112A"
         }
       ],
       "Wednesday": [
@@ -6745,14 +6807,6 @@
             "time_end": 48000
           },
           "course": "ECE485"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "HSTR112A"
         }
       ]
     },
@@ -7268,14 +7322,6 @@
         },
         {
           "time": {
-            "time_display": "2:30 pm - 3:50 pm",
-            "time_start": 52200,
-            "time_end": 57000
-          },
-          "course": "SOCI374"
-        },
-        {
-          "time": {
             "time_display": "4:30 pm - 5:50 pm",
             "time_start": 59400,
             "time_end": 64200
@@ -7544,6 +7590,14 @@
         },
         {
           "time": {
+            "time_display": "2:30 pm - 3:20 pm",
+            "time_start": 52200,
+            "time_end": 55200
+          },
+          "course": "MATH204"
+        },
+        {
+          "time": {
             "time_display": "3:30 pm - 4:20 pm",
             "time_start": 55800,
             "time_end": 58800
@@ -7667,14 +7721,6 @@
             "time_end": 51600
           },
           "course": "CSC320"
-        },
-        {
-          "time": {
-            "time_display": "6:00 pm - 8:50 pm",
-            "time_start": 64800,
-            "time_end": 75000
-          },
-          "course": "CS102"
         }
       ],
       "Wednesday": [
@@ -7717,14 +7763,6 @@
             "time_end": 66000
           },
           "course": "MATH200"
-        },
-        {
-          "time": {
-            "time_display": "6:30 pm - 9:20 pm",
-            "time_start": 66600,
-            "time_end": 76800
-          },
-          "course": "ADMN311"
         }
       ]
     },
@@ -7945,6 +7983,14 @@
             "time_end": 58800
           },
           "course": "MATH222"
+        },
+        {
+          "time": {
+            "time_display": "6:30 pm - 9:20 pm",
+            "time_start": 66600,
+            "time_end": 76800
+          },
+          "course": "ADMN311"
         }
       ]
     },
@@ -8367,6 +8413,14 @@
             "time_end": 57000
           },
           "course": "SOCI206"
+        },
+        {
+          "time": {
+            "time_display": "6:00 pm - 8:50 pm",
+            "time_start": 64800,
+            "time_end": 75000
+          },
+          "course": "CS102"
         }
       ],
       "Wednesday": [
@@ -8807,6 +8861,14 @@
             "time_end": 51600
           },
           "course": "BIOL309"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 5:20 pm",
+            "time_start": 52200,
+            "time_end": 62400
+          },
+          "course": "ES446"
         }
       ],
       "Tuesday": [
@@ -9136,14 +9198,6 @@
         },
         {
           "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ANTH319"
-        },
-        {
-          "time": {
             "time_display": "1:30 pm - 2:20 pm",
             "time_start": 48600,
             "time_end": 51600
@@ -9162,11 +9216,11 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
+            "time_display": "11:30 am - 12:50 pm",
+            "time_start": 41400,
+            "time_end": 46200
           },
-          "course": "PHIL390"
+          "course": "ECE496B"
         },
         {
           "time": {
@@ -9191,6 +9245,14 @@
             "time_end": 64200
           },
           "course": "ANTH393"
+        },
+        {
+          "time": {
+            "time_display": "6:00 pm - 8:50 pm",
+            "time_start": 64800,
+            "time_end": 75000
+          },
+          "course": "THEA150"
         }
       ],
       "Thursday": [
@@ -9204,19 +9266,11 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
+            "time_display": "11:30 am - 12:50 pm",
+            "time_start": 41400,
+            "time_end": 46200
           },
-          "course": "PHIL390"
-        },
-        {
-          "time": {
-            "time_display": "3:00 pm - 5:50 pm",
-            "time_start": 54000,
-            "time_end": 64200
-          },
-          "course": "CIVE480F"
+          "course": "ECE496B"
         }
       ],
       "Tuesday": [
@@ -9243,14 +9297,6 @@
             "time_end": 40800
           },
           "course": "GEOG322"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ANTH319"
         },
         {
           "time": {
@@ -9301,14 +9347,6 @@
             "time_end": 40800
           },
           "course": "GEOG322"
-        },
-        {
-          "time": {
-            "time_display": "12:30 pm - 1:20 pm",
-            "time_start": 45000,
-            "time_end": 48000
-          },
-          "course": "ANTH319"
         },
         {
           "time": {
@@ -10389,6 +10427,14 @@
             "time_end": 51600
           },
           "course": "LING411"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 3:20 pm",
+            "time_start": 52200,
+            "time_end": 55200
+          },
+          "course": "MATH465"
         }
       ],
       "Monday": [
@@ -10459,6 +10505,14 @@
             "time_end": 51600
           },
           "course": "LING411"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 3:20 pm",
+            "time_start": 52200,
+            "time_end": 55200
+          },
+          "course": "MATH465"
         }
       ],
       "Wednesday": [
@@ -10493,6 +10547,14 @@
             "time_end": 51600
           },
           "course": "LING411"
+        },
+        {
+          "time": {
+            "time_display": "2:30 pm - 3:20 pm",
+            "time_start": 52200,
+            "time_end": 55200
+          },
+          "course": "MATH465"
         },
         {
           "time": {
@@ -11702,14 +11764,6 @@
         },
         {
           "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "ANTH260"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -11741,14 +11795,6 @@
             "time_end": 46200
           },
           "course": "EOS201"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "ANTH260"
         },
         {
           "time": {
@@ -11865,6 +11911,14 @@
             "time_end": 51600
           },
           "course": "GEOG353"
+        },
+        {
+          "time": {
+            "time_display": "3:00 pm - 5:50 pm",
+            "time_start": 54000,
+            "time_end": 64200
+          },
+          "course": "CIVE480F"
         }
       ],
       "Tuesday": [
@@ -12462,14 +12516,6 @@
         },
         {
           "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "CIVE452"
-        },
-        {
-          "time": {
             "time_display": "1:00 pm - 2:20 pm",
             "time_start": 46800,
             "time_end": 51600
@@ -12485,14 +12531,6 @@
             "time_end": 40800
           },
           "course": "ES301"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "CIVE452"
         },
         {
           "time": {
@@ -12601,14 +12639,6 @@
             "time_end": 48000
           },
           "course": "EOS340"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "CIVE452"
         }
       ]
     },
@@ -13341,6 +13371,14 @@
             "time_end": 48000
           },
           "course": "CHEM234"
+        },
+        {
+          "time": {
+            "time_display": "1:30 pm - 2:20 pm",
+            "time_start": 48600,
+            "time_end": 51600
+          },
+          "course": "CHEM225"
         }
       ],
       "Tuesday": [
@@ -13892,6 +13930,14 @@
         },
         {
           "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "AHVS370C"
+        },
+        {
+          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -13923,6 +13969,14 @@
             "time_end": 46200
           },
           "course": "MATH348"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "AHVS370C"
         },
         {
           "time": {
@@ -13991,14 +14045,6 @@
             "time_end": 48000
           },
           "course": "GNDR321"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 5:20 pm",
-            "time_start": 52200,
-            "time_end": 62400
-          },
-          "course": "HDCC300"
         }
       ]
     },
@@ -14782,6 +14828,14 @@
         },
         {
           "time": {
+            "time_display": "1:30 pm - 2:20 pm",
+            "time_start": 48600,
+            "time_end": 51600
+          },
+          "course": "CIVE452"
+        },
+        {
+          "time": {
             "time_display": "4:30 pm - 5:20 pm",
             "time_start": 59400,
             "time_end": 62400
@@ -15118,14 +15172,6 @@
       "Monday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "EDCI404"
-        },
-        {
-          "time": {
             "time_display": "11:30 am - 12:50 pm",
             "time_start": 41400,
             "time_end": 46200
@@ -15142,14 +15188,6 @@
         }
       ],
       "Thursday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "EDCI404"
-        },
         {
           "time": {
             "time_display": "11:30 am - 12:50 pm",
@@ -15282,27 +15320,11 @@
       "Monday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "HSTR344C"
-        },
-        {
-          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
           },
           "course": "AHVS365"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "AHVS370C"
         },
         {
           "time": {
@@ -15324,27 +15346,11 @@
       "Thursday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "HSTR344C"
-        },
-        {
-          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
           },
           "course": "AHVS365"
-        },
-        {
-          "time": {
-            "time_display": "1:00 pm - 2:20 pm",
-            "time_start": 46800,
-            "time_end": 51600
-          },
-          "course": "AHVS370C"
         },
         {
           "time": {
@@ -16314,7 +16320,7 @@
             "time_start": 32400,
             "time_end": 37200
           },
-          "course": "LAW105I"
+          "course": "LAW105"
         },
         {
           "time": {
@@ -16356,7 +16362,7 @@
             "time_start": 32400,
             "time_end": 37200
           },
-          "course": "LAW105I"
+          "course": "LAW105"
         },
         {
           "time": {
@@ -16893,14 +16899,6 @@
             "time_end": 58800
           },
           "course": "MATH101"
-        },
-        {
-          "time": {
-            "time_display": "6:00 pm - 8:50 pm",
-            "time_start": 64800,
-            "time_end": 75000
-          },
-          "course": "THEA150"
         }
       ],
       "Thursday": [
@@ -17776,7 +17774,7 @@
             "time_start": 48600,
             "time_end": 53400
           },
-          "course": "LAW107I"
+          "course": "LAW107"
         }
       ],
       "Tuesday": [
@@ -17794,7 +17792,7 @@
             "time_start": 48600,
             "time_end": 53400
           },
-          "course": "LAW107I"
+          "course": "LAW107"
         }
       ],
       "Wednesday": [
@@ -19577,14 +19575,6 @@
             "time_end": 44400
           },
           "course": "SPAN390"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "MATH465"
         }
       ],
       "Monday": [
@@ -19671,14 +19661,6 @@
             "time_end": 44400
           },
           "course": "SPAN390"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "MATH465"
         }
       ],
       "Wednesday": [
@@ -19697,14 +19679,6 @@
             "time_end": 51600
           },
           "course": "ANTH200"
-        },
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "MATH465"
         },
         {
           "time": {
@@ -19738,14 +19712,6 @@
         },
         {
           "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "ECE496B"
-        },
-        {
-          "time": {
             "time_display": "1:00 pm - 2:20 pm",
             "time_start": 46800,
             "time_end": 51600
@@ -19769,14 +19735,6 @@
             "time_end": 35400
           },
           "course": "EDCI415"
-        },
-        {
-          "time": {
-            "time_display": "11:30 am - 12:50 pm",
-            "time_start": 41400,
-            "time_end": 46200
-          },
-          "course": "ECE496B"
         },
         {
           "time": {
@@ -19817,25 +19775,7 @@
       ]
     },
     "D115": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "2:30 pm - 3:20 pm",
-            "time_start": 52200,
-            "time_end": 55200
-          },
-          "course": "MATH204"
-        }
-      ],
       "Monday": [
-        {
-          "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "PHIL306"
-        },
         {
           "time": {
             "time_display": "11:30 am - 12:50 pm",
@@ -19872,14 +19812,6 @@
       "Thursday": [
         {
           "time": {
-            "time_display": "8:30 am - 9:50 am",
-            "time_start": 30600,
-            "time_end": 35400
-          },
-          "course": "PHIL306"
-        },
-        {
-          "time": {
             "time_display": "11:30 am - 12:50 pm",
             "time_start": 41400,
             "time_end": 46200
@@ -19911,14 +19843,6 @@
             "time_end": 48000
           },
           "course": "HINF450"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:20 pm",
-            "time_start": 55800,
-            "time_end": 58800
-          },
-          "course": "MATH202"
         },
         {
           "time": {
@@ -20507,14 +20431,6 @@
             "time_end": 44400
           },
           "course": "BME402"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECE496A"
         }
       ],
       "Monday": [
@@ -20628,14 +20544,6 @@
         },
         {
           "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECE496A"
-        },
-        {
-          "time": {
             "time_display": "2:30 pm - 4:20 pm",
             "time_start": 52200,
             "time_end": 58800
@@ -20659,14 +20567,6 @@
             "time_end": 44400
           },
           "course": "BME402"
-        },
-        {
-          "time": {
-            "time_display": "1:30 pm - 2:20 pm",
-            "time_start": 48600,
-            "time_end": 51600
-          },
-          "course": "ECE496A"
         },
         {
           "time": {
@@ -20708,6 +20608,14 @@
       "Monday": [
         {
           "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "EDCI404"
+        },
+        {
+          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
@@ -20724,6 +20632,14 @@
         },
         {
           "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "ANTH260"
+        },
+        {
+          "time": {
             "time_display": "3:30 pm - 4:20 pm",
             "time_start": 55800,
             "time_end": 58800
@@ -20734,11 +20650,27 @@
       "Thursday": [
         {
           "time": {
+            "time_display": "8:30 am - 9:50 am",
+            "time_start": 30600,
+            "time_end": 35400
+          },
+          "course": "EDCI404"
+        },
+        {
+          "time": {
             "time_display": "10:00 am - 11:20 am",
             "time_start": 36000,
             "time_end": 40800
           },
           "course": "ENGL366C"
+        },
+        {
+          "time": {
+            "time_display": "1:00 pm - 2:20 pm",
+            "time_start": 46800,
+            "time_end": 51600
+          },
+          "course": "ANTH260"
         }
       ],
       "Tuesday": [
@@ -21153,6 +21085,14 @@
             "time_end": 44400
           },
           "course": "EPHE346"
+        },
+        {
+          "time": {
+            "time_display": "12:30 pm - 1:20 pm",
+            "time_start": 45000,
+            "time_end": 48000
+          },
+          "course": "ANTH319"
         }
       ],
       "Monday": [
@@ -21274,6 +21214,14 @@
         },
         {
           "time": {
+            "time_display": "12:30 pm - 1:20 pm",
+            "time_start": 45000,
+            "time_end": 48000
+          },
+          "course": "ANTH319"
+        },
+        {
+          "time": {
             "time_display": "1:30 pm - 4:20 pm",
             "time_start": 48600,
             "time_end": 58800
@@ -21316,6 +21264,14 @@
         },
         {
           "time": {
+            "time_display": "12:30 pm - 1:20 pm",
+            "time_start": 45000,
+            "time_end": 48000
+          },
+          "course": "ANTH319"
+        },
+        {
+          "time": {
             "time_display": "2:30 pm - 3:50 pm",
             "time_start": 52200,
             "time_end": 57000
@@ -21354,6 +21310,14 @@
         },
         {
           "time": {
+            "time_display": "11:30 am - 12:50 pm",
+            "time_start": 41400,
+            "time_end": 46200
+          },
+          "course": "EPHE445"
+        },
+        {
+          "time": {
             "time_display": "1:00 pm - 2:20 pm",
             "time_start": 46800,
             "time_end": 51600
@@ -21377,6 +21341,14 @@
             "time_end": 40800
           },
           "course": "EPHE452"
+        },
+        {
+          "time": {
+            "time_display": "11:30 am - 12:50 pm",
+            "time_start": 41400,
+            "time_end": 46200
+          },
+          "course": "EPHE445"
         },
         {
           "time": {
@@ -21521,14 +21493,6 @@
             "time_end": 55200
           },
           "course": "THEA347"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:50 pm",
-            "time_start": 55800,
-            "time_end": 60600
-          },
-          "course": "THEA234"
         }
       ],
       "Thursday": [
@@ -21555,14 +21519,6 @@
             "time_end": 55200
           },
           "course": "THEA347"
-        },
-        {
-          "time": {
-            "time_display": "3:30 pm - 4:50 pm",
-            "time_start": 55800,
-            "time_end": 60600
-          },
-          "course": "THEA234"
         }
       ],
       "Tuesday": [
@@ -21883,16 +21839,6 @@
       ]
     },
     "138": {
-      "Friday": [
-        {
-          "time": {
-            "time_display": "11:00 am - 12:20 pm",
-            "time_start": 39600,
-            "time_end": 44400
-          },
-          "course": "THEA422"
-        }
-      ],
       "Monday": [
         {
           "time": {
@@ -21916,14 +21862,16 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "11:00 am - 12:20 pm",
-            "time_start": 39600,
+            "time_display": "9:30 am - 12:20 pm",
+            "time_start": 34200,
             "time_end": 44400
           },
-          "course": "THEA422"
+          "course": "THEA322"
         }
-      ],
-      "Wednesday": [
+      ]
+    },
+    "140": {
+      "Friday": [
         {
           "time": {
             "time_display": "11:00 am - 12:20 pm",
@@ -21932,9 +21880,7 @@
           },
           "course": "THEA422"
         }
-      ]
-    },
-    "140": {
+      ],
       "Thursday": [
         {
           "time": {
@@ -21948,11 +21894,11 @@
       "Tuesday": [
         {
           "time": {
-            "time_display": "9:30 am - 12:20 pm",
-            "time_start": 34200,
+            "time_display": "11:00 am - 12:20 pm",
+            "time_start": 39600,
             "time_end": 44400
           },
-          "course": "THEA322"
+          "course": "THEA422"
         },
         {
           "time": {
@@ -21964,6 +21910,14 @@
         }
       ],
       "Wednesday": [
+        {
+          "time": {
+            "time_display": "11:00 am - 12:20 pm",
+            "time_start": 39600,
+            "time_end": 44400
+          },
+          "course": "THEA422"
+        },
         {
           "time": {
             "time_display": "3:30 pm - 4:50 pm",
@@ -21983,6 +21937,14 @@
             "time_end": 39000
           },
           "course": "THEA414"
+        },
+        {
+          "time": {
+            "time_display": "3:30 pm - 4:50 pm",
+            "time_start": 55800,
+            "time_end": 60600
+          },
+          "course": "THEA234"
         }
       ],
       "Thursday": [
@@ -21993,6 +21955,14 @@
             "time_end": 39000
           },
           "course": "THEA414"
+        },
+        {
+          "time": {
+            "time_display": "3:30 pm - 4:50 pm",
+            "time_start": 55800,
+            "time_end": 60600
+          },
+          "course": "THEA234"
         }
       ],
       "Tuesday": [
