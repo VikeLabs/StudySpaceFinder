@@ -56,8 +56,8 @@ function RoomCalendar (props){
             //create event from lastTime to currentTime
             //Set currentTime to lastTime
 
-            for (let index = 0; index < props.times[day].length; index++) {
-                const element = props.times[day][index];
+            for (let index = 0; index < data.times[day].length; index++) {
+                const element = data.times[day][index];
 
                 if(index === 0) { //Set the first value of lookingFor
                     lookingFor = !element;
@@ -91,7 +91,7 @@ function RoomCalendar (props){
                     lookingFor = false;
                 }
 
-                if(index === props.times[day].length - 1) { //Handle the final event of the day
+                if(index === data.times[day].length - 1) { //Handle the final event of the day
                     if(lookingFor === true) {
                         currentTime = getTimeByIndex(index + 1, day);
                         calendarEvents.push({
