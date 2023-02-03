@@ -21,3 +21,11 @@
     transition: padding-right 3s;
     transition: background-color 0.5s;
 }
+
+@media (max-width: 700px) {
+    .buildingCard {
+        width: 90%;
+        margin-bottom: 1em;
+        height: 80px;
+    }
+}
