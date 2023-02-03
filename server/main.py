@@ -12,13 +12,13 @@ app.add_middleware(
 )
 
 
-@app.get("/all", status_code=200)
+@app.get("/api/all", status_code=200)
 def get_all_building_names():
     file_path = "./data/building_time_intervals_0.1.json"
 
     try:
         data = load_resource(file_path)
-        return [key for key in data]
+        return data
 
     except Exception as e:
         print(f"[ERROR] {e}")
