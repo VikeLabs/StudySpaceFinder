@@ -2,6 +2,12 @@ import json
 import sys
 from util.fetch_sections import fetch_sections
 from util.get_active_day import get_active_day
+from util.spf_time import (
+    time_to_second,
+    get_time_index,
+    occupied_range,
+    generate_time_intervals,
+)
 
 
 def get_all_sections(term: str):
@@ -67,11 +73,33 @@ def get_all_sections(term: str):
                             "time_end": end_time,
                         }
                     )
+    return out
 
-    with open("data.json", "w+") as f:
-        f.write(json.dumps(out, indent=2))
 
-    print("Generated data.json")
+def get_time_occupied(uvic):
+    out = dict()
+
+    for bldg in uvic.keys():
+        out[bldg] = dict()
+
+        for room in uvic[bldg].keys():
+            out[bldg][room] = dict()
+
+            for day in uvic[bldg][room].keys():
+                time_intervals = generate_time_intervals()
+                occupied_index = list()
+
+                for session in uvic[bldg][room][day]:
+                    occupied_index = occupied_index + occupied_range(
+                        session["time_start"], session["time_end"]
+                    )
+
+                for i in occupied_index:
+                    time_intervals[i] = False
+
+                out[bldg][room][day] = time_intervals
+
+    return out
 
 
 if __name__ == "__main__":
@@ -83,4 +111,13 @@ if __name__ == "__main__":
         quit()
 
     # generate data.json
-    get_all_sections(term)
+    data = get_all_sections(term)
+    with open("data.json", "w+") as f:
+        f.write(json.dumps(data, indent=2))
+        print("Generated data.json")
+
+    # generate time_bool array data
+    out = get_time_occupied(data)
+    with open("time_bool_array.json", "w+") as f:
+        f.write(json.dumps(out, indent=2))
+        print("Generated time_bool_array.json")
