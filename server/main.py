@@ -13,7 +13,7 @@ app.add_middleware(
 
 @app.get("/api/all", status_code=200)
 def get_all_building_names():
-    file_path = "./data/building_time_intervals_0.1.json"
+    file_path = "./data/data.json"
 
     try:
         data = load_resource(file_path)
@@ -28,7 +28,7 @@ def get_all_building_names():
 @app.get("/api/{bldg}/{room}", status_code=200)
 def get_room_info(bldg: str, room: str):
     bldg = parse.unquote(bldg)
-    file_path = "./data/building_time_intervals_0.1.json"
+    file_path = "./data/time_bool_array.json"
 
     try:
         f = load_resource(file_path)
@@ -50,7 +50,7 @@ def get_room_info(bldg: str, room: str):
 @app.get("/api/{bldg}", status_code=200)
 def get_building_info(bldg: str):
     b = parse.unquote(bldg)
-    file_path = "./data/building_time_intervals_0.1.json"
+    file_path = "./data/time_bool_array.json"
 
     try:
         data = load_resource(file_path)

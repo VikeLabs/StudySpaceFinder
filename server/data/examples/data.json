@@ -18199,58 +18199,6 @@
         }
       ]
     },
-    "080": {
-      "Tuesday": [
-        {
-          "class": "ED-D407",
-          "time_start": "1130",
-          "time_end": "1220"
-        }
-      ],
-      "Wednesday": [
-        {
-          "class": "EPHE120",
-          "time_start": "0930",
-          "time_end": "1120"
-        },
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        }
-      ],
-      "Monday": [
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        },
-        {
-          "class": "EPHE452",
-          "time_start": "1000",
-          "time_end": "1120"
-        }
-      ],
-      "Thursday": [
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        },
-        {
-          "class": "EPHE452",
-          "time_start": "1000",
-          "time_end": "1120"
-        }
-      ],
-      "Friday": [
-        {
-          "class": "EPHE348",
-          "time_start": "0930",
-          "time_end": "1120"
-        }
-      ]
-    },
     "081": {
       "Monday": [
         {
@@ -18325,6 +18273,58 @@
           "class": "EPHE439",
           "time_start": "1130",
           "time_end": "1250"
+        }
+      ]
+    },
+    "080": {
+      "Tuesday": [
+        {
+          "class": "ED-D407",
+          "time_start": "1130",
+          "time_end": "1220"
+        }
+      ],
+      "Wednesday": [
+        {
+          "class": "EPHE120",
+          "time_start": "0930",
+          "time_end": "1120"
+        },
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        }
+      ],
+      "Monday": [
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        },
+        {
+          "class": "EPHE452",
+          "time_start": "1000",
+          "time_end": "1120"
+        }
+      ],
+      "Thursday": [
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        },
+        {
+          "class": "EPHE452",
+          "time_start": "1000",
+          "time_end": "1120"
+        }
+      ],
+      "Friday": [
+        {
+          "class": "EPHE348",
+          "time_start": "0930",
+          "time_end": "1120"
         }
       ]
     },
