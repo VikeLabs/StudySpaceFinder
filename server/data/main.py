@@ -7,6 +7,10 @@ from util.spf_time import (
     generate_time_intervals,
 )
 
+"""Call this script to generate all the needed data
+ie: python main.py 202301
+"""
+
 
 def get_all_sections(term: str):
     out = dict()

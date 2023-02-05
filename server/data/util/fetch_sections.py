@@ -1,8 +1,19 @@
 import requests
 from urllib import parse
+from typing import Any, Dict
 
 
-def fetch_sections(term: str, offset: int):
+def fetch_sections(term: str, offset: int) -> Dict[str, Any]:
+    """Fetches and returns 500 entries, based on the offset param
+
+    Params:
+        term (str): ie, Winter 2023 -> term="202301"
+        offset (int): Banner server "paginated", think of this as page number
+
+    Returns:
+        Dictionary version of a monstrosity of JSON to be parsed.
+    """
+
     banner = "https://banner.uvic.ca/StudentRegistrationSsb/ssb/"
     max: int = 500
 
