@@ -6,9 +6,12 @@ from util.load_resource import load_resource
 
 app = FastAPI()
 
-app.add_middleware(
-    CORSMiddleware, allow_origins=["http://localhost:3000"], allow_methods=["GET"]
-)
+origins = [
+    "http://localhost:3000",
+    # TODO: deployed url here
+]
+
+app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
 
 
 @app.get("/api/all", status_code=200)

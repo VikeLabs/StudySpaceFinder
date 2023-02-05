@@ -8,7 +8,7 @@ def fetch_sections(term: str, offset: int) -> Dict[str, Any]:
 
     Params:
         term (str): ie, Winter 2023 -> term="202301"
-        offset (int): Banner server "paginated", think of this as page number
+        offset (int): Banner server "paginates" their responses, think of this like page number
 
     Returns:
         Dictionary version of a monstrosity of JSON to be parsed.
