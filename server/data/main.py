@@ -3,8 +3,6 @@ import sys
 from util.fetch_sections import fetch_sections
 from util.get_active_day import get_active_day
 from util.spf_time import (
-    time_to_second,
-    get_time_index,
     occupied_range,
     generate_time_intervals,
 )
