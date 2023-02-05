@@ -14,7 +14,7 @@ ie: python main.py 202301
 
 def get_all_sections(term: str):
     out = dict()
-    offset: int = 1
+    offset: int = 0
 
     section_fetched_count: int
     fetched = 0
@@ -29,11 +29,12 @@ def get_all_sections(term: str):
         data = res["data"]
         section_fetched_count = res["sectionsFetchedCount"]
         fetched += len(data)
-        print("Received: {}/{}".format((fetched), (section_fetched_count)))
 
         if len(data) == 0 or data == None:
-            print(f"Done, received {section_fetched_count}")
+            print(f"Done, received {section_fetched_count} entries.")
             break
+
+        print("Progress: {:.2f}%".format((fetched * 100) / (section_fetched_count)))
 
         # parsing
         for i in data:

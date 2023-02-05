@@ -17,8 +17,8 @@ def fetch_sections(term: str, offset: int) -> Dict[str, Any]:
     banner = "https://banner.uvic.ca/StudentRegistrationSsb/ssb/"
     max: int = 500
 
-    if offset == 0:
-        raise ValueError(f"offset has to be greater than 0, got {offset}")
+    if offset < 0:
+        raise ValueError(f"offset has to be greater than or equal to 0, got {offset}")
 
     # set term
     url = f"{banner}/term/search?mode=search"
