@@ -1,27 +1,30 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import {DayPilot, DayPilotCalendar} from "@daypilot/daypilot-lite-react";
+import { useSearchParams } from "react-router-dom";
+import Container from 'components/common/Container';
+import { PageTitle } from 'components/common/PageTitle';
 
 
 function RoomCalendar (props){
+
+
+    const [params, setparams] = useSearchParams();
+    const [building, setBuilding] = useState(params.get('building'))
+    const [room, setRoom] = useState(params.get('classroom'))
     
+    //TODO: need to set data from backend api
     const [data, setData] = useState([]);
+
     useEffect(() => {
         setData(props);
     }, [])
 
-    let calendarEvents = [
-        // {
-        //     text: "test",
-        //     start: "2023-01-11T08:30:00",
-        //     end: "2023-01-11T10:30:00",
-        //     id: DayPilot.guid(),
-        // }
-    ];
+    let calendarEvents = [];
     //Loop through monday until we get a false answer, then create event over that time range.
     //then loop through until we get a true, create event.
     //do it for every day, filling events
 
-    //function to help string organization for registering calendar events
+    //function to help string organization for registering calendar events - Got some issues, would need to be updated every semester right now
     function getTimeByIndex (index, day) {
         const dayToDateMap = new Map([["Monday","2023-01-09T"],["Tuesday","2023-01-10T"],["Wednesday","2023-01-11T"],["Thursday","2023-01-12T"],["Friday","2023-01-13T"]])
         let dayString = dayToDateMap.get(day);
@@ -114,12 +117,7 @@ function RoomCalendar (props){
                     }
                 }
 
-                    //TODO: Add last event
-                    //Make the first event make sense
-                    //Make it log for every thursday this semester -- update, no need, but the dates will need to be changed each semester
-                    //Make it log for every day
-                    //Time is off by 30mins?
-                    //Make the events unmovable
+                //TODO: 
                 //Decrease the time range to only university hours -- requires pro version
             }
         });
@@ -130,7 +128,7 @@ function RoomCalendar (props){
         viewType: "WorkWeek",
         headerDateFormat: "dddd",
         events: calendarEvents,
-        startDate: "2023-01-09",
+        startDate: "2023-01-09",    //would need to be updated every semester
         eventMoveHandling: "Disabled",
         dayBeginsHour: "8",
         scrollPositionHour: "8"
@@ -138,17 +136,17 @@ function RoomCalendar (props){
 
 
     return(
-        <DayPilotCalendar
-            {...calendarSettings}
-        />
+        <Container>
+            <PageTitle name={room}/>
+            <DayPilotCalendar
+                {...calendarSettings}
+            />
+        </Container>
     );
     
 }
 
 export default RoomCalendar
 
-    //Figure out how to display names of days of the week (Monday, Tuesday, ...)
-    //Figure out how to add events to the calendar
-    //Populate calendars // Switch to the new data set
-//Make it so the calendar only appears when the classroom card is clicked
+//TODO:
 //Style the calendar (there is an online theme maker?)

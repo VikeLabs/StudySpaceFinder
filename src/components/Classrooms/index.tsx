@@ -25,7 +25,7 @@ function ClassroomCardsContainer(input: any){
             {loading ? <p>Loading...</p> : 
             <div>
                 { data && Object.keys(data).map((key: any) => {
-                    return <ClassroomCard name={key} classroom={data[key]}/>
+                    return <ClassroomCard name={key} classroom={data[key]} building={building}/>
                 })}
             </div>}                
         </Container>
