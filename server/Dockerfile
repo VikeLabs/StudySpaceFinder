@@ -1,5 +1,5 @@
 # docker hub: https://hub.docker.com/r/hn275/spf
-FROM python:3.10.9-alpine3.17
+FROM python:3.10-alpine
 WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt

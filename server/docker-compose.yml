@@ -2,10 +2,12 @@ version: "3.10"
 
 services:
   app:
-    image: python:3.10.9-alpine3.17
+    image: python:3.10-alpine
     container_name: spf
     build: .
     command: uvicorn main:app --host 0.0.0.0 --reload
     ports:
       - 8000:8000
     restart: on-failure
+    volumes:
+      - ./:/app
