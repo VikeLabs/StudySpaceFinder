@@ -5,28 +5,19 @@ import Container from "components/common/Container";
 import style from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import { PageTitle } from "components/common/PageTitle";
-import { BuildingTime } from "types";
+import type { BuildingTime } from "types";
+import { useFetch } from "hooks/useFetch";
 
 function Home() {
-  const [data, setData] = useState<BuildingTime | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    mockFetch("resolve", 0)
-      .then((response) => response.json())
-      .then((data) => {
-        setData(() => data as BuildingTime);
-        // console.log(data["Bob Wright Centre"]);
-      })
-      .catch((e) => console.log(e))
-      .finally(() => setLoading(() => false));
-  }, []);
+  const [data, loading, error] = useFetch<BuildingTime>("/all");
 
   return (
     <Container>
       {/* <h1 className={style.h1}>StudySpaceFinder</h1> */}
       <PageTitle name={"Buildings"} />
-      {loading ? (
+      {error ? (
+        <p>{error}</p>
+      ) : loading ? (
         <p>Loading...</p>
       ) : (
         <div className={style.buildingContainer}>
