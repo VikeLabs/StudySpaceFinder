@@ -26,11 +26,4 @@ export interface BuildingData {
   };
 }
 
-export interface BuildingTime {
-  // building: { room: { day: boolean[] } }
-  [key: string]: {
-    [key: string]: {
-      [key in keyof typeof Day]: boolean[];
-    };
-  };
-}
+export type BuildingName = string;

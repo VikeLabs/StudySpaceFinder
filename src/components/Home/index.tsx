@@ -1,15 +1,12 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { mockFetch } from "mock";
 import Container from "components/common/Container";
 import style from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import { PageTitle } from "components/common/PageTitle";
-import type { BuildingTime } from "types";
+import type { BuildingName } from "types";
 import { useFetch } from "hooks/useFetch";
 
 function Home() {
-  const [data, loading, error] = useFetch<BuildingTime>("/all");
+  const [data, loading, error] = useFetch<BuildingName[]>("/building/all");
 
   return (
     <Container>
@@ -22,7 +19,7 @@ function Home() {
       ) : (
         <div className={style.buildingContainer}>
           {data &&
-            Object.keys(data).map((building: string) => {
+            data.map((building: string) => {
               return <BuildingCard key={building} building={building} />;
             })}
         </div>

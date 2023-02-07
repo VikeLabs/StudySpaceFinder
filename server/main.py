@@ -14,13 +14,13 @@ origins = [
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
 
 
-@app.get("/api/all", status_code=200)
+@app.get("/api/building/all", status_code=200)
 def get_all_building_names():
     file_path = "./data/data.json"
 
     try:
         data = load_resource(file_path)
-        return data
+        return [bldg_names for bldg_names in data.keys()]
 
     except Exception as e:
         print(f"[ERROR] {e}")
