@@ -1,6 +1,7 @@
 import json
+import requests
 import sys
-from util.fetch_sections import fetch_sections
+from util.fetch_sections import fetch_sections, BANNER, search_result_url
 from util.get_active_day import get_active_day
 from util.spf_time import (
     occupied_range,
@@ -20,10 +21,22 @@ def get_all_sections(term: str):
     fetched = 0
 
     print("Fetching")
+    # set term
+    url = f"{BANNER}/term/search?mode=search"
+    payload = {"term": term}
+    s = requests.Session()
+    s.post(url, data=payload)
 
     while True:
         # fetching
-        res = fetch_sections(term, offset)
+        url = search_result_url(offset)
+
+        res = s.get(url)
+
+        if res.status_code != 200:
+            raise Exception(f"Banner responded with {res.status_code}")
+
+        res = res.json()
         offset += 1  # for the next offset
 
         data = res["data"]
@@ -47,6 +60,8 @@ def get_all_sections(term: str):
                 building_description = meeting_time["buildingDescription"]
                 if building_description == None:
                     continue
+                else:
+                    building_description = building_description.replace("&amp;", "and")
 
                 if not out.get(building_description):
                     out[building_description] = dict()

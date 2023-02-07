@@ -4234,23 +4234,6 @@
       ],
       "Tuesday": [
         {
-          "class": "LING387",
-          "time_start": "1430",
-          "time_end": "1620"
-        },
-        {
-          "class": "SLST401",
-          "time_start": "1230",
-          "time_end": "1320"
-        }
-      ],
-      "Friday": [
-        {
-          "class": "LING387",
-          "time_start": "1430",
-          "time_end": "1520"
-        },
-        {
           "class": "SLST401",
           "time_start": "1230",
           "time_end": "1320"
@@ -4889,7 +4872,7 @@
       ]
     }
   },
-  "Business &amp; Economics Building": {
+  "Business and Economics Building": {
     "363": {
       "Monday": [
         {
@@ -8830,16 +8813,6 @@
           "class": "BIOL309",
           "time_start": "1430",
           "time_end": "1720"
-        },
-        {
-          "class": "MATH498",
-          "time_start": "1230",
-          "time_end": "1320"
-        },
-        {
-          "class": "STAT498",
-          "time_start": "1230",
-          "time_end": "1320"
         }
       ],
       "Thursday": [
@@ -8852,30 +8825,6 @@
           "class": "PSYC595",
           "time_start": "0930",
           "time_end": "1220"
-        }
-      ],
-      "Wednesday": [
-        {
-          "class": "MATH498",
-          "time_start": "1230",
-          "time_end": "1320"
-        },
-        {
-          "class": "STAT498",
-          "time_start": "1230",
-          "time_end": "1320"
-        }
-      ],
-      "Friday": [
-        {
-          "class": "MATH498",
-          "time_start": "1230",
-          "time_end": "1320"
-        },
-        {
-          "class": "STAT498",
-          "time_start": "1230",
-          "time_end": "1320"
         }
       ]
     },
@@ -12411,7 +12360,7 @@
       ]
     }
   },
-  "Human &amp; Social Development": {
+  "Human and Social Development": {
     "A264": {
       "Tuesday": [
         {
@@ -16793,6 +16742,58 @@
         }
       ]
     },
+    "080": {
+      "Tuesday": [
+        {
+          "class": "ED-D407",
+          "time_start": "1130",
+          "time_end": "1220"
+        }
+      ],
+      "Wednesday": [
+        {
+          "class": "EPHE120",
+          "time_start": "0930",
+          "time_end": "1120"
+        },
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        }
+      ],
+      "Monday": [
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        },
+        {
+          "class": "EPHE452",
+          "time_start": "1000",
+          "time_end": "1120"
+        }
+      ],
+      "Thursday": [
+        {
+          "class": "EPHE348",
+          "time_start": "1430",
+          "time_end": "1620"
+        },
+        {
+          "class": "EPHE452",
+          "time_start": "1000",
+          "time_end": "1120"
+        }
+      ],
+      "Friday": [
+        {
+          "class": "EPHE348",
+          "time_start": "0930",
+          "time_end": "1120"
+        }
+      ]
+    },
     "081": {
       "Monday": [
         {
@@ -16867,58 +16868,6 @@
           "class": "EPHE439",
           "time_start": "1130",
           "time_end": "1250"
-        }
-      ]
-    },
-    "080": {
-      "Tuesday": [
-        {
-          "class": "ED-D407",
-          "time_start": "1130",
-          "time_end": "1220"
-        }
-      ],
-      "Wednesday": [
-        {
-          "class": "EPHE120",
-          "time_start": "0930",
-          "time_end": "1120"
-        },
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        }
-      ],
-      "Monday": [
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        },
-        {
-          "class": "EPHE452",
-          "time_start": "1000",
-          "time_end": "1120"
-        }
-      ],
-      "Thursday": [
-        {
-          "class": "EPHE348",
-          "time_start": "1430",
-          "time_end": "1620"
-        },
-        {
-          "class": "EPHE452",
-          "time_start": "1000",
-          "time_end": "1120"
-        }
-      ],
-      "Friday": [
-        {
-          "class": "EPHE348",
-          "time_start": "0930",
-          "time_end": "1120"
         }
       ]
     },
@@ -23095,23 +23044,23 @@
       "Tuesday": [
         {
           "class": "ECE404",
-          "time_start": "1530",
-          "time_end": "1820"
+          "time_start": "1600",
+          "time_end": "1850"
         },
         {
           "class": "ECE404",
-          "time_start": "1530",
-          "time_end": "1820"
+          "time_start": "1600",
+          "time_end": "1850"
         },
         {
           "class": "ECE404",
-          "time_start": "1530",
-          "time_end": "1820"
+          "time_start": "1600",
+          "time_end": "1850"
         },
         {
           "class": "ECE404",
-          "time_start": "1530",
-          "time_end": "1620"
+          "time_start": "1600",
+          "time_end": "1850"
         }
       ]
     },
