@@ -52,18 +52,21 @@ def get_room_info(bldg: str, room: str):
 # ie: /Cornett%20Building
 @app.get("/api/{bldg}", status_code=200)
 def get_building_info(bldg: str):
-    b = parse.unquote(bldg)
     file_path = "./data/time_bool_array.json"
 
     try:
+        b = parse.unquote(bldg)
         data = load_resource(file_path)
         building = data.get(b)
 
-        if not building:
+        if building is None:
             print(f"[{b}] not found")
             raise HTTPException(status_code=404)
 
         return building
+
+    except HTTPException:
+        raise HTTPException(status_code=404)
 
     except Exception as e:
         print(f"[ERROR] {e}")

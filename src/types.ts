@@ -13,16 +13,14 @@ export interface Time {
 }
 
 export interface RoomData {
-  time: Time;
   course: string;
+  start_time: string;
+  end_time: string;
 }
 
 export interface BuildingData {
-  // building: { room: { day: RoomData[] } }
   [key: string]: {
-    [key: string]: {
-      [key in keyof typeof Day]: RoomData[];
-    };
+    [key in keyof typeof Day]: boolean[];
   };
 }
 
