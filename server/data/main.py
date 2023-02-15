@@ -1,7 +1,7 @@
 import json
 import requests
 import sys
-from util.fetch_sections import fetch_sections, BANNER, search_result_url
+from util.fetch_sections import BANNER, search_result_url
 from util.get_active_day import get_active_day
 from util.spf_time import (
     occupied_range,
@@ -20,13 +20,17 @@ def get_all_sections(term: str):
     section_fetched_count: int
     fetched = 0
 
-    print("Fetching")
     # set term
+    print("Setting term {}".format(term))
     url = f"{BANNER}/term/search?mode=search"
     payload = {"term": term}
     s = requests.Session()
     s.post(url, data=payload)
+    print("Done")
 
+    # fetch and process data
+    print("Fetching")
+    print("Progress: 0%")
     while True:
         # fetching
         url = search_result_url(offset)
@@ -57,21 +61,24 @@ def get_all_sections(term: str):
             for j in meetings_faculty:
                 meeting_time = j["meetingTime"]
 
+                building_id = meeting_time["building"]
                 building_description = meeting_time["buildingDescription"]
                 if building_description == None:
                     continue
                 else:
                     building_description = building_description.replace("&amp;", "and")
 
-                if not out.get(building_description):
-                    out[building_description] = dict()
+                if not out.get(building_id):
+                    out[building_id] = dict()
+                    out[building_id]["building_description"] = building_description
+                    out[building_id]["rooms"] = dict()
 
                 room = meeting_time["room"]
                 if room == None:
                     continue
 
-                if not out[building_description].get(room):
-                    out[building_description][room] = dict()
+                if not out[building_id]["rooms"].get(room):
+                    out[building_id]["rooms"][room] = dict()
 
                 begin_time = meeting_time["beginTime"]
                 end_time = meeting_time["endTime"]
@@ -81,10 +88,10 @@ def get_all_sections(term: str):
 
                 active_days = get_active_day(meeting_time)
                 for day in active_days:
-                    if not out[building_description][room].get(day):
-                        out[building_description][room][day] = list()
+                    if not out[building_id]["rooms"][room].get(day):
+                        out[building_id]["rooms"][room][day] = list()
 
-                    out[building_description][room][day].append(
+                    out[building_id]["rooms"][room][day].append(
                         {
                             "class": subject_course,
                             "time_start": begin_time,
@@ -97,17 +104,18 @@ def get_all_sections(term: str):
 def get_time_occupied(uvic):
     out = dict()
 
-    for bldg in uvic.keys():
-        out[bldg] = dict()
+    for bldg_id in uvic.keys():
+        out[bldg_id] = dict()
+        out["building_description"] = uvic[bldg_id]["building_description"]
 
-        for room in uvic[bldg].keys():
-            out[bldg][room] = dict()
+        for room in uvic[bldg_id]["rooms"].keys():
+            out[bldg_id][room] = dict()
 
-            for day in uvic[bldg][room].keys():
+            for day in uvic[bldg_id]["rooms"][room].keys():
                 time_intervals = generate_time_intervals()
                 occupied_index = list()
 
-                for session in uvic[bldg][room][day]:
+                for session in uvic[bldg_id]["rooms"][room][day]:
                     occupied_index = occupied_index + occupied_range(
                         session["time_start"], session["time_end"]
                     )
@@ -115,7 +123,7 @@ def get_time_occupied(uvic):
                 for i in occupied_index:
                     time_intervals[i] = False
 
-                out[bldg][room][day] = time_intervals
+                out[bldg_id][room][day] = time_intervals
 
     return out
 

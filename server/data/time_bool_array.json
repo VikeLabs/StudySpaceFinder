@@ -1,5 +1,5 @@
 {
-  "Clearihue Building": {
+  "115": {
     "C111": {
       "Tuesday": [
         true,
@@ -3491,12 +3491,12 @@
         true,
         true,
         true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         true,
         true,
         true,
@@ -6354,74 +6354,6 @@
         true
       ]
     },
-    "B215": {
-      "Wednesday": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        false,
-        false,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "Tuesday": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        false,
-        false,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
     "C118": {
       "Wednesday": [
         true,
@@ -6726,7 +6658,8 @@
       ]
     }
   },
-  "Hickman Building": {
+  "building_description": "Phoenix Theatre",
+  "219": {
     "116": {
       "Tuesday": [
         true,
@@ -7264,7 +7197,7 @@
       ]
     }
   },
-  "Business and Economics Building": {
+  "217": {
     "363": {
       "Monday": [
         true,
@@ -8002,7 +7935,7 @@
       ]
     }
   },
-  "MacLaurin Building": {
+  "123": {
     "D114": {
       "Tuesday": [
         true,
@@ -12857,7 +12790,7 @@
       ]
     }
   },
-  "David Strong Building": {
+  "215": {
     "C128": {
       "Tuesday": [
         true,
@@ -14665,7 +14598,7 @@
       ]
     }
   },
-  "Cornett Building": {
+  "122": {
     "A128": {
       "Tuesday": [
         true,
@@ -14714,8 +14647,8 @@
         true,
         false,
         false,
-        false,
-        false,
+        true,
+        true,
         false,
         false,
         true,
@@ -14780,8 +14713,8 @@
         false,
         false,
         false,
-        false,
-        false,
+        true,
+        true,
         false,
         false,
         false,
@@ -14813,8 +14746,8 @@
         false,
         false,
         false,
-        false,
-        false,
+        true,
+        true,
         false,
         false,
         true,
@@ -15468,6 +15401,140 @@
         true
       ]
     },
+    "B250": {
+      "Monday": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Wednesday": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Thursday": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Friday": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
     "B107": {
       "Tuesday": [
         true,
@@ -15786,107 +15853,6 @@
         true,
         true,
         true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ]
-    },
-    "B250": {
-      "Monday": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        false,
-        false,
-        false,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "Thursday": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        false,
-        false,
-        false,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
-      "Friday": [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         true,
         true,
         true,
@@ -17675,39 +17641,6 @@
         true,
         true
       ],
-      "Thursday": [
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        true,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true
-      ],
       "Friday": [
         true,
         true,
@@ -17750,6 +17683,39 @@
         true,
         true,
         true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "Thursday": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         true,
         true,
         false,
@@ -17910,7 +17876,7 @@
       ]
     }
   },
-  "Human and Social Development": {
+  "161": {
     "A264": {
       "Tuesday": [
         true,
@@ -18718,7 +18684,7 @@
       ]
     }
   },
-  "David Turpin Building": {
+  "237": {
     "A120": {
       "Tuesday": [
         true,
@@ -20425,7 +20391,7 @@
       ]
     }
   },
-  "Engineering Comp Science Bldg": {
+  "233": {
     "116": {
       "Tuesday": [
         true,
@@ -22701,7 +22667,7 @@
       ]
     }
   },
-  "Fine Arts Building": {
+  "159": {
     "104": {
       "Thursday": [
         true,
@@ -23540,7 +23506,7 @@
       ]
     }
   },
-  "McKinnon Building": {
+  "142": {
     "150": {
       "Tuesday": [
         true,
@@ -25018,7 +24984,7 @@
       ]
     }
   },
-  "Visual Arts Building": {
+  "202": {
     "A150": {
       "Monday": [
         true,
@@ -26201,7 +26167,7 @@
       ]
     }
   },
-  "Bob Wright Centre": {
+  "235": {
     "A104": {
       "Monday": [
         true,
@@ -27776,7 +27742,7 @@
       ]
     }
   },
-  "Elliott Building": {
+  "116": {
     "162": {
       "Monday": [
         true,
@@ -31627,7 +31593,7 @@
       ]
     }
   },
-  "Fraser Building": {
+  "148": {
     "159": {
       "Tuesday": [
         true,
@@ -32598,7 +32564,7 @@
       ]
     }
   },
-  "Petch Building": {
+  "155": {
     "141": {
       "Tuesday": [
         true,
@@ -33338,7 +33304,7 @@
       ]
     }
   },
-  "Cunningham Building": {
+  "140": {
     "004": {
       "Monday": [
         true,
@@ -34449,7 +34415,7 @@
       ]
     }
   },
-  "Engineering Lab Wing": {
+  "214": {
     "A229": {
       "Monday": [
         true,
@@ -36500,7 +36466,7 @@
       ]
     }
   },
-  "Ian Stewart Complex": {
+  "125": {
     "370": {
       "Monday": [
         true,
@@ -36636,7 +36602,7 @@
       ]
     }
   },
-  "McPherson Library": {
+  "118": {
     "A003": {
       "Tuesday": [
         true,
@@ -36673,7 +36639,7 @@
       ]
     }
   },
-  "First Peoples House": {
+  "238": {
     "160": {
       "Friday": [
         true,
@@ -36842,7 +36808,7 @@
       ]
     }
   },
-  "Jamie Cassels Centre": {
+  "143": {
     "B144": {
       "Monday": [
         true,
@@ -36978,7 +36944,7 @@
       ]
     }
   },
-  "Medical Sciences Building": {
+  "229": {
     "150": {
       "Friday": [
         true,
@@ -37015,7 +36981,7 @@
       ]
     }
   },
-  "Phoenix Theatre": {
+  "149": {
     "103": {
       "Wednesday": [
         true,
