@@ -138,12 +138,12 @@ if __name__ == "__main__":
 
     # generate data.json
     data = get_all_sections(term)
-    with open("data.json", "w+") as f:
+    with open("../data.json", "w+") as f:
         f.write(json.dumps(data, indent=2))
         print("Generated data.json")
 
     # generate time_bool array data
     out = get_time_occupied(data)
-    with open("time_bool_array.json", "w+") as f:
+    with open("../time_bool_array.json", "w+") as f:
         f.write(json.dumps(out, indent=2))
         print("Generated time_bool_array.json")
