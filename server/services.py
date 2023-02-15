@@ -18,3 +18,10 @@ def get_all_buildings() -> List[Dict[str, str]]:
         out.append({"name": name, "id": bldg})
 
     return out
+
+
+def get_all_rooms(bldg_id: str, day: str):
+    buf = data[bldg_id]
+    # get current time here
+    # TODO: write a function calculate time from now until the next class
+    return buf["rooms"]
