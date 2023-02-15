@@ -2,6 +2,7 @@ import json
 from urllib import parse
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from services import get_all_buildings
 from util.load_resource import load_resource
 
 app = FastAPI()
@@ -16,15 +17,7 @@ app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
 
 @app.get("/api/building/all", status_code=200)
 def get_all_building_names():
-    file_path = "./data/data.json"
-
-    try:
-        data = load_resource(file_path)
-        return [bldg_names for bldg_names in data.keys()]
-
-    except Exception as e:
-        print(f"[ERROR] {e}")
-        raise (HTTPException(status_code=500))
+    return get_all_buildings()
 
 
 # ie: /Cornett%20Building/A120 - don't forget to encode whitespace for the url
