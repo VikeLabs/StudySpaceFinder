@@ -24,3 +24,4 @@ yarn-error.log*
 
 /**/*/__pycache__
 /server/venv
+/server/docker
