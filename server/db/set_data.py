@@ -34,11 +34,9 @@ def set_buildings(fetched_data: List[Dict[str, Any]], db: Cursor):
             meeting_time: Any = j.get("meetingTime")
             bldg_desc: str = meeting_time.get("buildingDescription")
 
-            if bldg_desc is None or meetings_faculty is None:
-                continue
-
             try:
-                data.add((bldg_desc, bldg_desc))
+                if bldg_desc:
+                    data.add((bldg_desc, bldg_desc))
             except KeyError:
                 continue
 
@@ -61,4 +59,3 @@ def set_data():
         set_buildings(data, db.cursor)
 
         db.connection.commit()
-        db.connection.close()
