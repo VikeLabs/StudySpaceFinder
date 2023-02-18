@@ -21,7 +21,7 @@ def upgrade() -> None:
         "subjects",
         sa.Column("id", sa.Integer, primary_key=True),
         sa.Column("subject", sa.VARCHAR(10), unique=True, nullable=False),
-        sa.Column("description", sa.VARCHAR(100), nullable=False),
+        sa.Column("description", sa.VARCHAR(255), nullable=False),
     )
 
 

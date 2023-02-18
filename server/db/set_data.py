@@ -1,24 +1,36 @@
 import json
 import os
-from models.subjects import subject_table
-
+from sqlite3 import Cursor
+from typing import Any, Dict, List
 from services.db import DbServices
 
 
 path = os.path.join("db", "data.json")
 
 
-def save_data():
+def set_course(fetched_data: List[Dict[str, Any]], db: Cursor):
+    data = list()
+    for i in fetched_data:
+        subject = i["subjectCourse"]
+        desc = i["courseTitle"]
+        data.append((subject, desc, subject, desc))
+
+    db.executemany(
+        """
+        INSERT INTO subjects(subject, description)
+            VALUES(?,?)
+            ON CONFLICT DO UPDATE SET subject=?, description=?;
+        """,
+        data,
+    )
+
+
+def set_data():
     with open(path) as f:
-        db = DbServices().connect()
-        fetched_data = json.load(f)
+        db = DbServices()
+        data = json.load(f)
 
-        data = list()
-        for i in fetched_data:
-            subject = i["subject"]
-            desc = i["subjectDescription"]
-            data.append({"subject": subject, "description": desc})
+        set_course(fetched_data=data, db=db.cursor)
 
-        # Subject
-        db.execute(subject_table.insert().values(data))
-        db.close()
+        db.connection.commit()
+        db.connection.close()

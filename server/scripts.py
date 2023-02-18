@@ -1,6 +1,7 @@
 import sys
 import db.migrations as migrations
-import db.get_data as get_data
+
+from db.set_data import set_data
 
 
 # ALEMBIC MIGRATION
@@ -11,7 +12,7 @@ if __name__ == "__main__":
     try:
         script_action = {
             "db-migrate": migrations.db_migration,
-            "get-data": get_data.save_data,
+            "get-data": set_data,
         }
         action = sys.argv[1]
         fn = script_action.get(action)
