@@ -6,22 +6,40 @@ export enum Day {
   "Friday",
 }
 
+// TODO: delete
 export interface Time {
   time_display: string;
   time_start: number;
   time_end: number;
 }
 
+// TODO: delete
 export interface RoomData {
+  time: Time;
   course: string;
-  start_time: string;
-  end_time: string;
 }
 
+// TODO: delete
 export interface BuildingData {
+  // building: { room: { day: RoomData[] } }
   [key: string]: {
-    [key in keyof typeof Day]: boolean[];
+    [key: string]: {
+      [key in keyof typeof Day]: RoomData[];
+    };
   };
 }
 
-export type BuildingName = string;
+// TODO: delete
+export interface BuildingTime {
+  // building: { room: { day: boolean[] } }
+  [key: string]: {
+    [key: string]: {
+      [key in keyof typeof Day]: boolean[];
+    };
+  };
+}
+
+export interface Building {
+  id: number;
+  name: string;
+}

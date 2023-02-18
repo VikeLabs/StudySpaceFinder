@@ -1,3 +1,4 @@
+from typing import List
 from urllib import parse
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,7 +15,11 @@ origins = [
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
 
 
-@app.get("/api/building/all", status_code=200)
+@app.get(
+    "/api/building/all",
+    status_code=200,
+    response_model=List[building_services.Building],
+)
 def serve_all_building_names():
     return building_services.get_all()
 
