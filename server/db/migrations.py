@@ -16,7 +16,7 @@ def new():
 
 
 def deploy():
-    os.system("alembic upgrade head")
+    os.system("alembic upgrade +1")
 
 
 def rollback():

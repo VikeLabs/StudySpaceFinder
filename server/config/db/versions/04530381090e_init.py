@@ -20,7 +20,7 @@ def upgrade() -> None:
     op.create_table(
         "buildings",
         sa.Column("id", sa.Integer, primary_key=True),
-        sa.Column("name", sa.VARCHAR(10), unique=True),
+        sa.Column("name", sa.VARCHAR(100), unique=True),
     )
 
 
