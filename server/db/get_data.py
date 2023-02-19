@@ -264,4 +264,4 @@ def get_data():
         f.write(json.dumps(data, indent=2))
         print(f"Generated {file_name}")
 
-    print(f"DONE in {(time.time() - time_now) * 1000}ms")  # 180ms rougly
+    print(f"DONE in {(time.time() - time_now) * 1000}ms")
