@@ -24,11 +24,15 @@ def serve_all_building_names():
     return building_services.get_all()
 
 
-# ie: /Cornett%20Building/A120 - don't forget to encode whitespace for the url
-@app.get("/api/building/{bldg_id}/{day}", status_code=200)
-def serve_all_rooms(bldg_id: str, day: str):
-    bldg = parse.unquote(bldg_id)
-    return []
+# ie: /api/building/1?hour=13&minute=30&day=1
+@app.get("/api/building/{bldg_id}", status_code=200)
+def serve_all_rooms(bldg_id: int, hour: int, minute: int, day: int):
+    allowed_day = [1, 2, 3, 5, 6, 7]
+    if day not in allowed_day:
+        raise HTTPException(status_code=400, detail=f"invalid day {day}")
+
+    data = building_services.get_building_at_time(bldg_id, hour, minute, day)
+    return data
 
 
 # ie: /Cornett%20Building
