@@ -7,15 +7,15 @@ from services.db import DbServices
 DAY_MAP: Dict[int, str] = {
     0: "sunday",
     1: "monday",
-    3: "tuesday",
-    4: "wednesday",
-    5: "thursday",
-    6: "friday",
-    7: "saturday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
+    6: "saturday",
 }
 
 
-def get_all() -> List[Building]:
+def get_building_names() -> List[Building]:
     db = DbServices()
     data = db.cursor.execute("SELECT * FROM buildings;").fetchall()
     out = [Building(id=k[0], name=k[1].replace("&amp;", "and")) for k in data]
