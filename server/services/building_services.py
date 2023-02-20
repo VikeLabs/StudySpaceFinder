@@ -1,6 +1,6 @@
 from typing import List, Dict
-from pydantic import BaseModel
 from fastapi import HTTPException
+from models import Building, RoomSummary, BuildingSummary
 
 from services.db import DbServices
 
@@ -15,11 +15,6 @@ DAY_MAP: Dict[int, str] = {
 }
 
 
-class Building(BaseModel):
-    id: int
-    name: str
-
-
 def get_all() -> List[Building]:
     db = DbServices()
     data = db.cursor.execute("SELECT * FROM buildings;").fetchall()
@@ -27,12 +22,9 @@ def get_all() -> List[Building]:
     return out
 
 
-class RoomSummary(BaseModel):
-    room: str
-    free_until: str
-
-
-def get_building_at_time(bldg_id: int, hour: int, minute: int, day: int):
+def get_building_at_time(
+    bldg_id: int, hour: int, minute: int, day: int
+) -> BuildingSummary:
     db = DbServices()
     query_day: str = DAY_MAP[day]
     seconds = hour * 3600 + minute * 60
@@ -87,7 +79,7 @@ def get_building_at_time(bldg_id: int, hour: int, minute: int, day: int):
 
         (time_start, room_id, room, subject) = result
         out.append(
-            {"id": room_id, "next_class": time_start, "room": room, "subject": subject}
+            RoomSummary(id=room_id, room=room, next_class=time_start, subject=subject)
         )
 
-    return {"building": building_name, "data": out}
+    return BuildingSummary(building=building_name, data=out)
