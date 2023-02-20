@@ -42,4 +42,4 @@ def serve_building_details(bldg_id: int, hour: int, minute: int, day: int):
 
 @app.get("/api/room/{room_id}", status_code=200, response_model=List[RoomDetail])
 def serve_room_details(room_id: int, status_code=200):
-    return []
+    return services.get_room_details(room_id)

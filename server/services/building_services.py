@@ -64,11 +64,11 @@ def get_building_at_time(
                     ON sections.room_id=rooms.id
                 JOIN subjects
                     ON sections.subject_id=subjects.id
-                WHERE sections.room_id=? 
-                    AND {query_day}=true
-                    AND time_start_int>?
-                ORDER BY time_start_int ASC
-                LIMIT 1;
+            WHERE sections.room_id=? 
+                AND {query_day}=true
+                AND time_start_int>?
+            ORDER BY time_start_int ASC
+            LIMIT 1;
             """,
             (room_id, seconds),
         )
