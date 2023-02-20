@@ -1,7 +1,18 @@
-from typing import List
+from typing import List, Dict
 from pydantic import BaseModel
+from fastapi import HTTPException
 
 from services.db import DbServices
+
+DAY_MAP: Dict[int, str] = {
+    0: "sunday",
+    1: "monday",
+    3: "tuesday",
+    4: "wednesday",
+    5: "thursday",
+    6: "friday",
+    7: "saturday",
+}
 
 
 class Building(BaseModel):
@@ -22,16 +33,61 @@ class RoomSummary(BaseModel):
 
 
 def get_building_at_time(bldg_id: int, hour: int, minute: int, day: int):
-    seconds = hour * 3600 + minute * 60
-
     db = DbServices()
+    query_day: str = DAY_MAP[day]
+    seconds = hour * 3600 + minute * 60
 
     # get all rooms
     rooms = db.cursor.execute(
         """
-        SELECT id,room FROM rooms WHERE building_id=?
+        SELECT 
+            rooms.id,
+            buildings.name
+        FROM rooms 
+            JOIN buildings
+                ON rooms.building_id=buildings.id
+            WHERE building_id=?
         """,
         (bldg_id,),
     ).fetchall()
 
-    return [{"room_id": k, "room_name": v} for (k, v) in rooms]
+    if rooms is None:
+        raise HTTPException(404, "Building not found.")
+
+    building_name = rooms[0][1].replace("&amp;", "&")
+    room_ids = tuple([k for (k, _) in rooms])
+
+    # get all classes
+    out = list()
+    for room_id in room_ids:
+        query = db.cursor.execute(
+            f"""
+            SELECT
+                sections.time_start_str,
+                rooms.id,
+                rooms.room,
+                subjects.subject
+            FROM sections 
+                JOIN rooms 
+                    ON sections.room_id=rooms.id
+                JOIN subjects
+                    ON sections.subject_id=subjects.id
+                WHERE sections.room_id=? 
+                    AND {query_day}=true
+                    AND time_start_int>?
+                ORDER BY time_start_int ASC
+                LIMIT 1;
+            """,
+            (room_id, seconds),
+        )
+
+        result = query.fetchone()
+        if result is None:
+            continue
+
+        (time_start, room_id, room, subject) = result
+        out.append(
+            {"id": room_id, "next_class": time_start, "room": room, "subject": subject}
+        )
+
+    return {"building": building_name, "data": out}
