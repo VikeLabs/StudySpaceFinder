@@ -30,7 +30,7 @@ def get_building_at_time(
         FROM rooms 
             JOIN buildings
                 ON rooms.building_id=buildings.id
-            WHERE building_id=?
+        WHERE building_id=?
         """,
         (bldg_id,),
     ).fetchall()
