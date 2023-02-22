@@ -201,7 +201,9 @@ def set_class_session(fetched_data: List[Dict[str, Any]], db: DbServices):
 
     db.cursor.executemany(
         f"""
-        INSERT OR REPLACE INTO sections({",".join(value_insert)}) VALUES({",".join(params)});
+        INSERT OR REPLACE INTO 
+            sections({",".join(value_insert)}) 
+            VALUES({",".join(params)});
         """,
         data,
     )
@@ -223,19 +225,29 @@ def get_data():
     print("Setting term")
     s = requests.Session()
     url = parse.urljoin(_BANNER_BASE, "term/search?mode=search")
-    s.post(url, data={"term": term})
-    print("DONE, BANNER term set to {}\n".format(term))
+
+    response = s.post(url, data={"term": term})
+    if response.status_code is not 200:
+        print(
+            f"\t[ERROR] failed to set term, Banner responded with a status code {response.status_code}"
+        )
+        sys.exit()
+
+    print("\t[OK] BANNER term set to {}\n".format(term))
 
     print("Fetching data")
     data = list()
     offset = 0
 
-    print("\tProgress: 0%")
+    print("\t[PENDING] progress: 0%")
     while True:
         url = _search_result_url(offset, term)
         res = s.get(url)
-        if res.status_code != 200:
-            raise Exception(f"Banner responded with {res.status_code}")
+        if res.status_code is not 200:
+            print(
+                f"\t[ERROR] failed to fetch offset {offset}, BANNER responded with {res.status_code}"
+            )
+            sys.exit()
 
         res = res.json()
         offset += 1  # for the next offset
@@ -243,11 +255,15 @@ def get_data():
         section_fetched_count = res["sectionsFetchedCount"]
 
         if len(res["data"]) == 0 or res["data"] is None:
-            print(f"DONE, received {len(data)}/{section_fetched_count} entries.\n")
+            print(f"\t[OK], received {len(data)}/{section_fetched_count} entries.\n")
             break
 
         data = data + res["data"]
-        print("\tProgress: {}%".format((len(data) * 100) // (section_fetched_count)))
+        print(
+            "\t[PENDING] progress: {}%".format(
+                (len(data) * 100) // (section_fetched_count)
+            )
+        )
 
     print("Saving to .database.db")
 
@@ -258,10 +274,12 @@ def get_data():
     set_rooms(data, db)
     set_class_session(data, db)
 
+    print("\t[OK] saved all data to `.database.db`")
+
     print("Generating backup json")
     file_name = f"data_{term}.json"
     with open(file_name, "w+") as f:
         f.write(json.dumps(data, indent=2))
-        print(f"Generated {file_name}")
+        print(f"\t[OK] generated {file_name}")
 
-    print(f"DONE in {(time.time() - time_now) * 1000}ms")
+    print(f"[DONE] {(time.time() - time_now) * 1000}ms")
