@@ -1,8 +1,20 @@
-from typing import List
+from typing import List, Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from models import Building, BuildingSummary, RoomDetail
 import services
+
+
+DAY_MAP: Dict[int, str] = {
+    0: "sunday",
+    1: "monday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
+    6: "saturday",
+}
+
 
 app = FastAPI()
 
@@ -30,16 +42,23 @@ def serve_building_names():
     response_model=BuildingSummary,
 )
 def serve_building_details(bldg_id: int, hour: int, minute: int, day: int):
-    valid_day: bool = day in [0, 1, 2, 3, 5, 6]
     valid_hour: bool = 0 <= hour <= 24
     valid_minute: bool = 0 <= minute <= 60
-    if not valid_day or not valid_hour or not valid_minute:
-        raise HTTPException(status_code=400, detail=f"Invalid query")
+    if not valid_hour or not valid_minute:
+        raise HTTPException(status_code=400, detail="Invalid query time query")
 
-    data: BuildingSummary = services.get_building_at_time(bldg_id, hour, minute, day)
-    return data
+    weekday = DAY_MAP.get(day)
+    if not weekday:
+        raise HTTPException(status_code=400, detail="Invalid day query")
+
+    return services.get_building_at_time(bldg_id, hour, minute, weekday)
 
 
-@app.get("/api/room/{room_id}", status_code=200, response_model=List[RoomDetail])
-def serve_room_details(room_id: int, status_code=200):
+# ie: /api/room/20?day=1
+@app.get(
+    "/api/room/{room_id}",
+    status_code=200,
+    response_model=RoomDetail,
+)
+def serve_room_details(room_id: int):
     return services.get_room_details(room_id)

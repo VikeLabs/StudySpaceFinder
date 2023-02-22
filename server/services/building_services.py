@@ -1,18 +1,8 @@
-from typing import List, Dict
+from typing import List
 from fastapi import HTTPException
 from models import Building, RoomSummary, BuildingSummary
 
 from services.db import DbServices
-
-DAY_MAP: Dict[int, str] = {
-    0: "sunday",
-    1: "monday",
-    2: "tuesday",
-    3: "wednesday",
-    4: "thursday",
-    5: "friday",
-    6: "saturday",
-}
 
 
 def get_building_names() -> List[Building]:
@@ -23,10 +13,9 @@ def get_building_names() -> List[Building]:
 
 
 def get_building_at_time(
-    bldg_id: int, hour: int, minute: int, day: int
+    bldg_id: int, hour: int, minute: int, day: str
 ) -> BuildingSummary:
     db = DbServices()
-    query_day: str = DAY_MAP[day]
     seconds = hour * 3600 + minute * 60
 
     # get all rooms
@@ -65,7 +54,7 @@ def get_building_at_time(
                 JOIN subjects
                     ON sections.subject_id=subjects.id
             WHERE sections.room_id=? 
-                AND {query_day}=true
+                AND {day}=true
                 AND time_start_int>?
             ORDER BY time_start_int ASC
             LIMIT 1;

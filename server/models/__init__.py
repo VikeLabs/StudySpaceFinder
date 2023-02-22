@@ -23,9 +23,20 @@ class SectionDetail(BaseModel):
     time_start: str
     time_end: str
     subject: str
+    section: str
+
+
+class RoomSchedule(BaseModel):
+    Monday: List[SectionDetail]
+    Tuesday: List[SectionDetail]
+    Wednesday: List[SectionDetail]
+    Thursday: List[SectionDetail]
+    Friday: List[SectionDetail]
+    Saturday: List[SectionDetail]
+    Sunday: List[SectionDetail]
 
 
 class RoomDetail(BaseModel):
-    id: int
+    building: str
     room: str
-    schedules: Dict[str, List[SectionDetail]]  # { "monday": [...some data] }
+    schedules: RoomSchedule
