@@ -7,9 +7,12 @@ from services.db import DbServices
 
 def get_building_names() -> List[Building]:
     db = DbServices()
-    data = db.cursor.execute("SELECT * FROM buildings;").fetchall()
-    out = [Building(id=k[0], name=k[1].replace("&amp;", "and")) for k in data]
-    return out
+    data = db.cursor.execute(
+        """
+        SELECT * FROM buildings ORDER BY name ASC;
+        """
+    ).fetchall()
+    return [Building(id=k[0], name=k[1].replace("&amp;", "and")) for k in data]
 
 
 def get_building_at_time(
