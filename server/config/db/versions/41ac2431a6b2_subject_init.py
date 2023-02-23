@@ -26,4 +26,7 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    op.drop_table("subjects")
+    try:
+        op.drop_table("subjects")
+    except:
+        pass

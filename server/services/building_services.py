@@ -71,7 +71,9 @@ def get_building_at_time(
 
         (time_start, room_id, room, subject) = result
         out.append(
-            RoomSummary(id=room_id, room=room, next_class=time_start, subject=subject)
+            RoomSummary(
+                room_id=room_id, room=room, next_class=time_start, subject=subject
+            )
         )
 
     return BuildingSummary(building=building_name, data=out)

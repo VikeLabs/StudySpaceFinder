@@ -8,7 +8,7 @@ class Building(BaseModel):
 
 
 class RoomSummary(BaseModel):
-    id: int
+    room_id: int
     room: str
     next_class: str
     subject: str

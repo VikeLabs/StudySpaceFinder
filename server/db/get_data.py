@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 import requests
 import time
@@ -111,12 +112,16 @@ def _time_str_to_int(time: str) -> int:
 
 def _format_time_str(time: str) -> str:
     hour = int(time[:2])
-    min = time[2:]
+    min = int(time[2:])
     prefix = "am"
 
-    if hour > 12:
-        hour = hour - 12
+    noon = 12 * 60 * 60
+    current_time = hour * 3600 + min * 60
+
+    if current_time >= noon:  # 12:00 pm
         prefix = "pm"
+    if current_time >= noon + 3600:  # 13:00 pm -> 1:00 pm
+        hour -= 12
 
     return f"{hour}:{min} {prefix}"
 
@@ -222,12 +227,21 @@ def get_data():
 
     time_now = time.time()
 
-    print("Setting term")
+    db = DbServices()
+
+    print("Drop existing data")
+    table_to_delete = ["buildings", "rooms", "sections", "subjects"]
+    for i in table_to_delete:
+        db.cursor.execute(f"DELETE FROM {i}")
+        db.connection.commit()
+        print(f"\t[OK] droped data from table {i}")
+
+    print("\nSetting term for Banner")
     s = requests.Session()
     url = parse.urljoin(_BANNER_BASE, "term/search?mode=search")
 
     response = s.post(url, data={"term": term})
-    if response.status_code is not 200:
+    if response.status_code != 200:
         print(
             f"\t[ERROR] failed to set term, Banner responded with a status code {response.status_code}"
         )
@@ -243,7 +257,7 @@ def get_data():
     while True:
         url = _search_result_url(offset, term)
         res = s.get(url)
-        if res.status_code is not 200:
+        if res.status_code != 200:
             print(
                 f"\t[ERROR] failed to fetch offset {offset}, BANNER responded with {res.status_code}"
             )
@@ -267,8 +281,6 @@ def get_data():
 
     print("Saving to .database.db")
 
-    db = DbServices()
-
     set_course(data, db)
     set_buildings(data, db)
     set_rooms(data, db)
@@ -277,7 +289,7 @@ def get_data():
     print("\t[OK] saved all data to `.database.db`")
 
     print("Generating backup json")
-    file_name = f"data_{term}.json"
+    file_name = f"./config/db/backups/data_{term}.json"
     with open(file_name, "w+") as f:
         f.write(json.dumps(data, indent=2))
         print(f"\t[OK] generated {file_name}")

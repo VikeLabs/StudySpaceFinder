@@ -25,4 +25,7 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    op.drop_table("buildings")
+    try:
+        op.drop_table("buildings")
+    except:
+        pass
