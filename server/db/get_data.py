@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 import requests
 import time
@@ -18,7 +17,7 @@ def _search_result_url(offset: int, term: str) -> str:
     return f"{base}?{parse.urlencode(q)}"
 
 
-def set_course(fetched_data: List[Dict[str, Any]], db: DbServices):
+def set_subjects(fetched_data: List[Dict[str, Any]], db: DbServices):
     data = list()
     for i in fetched_data:
         subject = i["subjectCourse"]
@@ -35,7 +34,6 @@ def set_course(fetched_data: List[Dict[str, Any]], db: DbServices):
     )
 
     db.connection.commit()
-    print("\tsaved: courses")
 
 
 def set_buildings(fetched_data: List[Dict[str, Any]], db: DbServices):
@@ -63,7 +61,6 @@ def set_buildings(fetched_data: List[Dict[str, Any]], db: DbServices):
     )
 
     db.connection.commit()
-    print("\tsaved: buildings")
 
 
 def set_rooms(fetched_data: List[Dict[str, Any]], db: DbServices):
@@ -101,7 +98,6 @@ def set_rooms(fetched_data: List[Dict[str, Any]], db: DbServices):
     )
 
     db.connection.commit()
-    print("\tsaved: rooms")
 
 
 def _time_str_to_int(time: str) -> int:
@@ -214,7 +210,6 @@ def set_class_session(fetched_data: List[Dict[str, Any]], db: DbServices):
     )
 
     db.connection.commit()
-    print("\tsaved: course sessions")
 
 
 def get_data():
@@ -232,9 +227,12 @@ def get_data():
     print("Drop existing data")
     table_to_delete = ["buildings", "rooms", "sections", "subjects"]
     for i in table_to_delete:
-        db.cursor.execute(f"DELETE FROM {i}")
-        db.connection.commit()
-        print(f"\t[OK] droped data from table {i}")
+        try:
+            db.cursor.execute(f"DELETE FROM {i}")
+            db.connection.commit()
+            print(f"\t[OK] droped data from table {i}")
+        except Exception as e:
+            print(f"\t[ERROR] failed to drop table {i}:\n\t{e}")
 
     print("\nSetting term for Banner")
     s = requests.Session()
@@ -269,7 +267,7 @@ def get_data():
         section_fetched_count = res["sectionsFetchedCount"]
 
         if len(res["data"]) == 0 or res["data"] is None:
-            print(f"\t[OK], received {len(data)}/{section_fetched_count} entries.\n")
+            print(f"\t[OK] received {len(data)}/{section_fetched_count} entries.\n")
             break
 
         data = data + res["data"]
@@ -281,17 +279,27 @@ def get_data():
 
     print("Saving to .database.db")
 
-    set_course(data, db)
-    set_buildings(data, db)
-    set_rooms(data, db)
-    set_class_session(data, db)
+    func_map = {
+        "subjects": set_subjects,
+        "buildings": set_buildings,
+        "rooms": set_rooms,
+        "sessions": set_class_session,
+    }
+
+    for k, v in func_map.items():
+        try:
+            v(data, db)
+            print(f"\t[PENDING] saved: {k}")
+        except Exception as e:
+            print(f"[ERROR] failed to save {k}:\n\t{e}")
+            sys.exit()
 
     print("\t[OK] saved all data to `.database.db`")
 
-    print("Generating backup json")
+    print("\nGenerating backup json")
     file_name = f"./config/db/backups/data_{term}.json"
     with open(file_name, "w+") as f:
         f.write(json.dumps(data, indent=2))
         print(f"\t[OK] generated {file_name}")
 
-    print(f"[DONE] {(time.time() - time_now) * 1000}ms")
+    print(f"\n[DONE] took {(time.time() - time_now) * 1000}ms")
