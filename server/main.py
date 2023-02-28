@@ -1,8 +1,20 @@
-import json
-from urllib import parse
+from typing import List, Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from util.load_resource import load_resource
+from models import Building, BuildingSummary, RoomDetail
+import services
+
+
+DAY_MAP: Dict[int, str] = {
+    0: "sunday",
+    1: "monday",
+    2: "tuesday",
+    3: "wednesday",
+    4: "thursday",
+    5: "friday",
+    6: "saturday",
+}
+
 
 app = FastAPI()
 
@@ -14,57 +26,39 @@ origins = [
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
 
 
-@app.get("/api/all", status_code=200)
-def get_all_building_names():
-    file_path = "./data/data.json"
-
-    try:
-        data = load_resource(file_path)
-        return data
-
-    except Exception as e:
-        print(f"[ERROR] {e}")
-        raise (HTTPException(status_code=500))
+@app.get(
+    "/api/building/all",
+    status_code=200,
+    response_model=List[Building],
+)
+def serve_building_names():
+    return services.get_building_names()
 
 
-# ie: /Cornett%20Building/A120 - don't forget to encode whitespace for the url
-@app.get("/api/{bldg}/{room}", status_code=200)
-def get_room_info(bldg: str, room: str):
-    bldg = parse.unquote(bldg)
-    file_path = "./data/time_bool_array.json"
+# ie: /api/building/1?hour=13&minute=30&day=1
+@app.get(
+    "/api/building/{bldg_id}",
+    status_code=200,
+    response_model=BuildingSummary,
+)
+def serve_building_details(bldg_id: int, hour: int, minute: int, day: int):
+    valid_hour: bool = 0 <= hour <= 24
+    valid_minute: bool = 0 <= minute <= 60
+    if not valid_hour or not valid_minute:
+        raise HTTPException(status_code=400, detail="Invalid query time query")
 
-    try:
-        f = load_resource(file_path)
-        data = json.load(f)
+    weekday = DAY_MAP.get(day)
+    if not weekday:
+        raise HTTPException(status_code=400, detail="Invalid day query")
 
-        building = data.get(bldg).get(room)
-        if not building:
-            print(f"[{bldg}-{room}] not found")
-            raise HTTPException(status_code=404)
-
-        return building
-
-    except Exception as e:
-        print(f"[ERROR] {e}")
-        raise HTTPException(status_code=500)
+    return services.get_building_at_time(bldg_id, hour, minute, weekday)
 
 
-# ie: /Cornett%20Building
-@app.get("/api/{bldg}", status_code=200)
-def get_building_info(bldg: str):
-    b = parse.unquote(bldg)
-    file_path = "./data/time_bool_array.json"
-
-    try:
-        data = load_resource(file_path)
-        building = data.get(b)
-
-        if not building:
-            print(f"[{b}] not found")
-            raise HTTPException(status_code=404)
-
-        return building
-
-    except Exception as e:
-        print(f"[ERROR] {e}")
-        raise (HTTPException(status_code=500))
+# ie: /api/room/20?day=1
+@app.get(
+    "/api/room/{room_id}",
+    status_code=200,
+    response_model=RoomDetail,
+)
+def serve_room_details(room_id: int):
+    return services.get_room_details(room_id)

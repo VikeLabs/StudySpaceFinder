@@ -2,7 +2,9 @@
 
 ## Server
 
-python 3.10
+- Python 3.10
+
+- Sqlite
 
 ### With Docker
 
@@ -69,4 +71,12 @@ pip freeze | cat > requirements.txt
 
 ```sh
 yarn server:start --build # rebuilding docker image
+```
+
+### Get data from UVic
+
+Assuming the virtual env is activated, to fetch a term data from UVic, for example spring 2023, run
+
+```sh
+cd server && python script.py get-data 202301
 ```
