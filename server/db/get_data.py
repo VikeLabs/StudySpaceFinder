@@ -222,18 +222,7 @@ def get_data():
 
     time_now = time.time()
 
-    db = DbServices()
-
-    print("Drop existing data")
-    table_to_delete = ["buildings", "rooms", "sections", "subjects"]
-    for i in table_to_delete:
-        try:
-            db.cursor.execute(f"DELETE FROM {i}")
-            db.connection.commit()
-            print(f"\t[OK] droped data from table {i}")
-        except Exception as e:
-            print(f"\t[ERROR] failed to drop table {i}:\n\t{e}")
-
+    """ FETCHING DATA """
     print("\nSetting term for Banner")
     s = requests.Session()
     url = parse.urljoin(_BANNER_BASE, "term/search?mode=search")
@@ -277,8 +266,21 @@ def get_data():
             )
         )
 
-    print("Saving to .database.db")
+    db = DbServices()
 
+    """ DROPPING EXISTING DATA """
+    print("Drop existing data")
+    table_to_delete = ["buildings", "rooms", "sections", "subjects"]
+    for i in table_to_delete:
+        try:
+            db.cursor.execute(f"DELETE FROM {i}")
+            db.connection.commit()
+            print(f"\t[OK] droped data from table {i}")
+        except Exception as e:
+            print(f"\t[ERROR] failed to drop table {i}:\n\t{e}")
+
+    """ SAVING NEW DATA """
+    print("Saving to .database.db")
     func_map = {
         "subjects": set_subjects,
         "buildings": set_buildings,
@@ -296,6 +298,7 @@ def get_data():
 
     print("\t[OK] saved all data to `.database.db`")
 
+    """ GENERATING BACKUP FILE """
     print("\nGenerating backup json")
     file_name = f"./config/db/backups/data_{term}.json"
     with open(file_name, "w+") as f:
