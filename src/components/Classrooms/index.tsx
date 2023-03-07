@@ -8,78 +8,56 @@ import times from "mock/building_time_intervals_0.1.json";
 import Dropdown from "components/common/Dropdown";
 import { getCurrentTimeIndex } from "util/getCurrentTimeIndex";
 import { getCurrentDay } from "util/getCurrentDay";
-import { timeOptions, dateOptions } from "consts.js";
+import { dateOptions } from "consts.js";
 import styles from "./Classrooms.module.css";
+import { useFetch } from "hooks/useFetch";
 
-import { useFetch } from "hooks";
+
+interface fetchResponseType {
+  data: unknown;
+  loading: Boolean;
+  error: string;
+};
 
 function ClassroomCardsContainer(input: any) {
+  const getCurrentDate = () => {
+    const date = new Date();
+    const hours = date.getHours();
+    const minutes = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
+    return `${hours}:${minutes}`;
+  };
+
+  const [time, setTime] = useState(getCurrentDate());
+  const [day, setDay] = useState(new Date().getDay());
   const [params, setparams] = useSearchParams();
   const [building, setBuilding] = useState(params.get("building"));
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [timeValue, setTimeValue] = useState(getCurrentTimeIndex());
-  const [dayValue, setDayValue] = useState(getCurrentDay());
+  const [data, loading, error] = useFetch<any>(`/building/${building}?hour=${time.split(":")[0]}&minute=${time.split(":")[1]}&day=${day}`);
 
-  const buildingId = params.get("building");
-  const s = useFetch(`/building/${buildingId}?hour=10&minute=10&day=3`); // TODO: new Date().getHours(), .getMinutes(), getDay()(?)
-  console.log(s);
-
-  useEffect(() => {
-    console.log(params.get("building"), setparams);
-    mockFetch("resolve", 100)
-      .then((response) => response.json())
-      .then((data) => setData(data[building]))
-      .catch((e) => console.log(e))
-      .finally(() => setLoading(false));
-  }, []);
-
-  const handleTimeChange = (event: any) => {
-    setTimeValue(event.target.value);
-  };
+  console.log(data)
 
   const handleDayChange = (event: any) => {
-    setDayValue(event.target.value);
-  };
-
-  const isClassAvailable = (building: string, classroom: string) => {
-    let room = (times as any)[building][classroom];
-    if (!room[dayValue]) return true;
-    return room[dayValue][timeValue];
+    console.log(event.target.value);
+    setDay(event.target.value);
   };
 
   return loading ? (
     <p>Loading...</p>
-  ) : (
+  ) : error ? <p>{error}</p> : (
     <Container>
-      <PageTitle name={building} />
+      <PageTitle name={data ? data.building : ""} />
       <div className={styles.dropdownContainer}>
-        <Dropdown
-          label="Time"
-          value={timeValue}
-          options={timeOptions}
-          onChange={handleTimeChange}
-        />
+        <input type="time" min="08:00" max="22:00" value={time} onChange={(e) => setTime(e.target.value)}/>
         <Dropdown
           label="Day"
-          value={dayValue}
+          value={day}
           options={dateOptions}
           onChange={handleDayChange}
         />
       </div>
       <div className={styles.ClassroomCardsContainer}>
-        {data &&
-          Object.keys(data).map((key: any, index: number) => {
-            return isClassAvailable(building, key) ? (
-              <ClassroomCard
-                name={key}
-                data={data[key]}
-                day={dayValue}
-                time={timeValue}
-                key={index}
-              />
-            ) : null;
-          })}
+        {data && data.data.map((item: any) => {
+          return <ClassroomCard name={item.room} freeUntil={item.next_class}/>
+        })}
       </div>
     </Container>
   );
