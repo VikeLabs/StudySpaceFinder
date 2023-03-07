@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+# Study Space Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Server
 
-## Available Scripts
+- Python 3.10
 
-In the project directory, you can run:
+- Sqlite
 
-### `npm start`
+### With Docker
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Assuming you have [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/install/)
+installed (usually docker compose will come with docker).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+At the root of the project:
 
-### `npm test`
+```sh
+npm run server:start -d
+# the flag -d (optional) is to detach the container from the current terminal.
+# good if you are not interested in seeing the server log and to start the react
+# script in the same terminal
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`CTRL-C` will only stop the container, in the future, to prune the `spf` docker image:
 
-### `npm run build`
+```sh
+npm run server:clean
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### With Python
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**NOTE**: You should [create a venv](https://python.land/virtual-environments/virtualenv),
+otherwise if you need to update the `requirements.txt`, it will include everything that is
+installed globally. This took me an hour to figure out :/.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Go into the `./server` dir:
 
-### `npm run eject`
+```sh
+python3 -m venv venv # creating a venv
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## windows ##
+# In cmd.exe
+venv\Scripts\activate.bat
+# In PowerShell
+venv\Scripts\Activate.ps1
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## unix ##
+source venv/bin/activate
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install the dependencies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+pip install -r requirements.txt
+```
 
-## Learn More
+Start server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+uvicorn main:app --host 0.0.0.0 --reload
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Update `requirements.txt`
+
+- Make sure that your virtual environments is activated!!
+
+```sh
+pip freeze | cat > requirements.txt
+```
+
+- If running Docker, kill the docker container (Ctrl-C), run:
+
+```sh
+yarn server:start --build # rebuilding docker image
+```
+
+### Get data from UVic
+
+Assuming the virtual env is activated, to fetch a term data from UVic, for example spring 2023, run
+
+```sh
+cd server && python script.py get-data 202301
+```

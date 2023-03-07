@@ -1,36 +1,28 @@
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { mockFetch } from "mock";
 import Container from "components/common/Container";
-import style from "./Home.module.css"
+import style from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import { PageTitle } from "components/common/PageTitle";
+import type { Building } from "types";
+import { useFetch } from "hooks/useFetch";
 
 function Home() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    mockFetch("resolve", 0)
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data);
-        console.log(data)
-      })
-      .catch((e) => console.log(e))
-      .finally(() => setLoading(false));
-  }, []);
+  const [data, loading, error] = useFetch<Building[]>("/building/all");
 
   return (
     <Container>
-      {/* <h1 className={style.h1}>StudySpaceFinder</h1> */}
-      <PageTitle name={"StudySpaceFinder"}/>
-      {loading ? <p>Loading...</p> : 
+      <PageTitle name={"Buildings"} />
+      {error ? (
+        <p>{error}</p>
+      ) : loading ? (
+        <p>Loading...</p>
+      ) : (
         <div className={style.buildingContainer}>
-          { data && Object.keys(data).map((key: any) => {
-            return <BuildingCard building={key}/>
-          })}
-        </div>}
+          {data &&
+            data.map((bldg: Building) => {
+              return <BuildingCard key={bldg.id} building={bldg} />;
+            })}
+        </div>
+      )}
     </Container>
   );
 }
