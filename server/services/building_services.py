@@ -21,59 +21,76 @@ def get_building_at_time(
     db = DbServices()
     seconds = hour * 3600 + minute * 60
 
-    # get all rooms
-    rooms = db.cursor.execute(
-        """
-        SELECT 
-            rooms.id,
-            buildings.name
-        FROM rooms 
-            JOIN buildings
-                ON rooms.building_id=buildings.id
-        WHERE building_id=?
-        """,
-        (bldg_id,),
-    ).fetchall()
+    try:
+        # get building name
+        building_name = db.cursor.execute(
+            "SELECT name FROM buildings WHERE id=?", (bldg_id,)
+        ).fetchone()[0]
 
-    if rooms is None:
-        raise HTTPException(404, "Building not found.")
-
-    building_name = rooms[0][1].replace("&amp;", "&")
-    room_ids = tuple([k for (k, _) in rooms])
-
-    # get all classes
-    out = list()
-    for room_id in room_ids:
-        query = db.cursor.execute(
-            f"""
-            SELECT
-                sections.time_start_str,
+        # get all rooms
+        rooms = db.cursor.execute(
+            """
+            SELECT 
                 rooms.id,
-                rooms.room,
-                subjects.subject
-            FROM sections 
-                JOIN rooms 
-                    ON sections.room_id=rooms.id
-                JOIN subjects
-                    ON sections.subject_id=subjects.id
-            WHERE sections.room_id=? 
-                AND {day}=true
-                AND time_start_int>?
-            ORDER BY time_start_int ASC
-            LIMIT 1;
+                rooms.room 
+            FROM rooms 
+                JOIN buildings 
+                    ON rooms.building_id=buildings.id 
+            WHERE buildings.id=?;
             """,
-            (room_id, seconds),
-        )
+            (bldg_id,),
+        ).fetchall()
 
-        result = query.fetchone()
-        if result is None:
-            continue
+        if rooms is None:
+            raise HTTPException(404, "Building not found.")
 
-        (time_start, room_id, room, subject) = result
-        out.append(
-            RoomSummary(
-                room_id=room_id, room=room, next_class=time_start, subject=subject
+        # get all classes
+        out = list()
+        for room in rooms:
+            (room_id, room_name) = room
+            query = db.cursor.execute(
+                f"""
+                SELECT
+                    sections.time_start_str,
+                    rooms.id,
+                    rooms.room,
+                    subjects.subject
+                FROM sections 
+                    JOIN rooms 
+                        ON sections.room_id=rooms.id
+                    JOIN subjects
+                        ON sections.subject_id=subjects.id
+                WHERE sections.room_id=? 
+                    AND {day}=true
+                    AND time_start_int>?
+                ORDER BY time_start_int ASC
+                LIMIT 1;
+                """,
+                (room_id, seconds),
             )
-        )
 
-    return BuildingSummary(building=building_name, data=out)
+            result = query.fetchone()
+            if result is None:
+                out.append(
+                    RoomSummary(
+                        room_id=room_id,
+                        room=room_name,
+                        next_class="11:00pm",
+                        subject=None,
+                    )
+                )
+                continue
+
+            (time_start, room_id, room, subject) = result
+            out.append(
+                RoomSummary(
+                    room_id=room_id,
+                    room=room_name,
+                    next_class=time_start,
+                    subject=subject,
+                )
+            )
+
+        return BuildingSummary(building=building_name, data=out)
+    finally:
+        db.cursor.close()
