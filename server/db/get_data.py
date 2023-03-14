@@ -119,7 +119,7 @@ def _format_time_str(time: str) -> str:
     if current_time >= noon + 3600:  # 13:00 pm -> 1:00 pm
         hour -= 12
 
-    return f"{hour}:{min} {prefix}"
+    return f"{hour}:{min:02} {prefix}"
 
 
 def set_class_session(fetched_data: List[Dict[str, Any]], db: DbServices):
