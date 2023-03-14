@@ -75,7 +75,7 @@ def get_building_at_time(
                     RoomSummary(
                         room_id=room_id,
                         room=room_name,
-                        next_class="11:00pm",
+                        next_class=None,
                         subject=None,
                     )
                 )

@@ -10,7 +10,7 @@ class Building(BaseModel):
 class RoomSummary(BaseModel):
     room_id: int
     room: str
-    next_class: str
+    next_class: Optional[str]
     subject: Optional[str]
 
 
