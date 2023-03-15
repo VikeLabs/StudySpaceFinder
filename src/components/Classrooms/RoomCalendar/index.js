@@ -46,18 +46,12 @@ function RoomCalendar (props){
     function formatTime (time, day) {
         const dayToDateMap = new Map([["Monday","January 9, 2023 "],["Tuesday","January 10, 2023 "],["Wednesday","January 11, 2023 "],["Thursday","January 12, 2023 "],["Friday","January 13, 2023 "],["Saturday","January 14, 2023 "],["Sunday","January 15, 2023 "]])
         let dayString = dayToDateMap.get(day);
-        let ftime = new Date(dayString + time);
+        let ftime = new Date(dayString + time + " UTC");
         return ftime;
     }
-    // if(data) {
-    //     data.schedules.forEach(day => {
-    //     data.schedules[day].forEach(event => {
-    //          i++;
-    //         })
-    //     })
-    // }
 
 
+/*
     //Loop through monday until we get a false answer, then create event over that time range.
     //then loop through until we get a true, create event.
     //do it for every day, filling events
@@ -81,7 +75,7 @@ function RoomCalendar (props){
     // }
 
     
-/*
+
     if (Object.keys(data).length !== 0) {  //This checks whether a classroom has no data, and although I haven't found a class like this, it's necesarry
         
         let daysIncluded = Object.keys(data.times);
@@ -171,7 +165,7 @@ function RoomCalendar (props){
         startDate: "2023-01-09",    //would need to be updated every semester
         eventMoveHandling: "Disabled",
         dayBeginsHour: "8",
-        scrollPositionHour: "8"
+        scrollPositionHour: "8",
     };
 
 
