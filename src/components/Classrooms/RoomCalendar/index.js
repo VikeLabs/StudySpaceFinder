@@ -3,6 +3,7 @@ import {DayPilot, DayPilotCalendar} from "@daypilot/daypilot-lite-react";
 import { useSearchParams } from "react-router-dom";
 import Container from 'components/common/Container';
 import { PageTitle } from 'components/common/PageTitle';
+import { useFetch } from "hooks/useFetch";
 
 
 function RoomCalendar (props){
@@ -10,20 +11,41 @@ function RoomCalendar (props){
 
     const [params, setparams] = useSearchParams();
     const [building, setBuilding] = useState(params.get('building'))
-    const [room, setRoom] = useState(params.get('classroom'))
+    const [roomId, setRoomId] = useState(params.get('room'))
+    
     
     //TODO: need to set data from backend api
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        setData(props);
-    }, [])
+    const [data, loading, error] = useFetch(`/room/${roomId}`);
 
     let calendarEvents = [];
+    //for each key in data
+    //for each element of each key's array
+    //add event to the calendar for that day
+    if(data) {
+        console.log("DATA IS REAL");
+        let daysIncluded = Object.keys(data.schedules);
+        daysIncluded.forEach(day => {
+            data.schedules[day].forEach(scheduledClass => {
+                console.log(scheduledClass);
+                //calendarEvents.push(createCalendarEvent)
+            })
+        })
+    }
+
+    
+    // if(data) {
+    //     data.schedules.forEach(day => {
+    //     data.schedules[day].forEach(event => {
+    //          i++;
+    //         })
+    //     })
+    // }
+
+
     //Loop through monday until we get a false answer, then create event over that time range.
     //then loop through until we get a true, create event.
     //do it for every day, filling events
-
+/*
     //function to help string organization for registering calendar events - Got some issues, would need to be updated every semester right now
     function getTimeByIndex (index, day) {
         const dayToDateMap = new Map([["Monday","2023-01-09T"],["Tuesday","2023-01-10T"],["Wednesday","2023-01-11T"],["Thursday","2023-01-12T"],["Friday","2023-01-13T"]])
@@ -122,7 +144,7 @@ function RoomCalendar (props){
             }
         });
     }
-
+*/
 
     let calendarSettings = {
         viewType: "WorkWeek",
@@ -135,9 +157,12 @@ function RoomCalendar (props){
     };
 
 
-    return(
+    return loading ? (
+        <p>Loading...</p>
+        ) : error ? <p>{error}</p> : (
         <Container>
-            <PageTitle name={room}/>
+            <PageTitle name={data ? data.building + " " + data.room : ""}/>
+            <p>{data ? data.schedules.Friday[0].section : " "}</p>
             <DayPilotCalendar
                 {...calendarSettings}
             />

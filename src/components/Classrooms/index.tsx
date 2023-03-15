@@ -42,7 +42,7 @@ function ClassroomCardsContainer(input: any) {
       </div>
       <div className={styles.ClassroomCardsContainer}>
         {data && data.data.map((item: any) => {
-          return <ClassroomCard name={item.room} freeUntil={item.next_class}/>
+          return <ClassroomCard name={item.room} freeUntil={item.next_class} room={item.room_id} building={building}/>
         })}
       </div>
     </Container>
