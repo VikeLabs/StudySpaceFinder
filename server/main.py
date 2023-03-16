@@ -1,3 +1,4 @@
+import json
 from typing import List, Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -24,6 +25,19 @@ origins = [
 ]
 
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["GET"])
+
+
+@app.get("/", status_code=200)
+def index():
+    disclaimer: str = ""
+    with open("./contents/disclaimer.txt") as f:
+        disclaimer = f.read().strip()
+
+    project: Dict[str, str] = dict()
+    with open("./contents/project.json") as f:
+        project = json.loads(f.read())
+
+    return {"project": project, "disclaimer": disclaimer}
 
 
 @app.get(
