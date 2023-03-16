@@ -1,7 +1,26 @@
 .p {
-    font-size: large;
-    font-weight: 350;
-    margin-left: 3%;
-    margin-top: 18px;
-    margin-bottom: 18px;
+  font-size: large;
+  font-weight: 350;
+  margin-left: 3%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.p li {
+  list-style: none;
+}
+
+.p a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.p img {
+  width: auto;
+  height: 1.5rem;
+}
+
+.p a:hover {
+  text-decoration: underline;
 }
