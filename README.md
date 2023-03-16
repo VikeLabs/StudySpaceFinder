@@ -1,82 +1,76 @@
 # Study Space Finder
 
-## Server
+Server for the [Study Space Finder](https://github.com/Scott-Kenning/StudySpaceFinder).
 
-- Python 3.10
+### API
 
-- Sqlite
+> All GETs, no POST.
 
-### With Docker
+#### `/api/building/all`
 
-Assuming you have [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/install/)
-installed (usually docker compose will come with docker).
+Returns an array of building objects:
 
-At the root of the project:
-
-```sh
-npm run server:start -d
-# the flag -d (optional) is to detach the container from the current terminal.
-# good if you are not interested in seeing the server log and to start the react
-# script in the same terminal
+```json
+[
+  { "id": 1, "name": "Bob Wright Centre" },
+  { "id": 2, "name": "Business and Economics Building" }
+  // etc
+]
 ```
 
-`CTRL-C` will only stop the container, in the future, to prune the `spf` docker image:
+#### `/api/building/{building_id}`
 
-```sh
-npm run server:clean
+- Queries:
+  - `hour`: between 0 and 24, inclusive
+  - `minute`: between 0 and 60, inclusive
+  - `day`: between 0 and 6, inclusive, where 0 is Sunday, 1 is Monday, etc...
+
+Returns a json object for building related data at that time of the day specified
+
+example: `/api/building/22?hour=10&minute=10&day=5`
+
+```json
+{
+  "building": "Hickman Building",
+  "data": [
+    {
+      "room_id": 180,
+      "room": "105",
+      "next_class": "10:30 am",
+      "subject": "POLI103"
+    },
+    {
+      "room_id": 129,
+      "room": "128",
+      "next_class": null, // _null_ for when class is free until end of day
+      "subject": null
+    }
+    // etc
+  ]
+}
 ```
 
-### With Python
+#### `/api/room/{room_id}`
 
-**NOTE**: You should [create a venv](https://python.land/virtual-environments/virtualenv),
-otherwise if you need to update the `requirements.txt`, it will include everything that is
-installed globally. This took me an hour to figure out :/.
+Returns a json containing the full schedule of the requested room.
 
-Go into the `./server` dir:
-
-```sh
-python3 -m venv venv # creating a venv
-
-## windows ##
-# In cmd.exe
-venv\Scripts\activate.bat
-# In PowerShell
-venv\Scripts\Activate.ps1
-
-## unix ##
-source venv/bin/activate
-```
-
-Install the dependencies:
-
-```sh
-pip install -r requirements.txt
-```
-
-Start server:
-
-```sh
-uvicorn main:app --host 0.0.0.0 --reload
-```
-
-### Update `requirements.txt`
-
-- Make sure that your virtual environments is activated!!
-
-```sh
-pip freeze | cat > requirements.txt
-```
-
-- If running Docker, kill the docker container (Ctrl-C), run:
-
-```sh
-yarn server:start --build # rebuilding docker image
-```
-
-### Get data from UVic
-
-Assuming the virtual env is activated, to fetch a term data from UVic, for example spring 2023, run
-
-```sh
-cd server && python script.py get-data 202301
+```json
+{
+  "building": "David Turpin Building",
+  "room": "B311",
+  "schedules": {
+    "Monday": [
+      {
+        "time_start": "10:00 am",
+        "time_end": "11:50 am",
+        "subject": "GEOG101B",
+        "section": "B01"
+      }
+    ],
+    "Tuesday": [],
+    "Wednesday": [],
+    "Thursday": []
+    // etc
+  }
+}
 ```
