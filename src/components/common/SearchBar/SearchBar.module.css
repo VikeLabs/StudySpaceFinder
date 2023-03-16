@@ -1,0 +1,11 @@
+.searchBar {
+    /* width: 100%; */
+    margin: 0 0 2em 0;
+    padding: 0.25em;
+    width: 32em;
+    border-radius: 0.5em;
+    border: 0px;
+    font-size: large;
+    /* -webkit-box-shadow: 2px 2px 2px 0px rgba(121,58,255,0.38);  */
+    box-shadow: 2px 2px 2px 0px rgba(77, 77, 77, 0.2);
+}

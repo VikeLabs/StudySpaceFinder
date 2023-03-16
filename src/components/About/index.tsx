@@ -1,19 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import styles from './css/about.module.css';
+import styles from './About.module.css';
 import { PageTitle } from "components/common/PageTitle";
 import Container from "components/common/Container";
 import Divider from "components/About/Divider";
+import { aboutText } from 'consts';
 
 function About() {
     return (
         <Container>
             <PageTitle name="About"/>
             <Divider>
-                <p className={styles.p}>Study Space Finder makes it easy to find study space at the University of Victoria!</p>
+                <p>{aboutText}</p>
+                {/* <p className={styles.p}>Study Space Finder makes it easy to find study space at the University of Victoria!</p>
                 <p className={styles.p}>You can use the <Link to="/">Classrooms</Link> page to find rooms that aren't currently in use.</p>
                 <p className={styles.p}>Right now, our data only considers UVic classes. Rooms may be booked for other events.</p>
-                <p className={styles.p}><Link to="/" >Click here to look for available classrooms</Link></p>
+                <p className={styles.p}><Link to="/" >Click here to look for available classrooms</Link></p> */}
             </Divider>
             
             <PageTitle name="VikeLabs"/>
