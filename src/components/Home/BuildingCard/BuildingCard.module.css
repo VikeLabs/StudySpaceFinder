@@ -1,0 +1,31 @@
+.buildingCard {
+    width: 30%;
+    height: 120px;
+    background-color: white;
+    border-radius: 0.75em;
+    box-shadow: rgba(100, 100, 110, 0.4) 0px 8px 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buildingCard:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease-in-out;
+    background-color: whitesmoke;
+    transition: padding-left 3s;
+    transition: padding-right 3s;
+    transition: background-color 0.5s;
+}
+
+@media (max-width: 700px) {
+    .buildingCard {
+        width: 90%;
+        margin-bottom: 1em;
+        height: 80px;
+    }
+}
