@@ -20,6 +20,12 @@ npm run server:start -d
 # script in the same terminal
 ```
 
+If it hasn't been built before, in the server folder run:
+
+```sh
+docker-compose up --build
+```
+
 `CTRL-C` will only stop the container, in the future, to prune the `spf` docker image:
 
 ```sh
