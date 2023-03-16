@@ -36,10 +36,9 @@ function About() {
           <a href="https://www.vikelabs.ca/">VikeLabs</a>, a software
           development club at UVic.
         </p>
+
         <p className={styles.p}>
-          <a href="https://github.com/Scott-Kenning/StudySpaceFinder">
-            See our GitHub repository
-          </a>
+          <a href={content.project.repo.client}>See our GitHub repository</a>
         </p>
       </Divider>
       {/* We could include a suggestions section. For example, CourseUp links to github discussions and a google form for feedback. */}
@@ -55,10 +54,10 @@ function About() {
 
       <PageTitle name="Contributors" />
       <Divider>
-        <ul className={styles.p}>
+        <ul className={styles.contributors}>
           {content.project.contributors.map(({ name, github }, i) => (
             <li key={i}>
-              <a href={github}>
+              <a href={github} target="_blank">
                 <img src={GithubSVG} alt="link to github" />
                 {name}
               </a>
