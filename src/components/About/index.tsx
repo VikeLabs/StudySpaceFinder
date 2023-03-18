@@ -4,10 +4,11 @@ import styles from "./css/about.module.css";
 import { PageTitle } from "components/common/PageTitle";
 import Container from "components/common/Container";
 import Divider from "components/About/Divider";
-import content from "./assets/content.json";
 import GithubSVG from "./assets/github.svg";
+import { ABOUT } from "consts";
 
 function About() {
+  const { contributors, disclaimer, repo } = ABOUT;
   return (
     <Container>
       <PageTitle name="About" />
@@ -38,24 +39,26 @@ function About() {
         </p>
 
         <p className={styles.p}>
-          <a href={content.project.repo.client}>See our GitHub repository</a>
+          <a href={repo.client}>See our GitHub repository</a>
         </p>
       </Divider>
       {/* We could include a suggestions section. For example, CourseUp links to github discussions and a google form for feedback. */}
 
+      {/* Disclaimer */}
       <PageTitle name="Disclaimer" />
       <Divider>
-        {content.disclaimer.split("\n").map((c, i) => (
+        {disclaimer.split("\n").map((c, i) => (
           <p key={i} className={styles.p}>
             {c}
           </p>
         ))}
       </Divider>
 
+      {/* Contributors */}
       <PageTitle name="Contributors" />
       <Divider>
         <ul className={styles.contributors}>
-          {content.project.contributors.map(({ name, github }, i) => (
+          {contributors.map(({ name, github }, i) => (
             <li key={i}>
               <a href={github} target="_blank">
                 <img src={GithubSVG} alt="link to github" />
