@@ -297,11 +297,4 @@ def get_data():
 
         print("\t[OK] saved all data to `.database.db`")
 
-        """ GENERATING BACKUP FILE """
-        print("\nGenerating backup json")
-        file_name = f"./config/db/backups/data_{term}.json"
-        with open(file_name, "w+") as f:
-            f.write(json.dumps(data, indent=2))
-            print(f"\t[OK] generated {file_name}")
-
         print(f"\n[DONE] took {(time.time() - time_now) * 1000}ms")
