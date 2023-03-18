@@ -21,7 +21,7 @@ def get_building_at_time(
     seconds = hour * 3600 + minute * 60
     with DbServices() as db:
         # get building name
-        building_name = db.cursor.execute(
+        building_name: str = db.cursor.execute(
             "SELECT name FROM buildings WHERE id=?", (bldg_id,)
         ).fetchone()[0]
 
@@ -60,7 +60,7 @@ def get_building_at_time(
                         JOIN subjects
                             ON sections.subject_id=subjects.id
                     WHERE sections.room_id=? 
-                        AND {day}=true
+                        AND {day}=1
                         AND time_start_int>?
                     ORDER BY time_start_int ASC
                     LIMIT 1;
@@ -90,4 +90,4 @@ def get_building_at_time(
                 )
             )
 
-        return BuildingSummary(building=building_name, data=out)
+        return BuildingSummary(building=building_name.replace("&amp;", "and"), data=out)
