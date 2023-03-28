@@ -150,7 +150,7 @@ uvicorn main:app --host 0.0.0.0 --reload
 - **virtual environments IS activated**
 
 ```sh
-pip freeze | cat > requirements.txt
+pip freeze > requirements.txt
 ```
 
 #### Get data from UVic
