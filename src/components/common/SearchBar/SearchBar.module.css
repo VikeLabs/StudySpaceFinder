@@ -1,9 +1,9 @@
 .searchBar {
     /* width: 100%; */
     margin-bottom: 1em;
-    padding: 0.25em;
+    padding: 0.5em;
     width: 32em;
-    border-radius: 0.5em;
+    border-radius: 0.75em;
     border: 0px;
     font-size: large;
     /* -webkit-box-shadow: 2px 2px 2px 0px rgba(121,58,255,0.38);  */
@@ -11,6 +11,6 @@
     background: url(assets/magnifying-glass-svgrepo-com.svg) no-repeat scroll;
     background-size: 1em;
     background-color: white;
-    background-position: 0.25em center;
-    padding-left: 1.5em;
+    background-position: 0.75em center;
+    padding-left: 2em;
 }
