@@ -5,10 +5,15 @@
     justify-content: left;
 }
 
+input {
+    margin: 0 0.5em;
+    width: max-content;
+}
+
 .ClassroomCardsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 4em;
+    column-gap: 1em;
     row-gap: 1em;
     width: 100%;
     padding: 1% 5%;

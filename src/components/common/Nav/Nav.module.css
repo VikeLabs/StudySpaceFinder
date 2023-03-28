@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 999;
   color: hsl(0deg, 0%, 90%);
-  font-size: 1.1em;
+  /* font-size: 1.1em; */
   z-index: 999;
 }
 
@@ -15,8 +15,8 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1.1em;
-  height: 1.1em;
+  bottom: -0.8em;
+  height: 0.8em;
   width: 100%;
   background-color: var(--accent-lighter);
 }
@@ -39,7 +39,7 @@
 
 .container ul {
   list-style: none;
-  gap: 1.2em;
+  /* gap: 1.2em; */
 }
 
 .title::after {

@@ -1,24 +1,32 @@
 import Container from "components/common/Container";
-import style from "./Home.module.css";
+import styles from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import { PageTitle } from "components/common/PageTitle";
 import type { Building } from "types";
 import { useFetch } from "hooks/useFetch";
+import { useState } from "react";
+import SearchBar from "components/common/SearchBar";
 
 function Home() {
   const [data, loading, error] = useFetch<Building[]>("/building/all");
+  const [search, setSearch] = useState<string>();
 
   return (
     <Container>
       <PageTitle name={"Buildings"} />
+      <div className={styles.searchContainer}>
+        <SearchBar onChange={setSearch} keyword={search}/>
+      </div>
       {error ? (
         <p>{error}</p>
       ) : loading ? (
         <p>Loading...</p>
       ) : (
-        <div className={style.buildingContainer}>
+        <div className={styles.buildingContainerGrid}>
           {data &&
-            data.map((bldg: Building) => {
+            data.filter(bldg => {
+              return search ? bldg.name.toLowerCase().includes(search.toLowerCase()) : bldg;
+            }).map((bldg: Building) => {
               return <BuildingCard key={bldg.id} building={bldg} />;
             })}
         </div>

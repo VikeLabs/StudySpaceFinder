@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { API } from "consts";
 
+
+
 export function useFetch<T>(path: string): [T | null, boolean, string | null] {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
