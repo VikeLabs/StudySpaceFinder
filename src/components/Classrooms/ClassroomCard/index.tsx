@@ -6,7 +6,7 @@ function ClassroomCards (props: any){
         <div className={styles.cardOuter}>
             <div className={styles.cardInner}>
                 <h1 className={styles.cardTitle}>{props.name}</h1>
-                <p>Free until: {props.freeUntil}</p>
+                <p>Free until: {props.freeUntil || "End of day"}</p>
             </div>
         </div>
     );
