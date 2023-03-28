@@ -44,7 +44,7 @@ Theme Designer Version: 2021.09.25.67272
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
 }
-.calendar_event:hover { 
+.calendar_event:hover, .calendar_event:active { 
 	color: #333333;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -110,7 +110,7 @@ Theme Designer Version: 2021.09.25.67272
 	border-right: 1px solid #7e22ce;
 	border-bottom: 1px solid  #7e22ce;
 	color: #333333;
-	background: #c26eff;
+	background: #a755f3;
 	background: -webkit-gradient(linear, left top, left bottom, from(#c87dff), to(#bc5fff));
 	background: -webkit-linear-gradient(top, #c87dff 0%, #bc5fff);
 	background: -moz-linear-gradient(top, #c87dff 0%, #bc5fff);
@@ -131,7 +131,7 @@ Theme Designer Version: 2021.09.25.67272
 	border-right: 1px solid #7e22ce;
 	border-bottom: 1px solid #7e22ce;
 	color: #333333;
-	background: #c26eff;
+	background: #a755f3;
 	background: -webkit-gradient(linear, left top, left bottom, from(#c87dff), to(#bc5fff));
 	background: -webkit-linear-gradient(top, #c87dff 0%, #bc5fff);
 	background: -moz-linear-gradient(top, #c87dff 0%, #bc5fff);
@@ -152,7 +152,7 @@ Theme Designer Version: 2021.09.25.67272
 	border-right: 1px solid #7e22ce;
 	border-bottom: 1px solid  #7e22ce;
 	color: #333333;
-	background: #c26eff;
+	background: #a755f3;
 	background: -webkit-gradient(linear, left top, right top, from(#c87dff), to(#bc5fff));
 	background: -webkit-linear-gradient(left, #c87dff 0%, #bc5fff);
 	background: -moz-linear-gradient(left, #c87dff 0%, #bc5fff);
@@ -178,7 +178,7 @@ Theme Designer Version: 2021.09.25.67272
 	border-right: 1px solid #7e22ce;
 	border-bottom: 1px solid  #7e22ce;
 	color: #333333;
-	background: #c26eff;
+	background: #a755f3;
 	background: -webkit-gradient(linear, left top, right top, from(#c87dff), to(#bc5fff));
 	background: -webkit-linear-gradient(left, #c87dff 0%, #bc5fff);
 	background: -moz-linear-gradient(left, #c87dff 0%, #bc5fff);
@@ -197,7 +197,7 @@ Theme Designer Version: 2021.09.25.67272
 	border-right: 1px solid #7e22ce;
 	border-bottom: 1px solid  #7e22ce;
 	color: #333333;
-	background: #c26eff;
+	background: #a755f3;
 	background: -webkit-gradient(linear, left top, left bottom, from(#c87dff), to(#bc5fff));
 	background: -webkit-linear-gradient(top, #c87dff 0%, #bc5fff);
 	background: -moz-linear-gradient(top, #c87dff 0%, #bc5fff);
