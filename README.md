@@ -70,7 +70,7 @@ uvicorn main:app --host 0.0.0.0 --reload
 - Make sure that your virtual environments is activated!!
 
 ```sh
-pip freeze | cat > requirements.txt
+pip freeze > requirements.txt
 ```
 
 - If running Docker, kill the docker container (Ctrl-C), run:
