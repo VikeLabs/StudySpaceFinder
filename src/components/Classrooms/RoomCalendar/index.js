@@ -83,6 +83,3 @@ function RoomCalendar (props){
 }
 
 export default RoomCalendar
-
-//TODO:
-//find a good hover alternative for mobile
