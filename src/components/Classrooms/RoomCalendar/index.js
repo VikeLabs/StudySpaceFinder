@@ -57,6 +57,10 @@ function RoomCalendar (props){
         //but as long as the data passed in is for the right semester, 
         //it shouldn't cause any problems.
         eventMoveHandling: "Disabled",
+        eventResizeHandling: "Disabled",
+        eventEditHandling: "Disabled",
+        timeRangeSelectedHandling: "Disabled",
+        //https://api.daypilot.org/daypilot-scheduler-eventmovehandling/
         dayBeginsHour: "8", //this apparently requires pro version
         scrollPositionHour: "8",
         theme: "calendar"
