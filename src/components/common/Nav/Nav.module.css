@@ -51,6 +51,10 @@
   .title::after {
     content: "SSF";
   }
+
+  .container {
+    padding: 0 2em;
+  }
 }
 
 a {
