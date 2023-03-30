@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Dict
+from typing import List, Optional
 
 
 class Building(BaseModel):
@@ -10,8 +10,8 @@ class Building(BaseModel):
 class RoomSummary(BaseModel):
     room_id: int
     room: str
-    next_class: str
-    subject: str
+    next_class: Optional[str]
+    subject: Optional[str]
 
 
 class BuildingSummary(BaseModel):

@@ -7,7 +7,7 @@ const SearchBar = (props: any) => {
         <input 
          key="search-bar"
          value={props.keyword}
-         placeholder={"Search buildings"}
+         placeholder={"Search Buildings"}
          onChange={(e) => props.onChange(e.target.value)}
          className={styles.searchBar}
         />
