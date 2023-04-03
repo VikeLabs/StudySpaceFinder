@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 :root {
   --accent-main: hsl(272deg, 72%, 47%);
   --accent-lighter: hsl(271deg, 79%, 56%);
