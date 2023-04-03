@@ -20,6 +20,7 @@
   background-color: whitesmoke;
   box-shadow: rgba(100, 100, 110, 0.4) 0px 4px 12px 0px;
   transition: 0.1s all ease-in-out;
+  text-decoration: none;
 }
 
 @media (max-width: 700px) {
