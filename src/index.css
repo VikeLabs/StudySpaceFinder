@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: transparent;
+  color: var(--fg-main);
 }
 
 html,

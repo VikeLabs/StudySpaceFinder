@@ -12,8 +12,9 @@
   border-bottom: 0.8rem solid var(--accent-lighter);
 }
 
-.nav a {
-  color: var(--bg-main);
+.nav a,
+.title {
+  color: var(--bg-secondary);
 }
 
 .title::after {
@@ -26,22 +27,6 @@
   }
 
   .nav {
-    padding: 0 2em;
+    padding: 1em;
   }
-}
-
-a {
-  text-decoration: none;
-}
-
-ul a {
-  color: inherit;
-}
-
-ul a :hover {
-  color: inherit;
-}
-
-ul a.active {
-  /* active style? */
 }
