@@ -27,12 +27,17 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --accent-main: hsl(272deg, 72%, 47%);
   --accent-lighter: hsl(271deg, 79%, 56%);
 
   --bg-main: #f1f5f9;
   --bg-secondary: #ffffff;
+
   --fg-main: #1e293b;
 
   --shadow-color: rgba(100, 100, 110, 0.2);

@@ -1,58 +1,31 @@
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--accent-main);
+  color: var(--bg-main);
   position: sticky;
   top: 0;
   width: 100%;
+  padding: 1.5rem;
   z-index: 999;
-  color: hsl(0deg, 0%, 90%);
-  /* font-size: 1.1em; */
-  z-index: 999;
+  border-bottom: 0.8rem solid var(--accent-lighter);
 }
 
-.nav::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.8em;
-  height: 0.8em;
-  width: 100%;
-  background-color: var(--accent-lighter);
-}
-
-.container,
-.container ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.container {
-  padding: 0 3em;
-  flex-grow: 1;
-}
-
-.container h1 {
-  font-weight: 500;
-}
-
-.container ul {
-  list-style: none;
-  /* gap: 1.2em; */
+.nav a {
+  color: var(--bg-main);
 }
 
 .title::after {
-  color: white;
   content: "Study Space Finder";
 }
 
-@media (max-width:700px){
+@media (max-width: 700px) {
   .title::after {
     content: "SSF";
   }
 
-  .container {
+  .nav {
     padding: 0 2em;
   }
 }
@@ -65,7 +38,7 @@ ul a {
   color: inherit;
 }
 
-ul a :hover{
+ul a :hover {
   color: inherit;
 }
 
