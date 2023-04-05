@@ -4,16 +4,11 @@ import style from "./Nav.module.css";
 const Nav = () => {
   return (
     <nav className={style.nav}>
-      <div className={style.container}>
-        <NavLink to="/">
-          <h1 className={style.title}/>
-        </NavLink>
-        <ul>
-          <li>
-            <NavLink to="about">About</NavLink>
-          </li>
-        </ul>
-      </div>
+      <NavLink to="/">
+        <h1 className={style.title} />
+      </NavLink>
+
+      <NavLink to="about">About</NavLink>
     </nav>
   );
 };
