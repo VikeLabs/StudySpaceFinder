@@ -5,6 +5,12 @@
   flex-direction: column;
   gap: 0.7rem;
   color: var(--fg-main);
+  padding: 0 10%
+}
+
+
+.firstSection {
+  margin-top: 4em;
 }
 
 .section h2 {

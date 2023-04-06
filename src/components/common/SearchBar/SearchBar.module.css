@@ -11,6 +11,8 @@
   background-color: var(--bg-secondary);
   background-position: 0.75em center;
   padding-left: 2.3em;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 .searchBar:focus {
