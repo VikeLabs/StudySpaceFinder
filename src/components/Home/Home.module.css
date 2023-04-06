@@ -29,10 +29,10 @@
   .buildingContainerGrid {
     grid-template-columns: 1fr;
     column-gap: 0;
+    padding: 0 5%;
   }
 
   .searchContainer {
-    width: 90%;
     padding: 1% 5%;
   }
 }

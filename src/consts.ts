@@ -20,8 +20,9 @@ export const aboutText = `
 // API RELATED
 export const API =
   process.env.NODE_ENV === "production"
-    ? process.env.API
-    : "http://127.0.0.1:8000";
+    ? process.env.REACT_APP_API
+    // : "http://127.0.0.1:8000";
+    : process.env.REACT_APP_API;
 
 if (API === "") throw new Error(`Missing API env variable on prod`);
 
