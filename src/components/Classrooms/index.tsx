@@ -8,6 +8,7 @@ import { dateOptions, ENDPOINTS } from "consts";
 import styles from "./Classrooms.module.css";
 import { useFetch } from "hooks/useFetch";
 import { Classroom, ClassroomSummary } from "types";
+import { LoadingModal } from "components/common/LoadingModal";
 
 function ClassroomCardsContainer() {
   const getCurrentTime = () => {
@@ -30,39 +31,40 @@ function ClassroomCardsContainer() {
   );
 
   return (
-    <Container>
-      <PageTitle name={payload ? payload.building : "..."} />
-      <div className={styles.dropdownContainer}>
-        <label>
-          Time:
-          <input
-            type="time"
-            min="08:00"
-            max="22:00"
-            value={time}
-            onChange={(e) => setTime(e.target.value)}
+    <>
+      <Container>
+        <PageTitle name={payload ? payload.building : "..."} />
+        <div className={styles.dropdownContainer}>
+          <label>
+            Time:
+            <input
+              type="time"
+              min="08:00"
+              max="22:00"
+              value={time}
+              onChange={(e) => setTime(e.target.value)}
+            />
+          </label>
+          <Dropdown
+            label="Day"
+            value={day}
+            options={dateOptions}
+            onChange={(e: any) => setDay(e.target.value)}
           />
-        </label>
-        <Dropdown
-          label="Day"
-          value={day}
-          options={dateOptions}
-          onChange={(e: any) => setDay(e.target.value)}
-        />
-      </div>
-      {loading ? (
-        <p>Loading...</p>
-      ) : error ? (
-        <p>{error}</p>
-      ) : (
-        <div className={styles.ClassroomCardsContainer}>
-          {payload &&
-            payload.data.map((item: Classroom) => {
-              return <ClassroomCard key={item.room_id} {...item} />;
-            })}
         </div>
-      )}
-    </Container>
+        {error ? (
+          <p>{error}</p>
+        ) : (
+          <div className={styles.ClassroomCardsContainer}>
+            {payload &&
+              payload.data.map((item: Classroom) => {
+                return <ClassroomCard key={item.room_id} {...item} />;
+              })}
+          </div>
+        )}
+      </Container>
+      <LoadingModal loading={loading} />
+    </>
   );
 }
 
