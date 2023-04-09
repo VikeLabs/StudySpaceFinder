@@ -4,6 +4,8 @@ export enum Day {
   "Wednesday",
   "Thursday",
   "Friday",
+  "Saturday",
+  "Sunday",
 }
 
 export interface Building {
