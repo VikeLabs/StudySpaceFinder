@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <Container>
-      <PageTitle name={"Buildings"} />
+      {/* <PageTitle name={"Buildings"} /> */}
       <div className={styles.searchContainer}>
         <SearchBar onChange={setSearch} keyword={search} />
       </div>

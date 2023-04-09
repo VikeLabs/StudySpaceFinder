@@ -5,11 +5,12 @@ import { CONTRIBUTORS, DISCLAIMER, SOURCE } from "consts";
 import shortid from "shortid";
 import { FaGithub } from "react-icons/fa";
 import { Anchor } from "components/common/Anchor";
+import classNames from "classnames";
 
 function About() {
   return (
     <Container>
-      <section className={styles.section}>
+      <section className={classNames(styles.section, styles.firstSection)}>
         <h2>About</h2>
         <p className={styles.p}>
           Study Space Finder makes it easy to find study space at the University
