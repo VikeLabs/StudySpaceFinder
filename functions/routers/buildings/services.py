@@ -1,5 +1,6 @@
-from typing import List, Dict
+from typing import List, Dict, Optional
 from functions.routers.buildings.models import BuildingModels
+from functions.lib.get_next_class import get_next_class
 
 from functions.schemas import Building, RoomSummary, Session, BuildingSummary
 
@@ -14,17 +15,21 @@ DAY_MAP: Dict[int, str] = {
 }
 
 
-def get_all_buildings() -> List[Building] | None:
+def get_all_buildings() -> Optional[List[Building]]:
     with BuildingModels() as db:
         result = db.get_all_buildings()
 
         if result is None:
             return None
 
-        return [{"id": id, "name": name.replace("&amp;", "&")} for (id, name) in result]
+        return [
+            Building(id=id, name=name.replace("&amp;", "&")) for (id, name) in result
+        ]
 
 
-def get_building_schedules(bldg_id: int, hour: int, minute: int, weekday: int):
+def get_building_schedules(
+    bldg_id: int, hour: int, minute: int, weekday: int
+) -> Optional[BuildingSummary]:
     current_time = hour * 3600 + minute * 60
     with BuildingModels() as db:
         bldg_result = db.get_building_name(bldg_id)
@@ -68,7 +73,6 @@ def get_building_schedules(bldg_id: int, hour: int, minute: int, weekday: int):
                     time_end_int,
                 ) in room_results
             ]
-            return None
 
             next_class = get_next_class(payload, current_time)
             if next_class:

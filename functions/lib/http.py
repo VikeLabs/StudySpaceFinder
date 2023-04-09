@@ -1,5 +1,7 @@
 from http.server import BaseHTTPRequestHandler
 import json
+from typing import Any, Dict
+from urllib import parse
 
 
 class HTTP(BaseHTTPRequestHandler):
@@ -18,3 +20,12 @@ class HTTP(BaseHTTPRequestHandler):
     def error(self, mesg: str):
         self.wfile.write(json.dumps({"detail": mesg}).encode())
         return self
+
+    def get_queries(self):
+        """
+        at /api/buildings/14?hour=19&minute=59&day=2, this returns
+        `( 14, {'hour': ['19'], 'minute': ['59'], 'day': ['2'], 'id': ['14']} )`
+        """
+        url = parse.urlsplit(self.path)
+        path_param = url.path.split("/")[-1]
+        return (path_param, parse.parse_qs(url.query))
