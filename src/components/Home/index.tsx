@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import type { Building } from "types";
 import { useFetch } from "hooks/useFetch";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SearchBar from "components/common/SearchBar";
 import { API } from "consts";
 import { LoadingModal } from "components/common/LoadingModal";
@@ -11,6 +11,11 @@ import { LoadingModal } from "components/common/LoadingModal";
 function Home() {
   const [data, loading, error] = useFetch<Building[]>(API.getAllBuildings);
   const [search, setSearch] = useState<string>();
+
+  useEffect(
+    () => console.log({ data, loading, error }),
+    [data, loading, error]
+  );
 
   return (
     <>
