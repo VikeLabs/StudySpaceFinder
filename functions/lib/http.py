@@ -10,16 +10,22 @@ class HTTP(BaseHTTPRequestHandler):
 
     def status(self, code: int) -> "HTTP":
         self.send_response(code)
-        self.end_headers()
         return self
 
     def json(self, payload):
+        self.send_header("content-type", "application/json")
+        self.end_headers()
         self.wfile.write(json.dumps(payload).encode())
         return self
 
     def error(self, mesg: str):
+        self.send_header("content-type", "application/json")
+        self.end_headers()
         self.wfile.write(json.dumps({"detail": mesg}).encode())
         return self
+
+    def done(self):
+        self.end_headers()
 
     def get_queries(self):
         """
