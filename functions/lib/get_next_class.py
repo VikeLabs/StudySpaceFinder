@@ -29,11 +29,8 @@ def get_next_class(data: List[Session], current_time: int) -> Optional[RoomSumma
         if _is_in_range(session, current_time):
             return None
 
-        if current_time > session.time_start_int:
-            return None
-
         return _build_room_info(
-            session, free_til_eod=session.time_end_int < current_time
+            session, free_til_eod=current_time > session.time_end_int
         )
 
     # search index
@@ -49,6 +46,7 @@ def get_next_class(data: List[Session], current_time: int) -> Optional[RoomSumma
 
         if current_time < current_session.time_end_int:
             right_idx = mid
+
         else:
             left_idx = mid
 
