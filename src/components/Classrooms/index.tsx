@@ -4,7 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import Container from "components/common/Container";
 import { PageTitle } from "components/common/PageTitle";
 import Dropdown from "components/common/Dropdown";
-import { dateOptions, ENDPOINTS } from "consts";
+import { dateOptions, API } from "consts";
 import styles from "./Classrooms.module.css";
 import { useFetch } from "hooks/useFetch";
 import { Classroom, ClassroomSummary } from "types";
@@ -25,7 +25,7 @@ function ClassroomCardsContainer() {
 
   const buildingId = params.get("building");
   const [payload, loading, error] = useFetch<ClassroomSummary>(
-    `${ENDPOINTS.getBuilding}/${buildingId}?hour=${time.split(":")[0]}&minute=${
+    `${API.getBuilding}/${buildingId}?hour=${time.split(":")[0]}&minute=${
       time.split(":")[1]
     }&day=${day}`
   );

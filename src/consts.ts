@@ -18,16 +18,12 @@ export const aboutText = `
 `;
 
 // API RELATED
-const isProd = process.env.NODE_ENV === "production";
-export const API = isProd
-  ? "https://ssf.onrender.com"
-  : "http://localhost:8000";
 
-export const ENDPOINTS = {
-  getAllBuildings: `${API}/api/buildings/all`,
-  getBuilding: `${API}/api/buildings`,
-  getRoom: `${API}/api/rooms`,
-};
+export enum API {
+  getAllBuildings = "/api/buildings/all",
+  getBuilding = "/api/buildings",
+  getRoom = "/api/rooms",
+}
 
 // ABOUT RELATED
 export const DISCLAIMER =
