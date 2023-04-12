@@ -1,0 +1,12 @@
+{
+  "repo": {
+    "client": "https://github.com/Scott-Kenning/StudySpaceFinder",
+    "server": "https://github.com/hn275/StudySpaceFinder"
+  },
+  "contributors": [
+    { "name": "Scott", "github": "https://github.com/Scott-Kenning" },
+    { "name": "Liam", "github": "https://github.com/liamsquires" },
+    { "name": "Devin", "github": "https://github.com/DevinFrioud" },
+    { "name": "Hal", "github": "https://github.com/hn275" }
+  ]
+}
