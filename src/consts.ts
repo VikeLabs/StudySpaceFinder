@@ -18,7 +18,6 @@ export const aboutText = `
 `;
 
 // API RELATED
-
 export enum API {
   getAllBuildings = "/api/buildings/all",
   getBuilding = "/api/buildings",
