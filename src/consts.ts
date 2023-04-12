@@ -18,7 +18,10 @@ export const aboutText = `
 `;
 
 // API RELATED
-export const API = "https://ssf.onrender.com"
+const isProd = process.env.NODE_ENV === "production";
+export const API = isProd
+  ? "https://ssf.onrender.com"
+  : "http://localhost:8000";
 
 export const ENDPOINTS = {
   getAllBuildings: `${API}/api/buildings/all`,
@@ -40,4 +43,8 @@ export const CONTRIBUTORS = [
 export enum SOURCE {
   client = "https://github.com/Scott-Kenning/StudySpaceFinder",
   api = "https://github.com/hn275/StudySpaceFinder",
+}
+
+export enum COLORS {
+  accentMain = "#7e22ce",
 }
