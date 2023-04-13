@@ -5,7 +5,7 @@ export const dateOptions = [
   { label: "Wednesday", value: 3 },
   { label: "Thursday", value: 4 },
   { label: "Friday", value: 5 },
-  { label: "Saturday", value: 6 }
+  { label: "Saturday", value: 6 },
 ];
 
 export const vikeLabsText = `
@@ -20,11 +20,14 @@ export const aboutText = `
 `;
 
 // API RELATED
-export enum API {
-  getAllBuildings = "/api/buildings/all",
-  getBuilding = "/api/buildings",
-  getRoom = "/api/rooms",
-}
+// https://ssf.onrender.com/ <- backup server for now
+
+const RENDER = "https://ssf.onrender.com";
+export const API = {
+  getAllBuildings: `${RENDER}/api/buildings/all`,
+  getBuilding: `${RENDER}/api/buildings`,
+  getRoom: `${RENDER}/api/rooms`,
+};
 
 // ABOUT RELATED
 export const DISCLAIMER =
