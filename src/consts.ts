@@ -1,9 +1,11 @@
 export const dateOptions = [
+  { label: "Sunday", value: 0 },
   { label: "Monday", value: 1 },
   { label: "Tuesday", value: 2 },
   { label: "Wednesday", value: 3 },
   { label: "Thursday", value: 4 },
   { label: "Friday", value: 5 },
+  { label: "Saturday", value: 6 },
 ];
 
 export const vikeLabsText = `
@@ -18,12 +20,13 @@ export const aboutText = `
 `;
 
 // API RELATED
-export const API = "https://ssf.onrender.com"
+// https://ssf.onrender.com/ <- backup server for now
 
-export const ENDPOINTS = {
-  getAllBuildings: `${API}/api/buildings/all`,
-  getBuilding: `${API}/api/buildings`,
-  getRoom: `${API}/api/rooms`,
+const RENDER = "https://ssf.onrender.com";
+export const API = {
+  getAllBuildings: `${RENDER}/api/buildings/all`,
+  getBuilding: `${RENDER}/api/buildings`,
+  getRoom: `${RENDER}/api/rooms`,
 };
 
 // ABOUT RELATED
@@ -40,4 +43,8 @@ export const CONTRIBUTORS = [
 export enum SOURCE {
   client = "https://github.com/Scott-Kenning/StudySpaceFinder",
   api = "https://github.com/hn275/StudySpaceFinder",
+}
+
+export enum COLORS {
+  accentMain = "#7e22ce",
 }

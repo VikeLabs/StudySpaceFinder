@@ -7,8 +7,8 @@
   position: sticky;
   top: 0;
   width: 100%;
-  padding: 1em 1.5em; 
-  z-index: 999;
+  padding: 1em 1.5em;
+  z-index: 50;
   border-bottom: 0.8rem solid var(--accent-lighter);
 }
 
