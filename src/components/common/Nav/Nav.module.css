@@ -12,9 +12,10 @@
   border-bottom: 0.8rem solid var(--accent-lighter);
 }
 
-.nav a:hover {
+.nav a:hover, 
+.title {
   text-decoration: none;
-  color: #e7e7e7;
+  transform: scale(1.02);
 }
 
 .nav a,
