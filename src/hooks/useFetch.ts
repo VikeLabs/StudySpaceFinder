@@ -7,6 +7,7 @@ export function useFetch<T>(path: string): [T | null, boolean, string | null] {
 
   useEffect(() => {
     (async () => {
+      setLoading(() => true);
       try {
         const response = await fetch(path, { method: "GET" });
         const { status } = response;
