@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 import BuildingCard from "./BuildingCard";
 import type { Building } from "types";
 import { useFetch } from "hooks/useFetch";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SearchBar from "components/common/SearchBar";
 import { API } from "consts";
 import { LoadingModal } from "components/common/LoadingModal";
@@ -12,22 +12,17 @@ function Home() {
   const [data, loading, error] = useFetch<Building[]>(API.getAllBuildings);
   const [search, setSearch] = useState<string>();
 
-  useEffect(
-    () => console.log({ data, loading, error }),
-    [data, loading, error]
-  );
-
   return (
     <>
       <Container>
         <div className={styles.searchContainer}>
           <SearchBar onChange={setSearch} keyword={search} />
         </div>
-        {error ? (
-          <p>{error}</p>
-        ) : (
+        <LoadingModal loading={loading}>
           <div className={styles.buildingContainerGrid}>
-            {!loading &&
+            {error ? (
+              <>{error}</>
+            ) : (
               data &&
               data
                 .filter((bldg) => {
@@ -37,12 +32,11 @@ function Home() {
                 })
                 .map((bldg: Building) => {
                   return <BuildingCard key={bldg.id} building={bldg} />;
-                })}
+                })
+            )}
           </div>
-        )}
+        </LoadingModal>
       </Container>
-
-      <LoadingModal loading={loading} />
     </>
   );
 }

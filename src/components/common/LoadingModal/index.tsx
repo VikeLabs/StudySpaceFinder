@@ -1,36 +1,59 @@
 import { COLORS } from "consts";
-import { AnimatePresence, motion, Variants } from "framer-motion";
+import { Variants, motion, AnimatePresence } from "framer-motion";
+import { ReactNode, useEffect, useState } from "react";
 import { ClipLoader } from "react-spinners";
 import s from "./LoadingModal.module.css";
 
 interface LoadingModalProps {
+  children: ReactNode;
   loading: boolean;
 }
 
-export function LoadingModal({ loading }: LoadingModalProps) {
+export function LoadingModal({ children, loading }: LoadingModalProps) {
   const vars: Variants = {
-    hidden: { opacity: 0, scale: 1.1, backgroundColor: "rgba(0,0,0,0)" },
-    show: { opacity: 1, scale: 1, backgroundColor: "rgba(0,0,0,0.1)" },
+    hidden: { opacity: 0, y: 40, transition: { type: "just" } },
+    show: { opacity: 1, y: 0, transition: { type: "just" } },
   };
 
+  // render loading modal after 500ms if being in the `loading` state
+  const [showLoader, setShowLoader] = useState<boolean>(false);
+  useEffect(() => {
+    if (!loading) {
+      setShowLoader(() => false);
+      return;
+    }
+    const timeoutID = setTimeout(() => {
+      setShowLoader(() => true);
+    }, 500);
+    return () => clearTimeout(timeoutID);
+  }, [loading]);
+
   return (
-    <AnimatePresence>
-      {loading && (
+    <AnimatePresence mode="wait">
+      {showLoader ? (
         <motion.div
+          className={s.loader}
           variants={vars}
           key="loader"
           initial="hidden"
           animate="show"
           exit="hidden"
-          className={s.loaderContainer}
         >
-          <div className={s.loader}>
-            <ClipLoader color={COLORS.accentMain} />
-            <div className={s.loaderText}>
-              <p>Getting data...</p>
-              <p>Sometimes it takes a second :)</p>
-            </div>
+          <ClipLoader color={COLORS.accentMain} />
+          <div className={s.loaderText}>
+            <p>Getting data...</p>
+            <p>Sometimes it takes a second :)</p>
           </div>
+        </motion.div>
+      ) : (
+        <motion.div
+          variants={vars}
+          key="content"
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        >
+          {children}
         </motion.div>
       )}
     </AnimatePresence>
