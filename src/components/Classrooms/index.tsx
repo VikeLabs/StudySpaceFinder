@@ -22,13 +22,12 @@ function ClassroomCardsContainer() {
   const [time, setTime] = useState(getCurrentTime());
   const [day, setDay] = useState(new Date().getDay());
   const [params] = useSearchParams();
-
+  const [hour, minute] = time.split(":");
   const buildingId = params.get("building");
-  const [payload, loading, error] = useFetch<ClassroomSummary>(
-    `${API.getBuilding}/${buildingId}?hour=${time.split(":")[0]}&minute=${
-      time.split(":")[1]
-    }&day=${day}`
-  );
+
+  const urlParam = new URLSearchParams({ hour, minute, day: String(day) });
+  const url = `${API.getBuilding}/${buildingId}?${urlParam.toString()}`;
+  const [payload, loading, error] = useFetch<ClassroomSummary>(url);
 
   return (
     <>
@@ -42,9 +41,7 @@ function ClassroomCardsContainer() {
               min="08:00"
               max="22:00"
               value={time}
-              onChange={(e) => {
-                setTime(e.target.value ? e.target.value : getCurrentTime())
-              }}
+              onChange={(e) => setTime(e.target.value ? e.target.value : time)}
             />
           </label>
           <Dropdown
@@ -57,13 +54,13 @@ function ClassroomCardsContainer() {
         {error ? (
           <p>{error}</p>
         ) : (
-            <LoadingModal loading={loading}>
-              <div className={styles.ClassroomCardsContainer}>
-                {payload.data.map((item: Classroom) => {
-                  return <ClassroomCard key={item.room_id} {...item} />;
-                })}
-              </div>
-            </LoadingModal>
+          <LoadingModal loading={loading}>
+            <div className={styles.ClassroomCardsContainer}>
+              {payload?.data.map((item: Classroom) => {
+                return <ClassroomCard key={item.room_id} {...item} />;
+              })}
+            </div>
+          </LoadingModal>
         )}
       </Container>
     </>
