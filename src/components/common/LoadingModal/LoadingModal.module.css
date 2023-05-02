@@ -1,0 +1,23 @@
+.loader {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 0.3rem;
+}
+
+.loaderContainer {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.loaderText {
+  text-align: center;
+}
