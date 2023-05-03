@@ -32,7 +32,7 @@ function ClassroomCardsContainer() {
   return (
     <>
       <Container>
-        <PageTitle name={payload ? payload.building : "..."} />
+        <PageTitle name={payload?.building} />
         <div className={styles.dropdownContainer}>
           <label>
             Time:
@@ -41,7 +41,7 @@ function ClassroomCardsContainer() {
               min="08:00"
               max="22:00"
               value={time}
-              onChange={(e) => setTime(e.target.value)}
+              onChange={(e) => setTime(e.target.value ? e.target.value : time)}
             />
           </label>
           <Dropdown
@@ -56,10 +56,9 @@ function ClassroomCardsContainer() {
         ) : (
           <LoadingModal loading={loading}>
             <div className={styles.ClassroomCardsContainer}>
-              {payload &&
-                payload.data.map((item: Classroom) => {
-                  return <ClassroomCard key={item.room_id} {...item} />;
-                })}
+              {payload?.data.map((item: Classroom) => {
+                return <ClassroomCard key={item.room_id} {...item} />;
+              })}
             </div>
           </LoadingModal>
         )}
