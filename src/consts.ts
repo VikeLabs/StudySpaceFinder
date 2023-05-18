@@ -20,13 +20,13 @@ export const aboutText = `
 `;
 
 // API RELATED
-// https://ssf.onrender.com/ <- backup server for now
 
-const RENDER = "https://ssf.onrender.com";
+const isDev = process.env.NODE_ENV === "development";
+const FLY = isDev ? "http://127.0.0.1:8080" : "https://uvic-api.fly.dev";
 export const API = {
-  getAllBuildings: `${RENDER}/api/buildings/all`,
-  getBuilding: `${RENDER}/api/buildings`,
-  getRoom: `${RENDER}/api/rooms`,
+  getAllBuildings: `${FLY}/ssf/buildings`,
+  getBuilding: `${FLY}/ssf/buildings`,
+  getRoom: `${FLY}/ssf/rooms`,
 };
 
 // ABOUT RELATED
