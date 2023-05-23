@@ -32,3 +32,8 @@
 .section a {
   width: max-content;
 }
+
+.link {
+  color: #0000EE;
+  font-weight: 600;
+}
