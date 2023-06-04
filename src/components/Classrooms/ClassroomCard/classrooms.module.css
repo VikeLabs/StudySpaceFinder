@@ -1,44 +1,39 @@
-.cardInner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.cardInner span{
-    float: right;
-}
-
-.cardOuter{
-    border: 0px groove rgba(0,0,0,0.18);
-    border-radius: 10px;
-    padding: 1% 3%;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(121,58,255,0.38); 
-    box-shadow: 2px 2px 2px 0px rgba(77, 77, 77, 0.38);
-    width: 100%;
-    background-color: white;
-    transition: background-color 0.5s;
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0px groove rgba(0, 0, 0, 0.18);
+  border-radius: 0.25em;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(121, 58, 255, 0.38);
+  box-shadow: 2px 2px 2px 0px var(--shadow-color);
+  width: 100%;
+  background-color: var(--bg-secondary);
+  transition: background-color 0.5s;
 }
 
-.cardOuter:hover{
-    transform: scale(1.02);
-    transition: 0.5s all ease-in-out;
-    background-color: whitesmoke;
-    transition: padding-left 3s;
-    transition: padding-right 3s;
-    transition: background-color 0.5s;
+.cardOuter:hover {
+  transform: scale(1.02);
+  transition: 0.5s all ease-in-out;
+  background-color: whitesmoke;
+  transition: padding-left 3s;
+  transition: padding-right 3s;
+  transition: background-color 0.5s;
 }
 
-.cardText{
-    font-weight: 5000;
-    font-size: large;
-    float: right;   
+.cardText {
+  font-weight: 5000;
+  font-size: large;
+  float: right;
 }
 
-.link {
-    color: black;
+@media (max-width: 700px) {
+  .cardOuter {
+    width: 94%;
+  }
 }
 
-@media (max-width:700px){
-    .cardOuter {
-        width: 94%;
-    }
+.cardDesc {
+  font-size: 0.8em;
+  opacity: 0.7;
 }

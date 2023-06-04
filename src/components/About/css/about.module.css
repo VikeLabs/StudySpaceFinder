@@ -1,7 +1,39 @@
-.p {
-    font-size: large;
-    font-weight: 350;
-    margin-left: 3%;
-    margin-top: 18px;
-    margin-bottom: 18px;
+.section {
+  margin: 1rem 0;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: var(--fg-main);
+  padding: 0 10%
+}
+
+
+.firstSection {
+  margin-top: 4em;
+}
+
+.section h2 {
+  color: var(--accent-lighter);
+}
+
+.section:last-child {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.section:last-child a {
+  font-style: italic;
+}
+
+.section a {
+  width: max-content;
+}
+
+.link {
+  color: #0000EE;
+  font-weight: 600;
 }

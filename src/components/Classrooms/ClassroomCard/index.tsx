@@ -1,19 +1,25 @@
-import props from 'react'
-import styles from "./classrooms.module.css"; 
-import { Link } from 'react-router-dom'
+import { Classroom } from "types";
+import styles from "./classrooms.module.css";
+import { Link } from 'react-router-dom';
 
-function ClassroomCards (props: any){
-    return(
-        <Link className={styles.link} to={`calendar?building=${props.building}&room=${props.room}`}>
-            <div className={styles.cardOuter}>
-                <div className={styles.cardInner}>
-                    <h1 className={styles.cardTitle}>{props.name}</h1>
-                    <p>Free until: {props.freeUntil}</p>
-                </div>
-            </div>
-        </Link>
-    );
-    
+function ClassroomCards({ room_id, room, subject, next_class }: Classroom) {
+  return (
+    <Link className={styles.link} to={`calendar?building=${room_id}&room=${room}`}>
+      <section className={styles.cardContainer}>
+        <h1 className={styles.cardTitle}>{room}</h1>
+
+        <p className={styles.cardDesc}>
+          {next_class ? (
+            <>
+              {subject} at {next_class}
+            </>
+          ) : (
+            <>Free until end of day</>
+          )}
+        </p>
+      </section>
+    </Link>
+  );
 }
 
-export default ClassroomCards
+export default ClassroomCards;
