@@ -52,6 +52,7 @@ Theme Designer Version: 2021.09.25.67272
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
+
 .calendar_event_inner { 
 	position: absolute;
 	overflow: hidden;
@@ -65,6 +66,7 @@ Theme Designer Version: 2021.09.25.67272
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
+	cursor: default;
 }
 .calendar_event_inner:hover { 
 	position: absolute;

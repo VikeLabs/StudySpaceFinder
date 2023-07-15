@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function ClassroomCards({ room_id, room, subject, next_class }: Classroom) {
   return (
-    <Link className={styles.link} to={`calendar?building=${room_id}&room=${room}`}>
+    <Link className={styles.link} to={`calendar?room=${room_id}&roomname=${room}`}>
       <section className={styles.cardContainer}>
         <h1 className={styles.cardTitle}>{room}</h1>
 

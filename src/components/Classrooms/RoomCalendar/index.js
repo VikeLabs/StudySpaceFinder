@@ -1,25 +1,31 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import {DayPilot, DayPilotCalendar} from "@daypilot/daypilot-lite-react";
 import { useSearchParams } from "react-router-dom";
 import Container from 'components/common/Container';
 import { PageTitle } from 'components/common/PageTitle';
 import { useFetch } from "hooks/useFetch";
+import { API } from "consts";
 import './calendar.css'
+
+
 
 function RoomCalendar (props){
     const [params, setparams] = useSearchParams();
-    const [building, setBuilding] = useState(params.get('building'))
+    const [room, setRoom] = useState(params.get('roomname'))
     const [roomId, setRoomId] = useState(params.get('room'))
-    const [data, loading, error] = useFetch(`/room/${roomId}`);
+    const url = `${API.getRoom}/${roomId}`;
+    const [data, loading, error] = useFetch(url);
+    
+    console.log(data);
 
     let calendarEvents = [];
     //for each key in data
     //for each element of each key's array
-    //add event to the calendar for that day
+    //add event to the calendar for that day)
     if(data) {
-        let daysIncluded = Object.keys(data.schedules);
+        let daysIncluded = Object.keys(data);
         daysIncluded.forEach(day => {
-            data.schedules[day].forEach(scheduledClass => {
+            data[day].forEach(scheduledClass => {
                 console.log(scheduledClass);
                 calendarEvents.push(createCalendarEvent(scheduledClass.time_start, scheduledClass.time_end, scheduledClass.subject, day))
             })
@@ -71,7 +77,7 @@ function RoomCalendar (props){
         <p>Loading...</p>
         ) : error ? <p>{error}</p> : (
         <Container>
-            <PageTitle name={data ? data.building + " " + data.room : ""}/>
+            <PageTitle name={data ? data.building + " " + room : ""}/>
             <div className="calendarContainer">
                 <DayPilotCalendar
                     {...calendarSettings}
