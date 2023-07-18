@@ -57,7 +57,7 @@ function ClassroomCardsContainer() {
           <LoadingModal loading={loading}>
             <div className={styles.ClassroomCardsContainer}>
               {payload?.data.map((item: Classroom) => {
-                return <ClassroomCard key={item.room_id} {...item} />;
+                return <ClassroomCard key={item.room_id} building={payload.building} room_id={item.room_id} room={item.room} subject={item.subject} next_class={item.next_class} />;
               })}
             </div>
           </LoadingModal>

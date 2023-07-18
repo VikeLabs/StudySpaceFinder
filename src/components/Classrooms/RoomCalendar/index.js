@@ -11,8 +11,9 @@ import './calendar.css'
 
 function RoomCalendar (props){
     const [params, setparams] = useSearchParams();
-    const [room, setRoom] = useState(params.get('roomname'))
-    const [roomId, setRoomId] = useState(params.get('room'))
+    const [room, setRoom] = useState(params.get('room'))
+    const [roomId, setRoomId] = useState(params.get('roomid'))
+    const [building, setBuilding] = useState(params.get('building'))
     const url = `${API.getRoom}/${roomId}`;
     const [data, loading, error] = useFetch(url);
     
@@ -77,7 +78,7 @@ function RoomCalendar (props){
         <p>Loading...</p>
         ) : error ? <p>{error}</p> : (
         <Container>
-            <PageTitle name={data ? data.building + " " + room : ""}/>
+            <PageTitle name={data ? building + " " + room : ""}/>
             <div className="calendarContainer">
                 <DayPilotCalendar
                     {...calendarSettings}

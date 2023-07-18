@@ -2,16 +2,24 @@ import { Classroom } from "types";
 import styles from "./classrooms.module.css";
 import { Link } from 'react-router-dom';
 
-function ClassroomCards({ room_id, room, subject, next_class }: Classroom) {
+interface PropType {
+  room_id: number
+  room: string
+  next_class: string
+  subject: string
+  building: string; // building name
+}
+
+function ClassroomCards(props : PropType) {
   return (
-    <Link className={styles.link} to={`calendar?room=${room_id}&roomname=${room}`}>
+    <Link className={styles.link} to={`calendar?roomid=${props.room_id}&building=${props.building}&room=${props.room}`}>
       <section className={styles.cardContainer}>
-        <h1 className={styles.cardTitle}>{room}</h1>
+        <h1 className={styles.cardTitle}>{props.room}</h1>
 
         <p className={styles.cardDesc}>
-          {next_class ? (
+          {props.next_class ? (
             <>
-              {subject} at {next_class}
+              {props.subject} at {props.next_class}
             </>
           ) : (
             <>Free until end of day</>
