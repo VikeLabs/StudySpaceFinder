@@ -55,18 +55,19 @@ Theme Designer Version: 2021.09.25.67272
 
 .calendar_event_inner { 
 	position: absolute;
-	overflow: hidden;
+	/* overflow: hidden; */
 	left: 0px;
 	right: 0px;
 	top: 0px;
 	bottom: 0px;
 	margin: 0px;
 	background-color: #a6a6a6;
-	opacity: 90%;
+	opacity: 100%;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
 	cursor: default;
+	box-shadow: #333333;
 }
 .calendar_event_inner:hover { 
 	position: absolute;
