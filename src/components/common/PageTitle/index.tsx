@@ -1,13 +1,9 @@
 import style from "./PageTitle.module.css";
 
-interface props {
-  name: String
+interface Props {
+  name: string;
 }
 
-export const PageTitle = (props: props) => {
-  return (
-    <div>
-        <h1 className={style.title}>{props.name}</h1>
-    </div>
-  );
+export const PageTitle = ({ name }: Props) => {
+  return <h1 className={style.title}>{name}</h1>;
 };
