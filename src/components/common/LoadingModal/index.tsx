@@ -1,6 +1,6 @@
 import { COLORS } from "consts";
 import { Variants, motion, AnimatePresence } from "framer-motion";
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode } from "react";
 import { ClipLoader } from "react-spinners";
 import s from "./LoadingModal.module.css";
 
@@ -15,22 +15,9 @@ export function LoadingModal({ children, loading }: LoadingModalProps) {
     show: { opacity: 1, y: 0, transition: { type: "just" } },
   };
 
-  // render loading modal after 500ms if being in the `loading` state
-  const [showLoader, setShowLoader] = useState<boolean>(false);
-  useEffect(() => {
-    if (!loading) {
-      setShowLoader(false);
-      return;
-    }
-    const timeoutID = setTimeout(() => {
-      setShowLoader(true);
-    }, 500);
-    return () => clearTimeout(timeoutID);
-  }, [loading, showLoader]);
-
   return (
     <AnimatePresence mode="wait">
-      {showLoader ? (
+      {loading ? (
         <motion.div
           className={s.loader}
           variants={vars}
