@@ -23,11 +23,11 @@ Theme Designer Version: 2021.09.25.67272
 	float: left;
 	
 }
-.calendarContainer
-{
+.calendarContainer {
 	padding-left: 6px;
 	padding-right: 8px;
 }
+
 .calendar_main 
 {
 	border: 1px solid #7e22ce;
