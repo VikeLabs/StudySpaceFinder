@@ -22,8 +22,7 @@ export const aboutText = `
 // API RELATED
 
 const isDev = process.env.NODE_ENV === "development";
-// const FLY = isDev ? "http://127.0.0.1:8080" : "https://uvic-api.fly.dev";
-const FLY = "https://uvic-api.fly.dev";
+const FLY = isDev ? "http://127.0.0.1:8080" : "https://uvic-api.fly.dev";
 export const API = {
   getAllBuildings: `${FLY}/ssf/buildings`,
   getBuilding: `${FLY}/ssf/buildings`,
