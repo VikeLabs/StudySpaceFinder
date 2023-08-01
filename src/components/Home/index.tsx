@@ -13,7 +13,6 @@ function Home() {
   const [search, setSearch] = useState<string>();
 
   return (
-    <>
       <Container>
         <div className={styles.searchContainer}>
           <SearchBar onChange={setSearch} keyword={search} />
@@ -37,7 +36,6 @@ function Home() {
           </div>
         </LoadingModal>
       </Container>
-    </>
   );
 }
 

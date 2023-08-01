@@ -19,14 +19,14 @@ export function LoadingModal({ children, loading }: LoadingModalProps) {
   const [showLoader, setShowLoader] = useState<boolean>(false);
   useEffect(() => {
     if (!loading) {
-      setShowLoader(() => false);
+      setShowLoader(false);
       return;
     }
     const timeoutID = setTimeout(() => {
-      setShowLoader(() => true);
+      setShowLoader(true);
     }, 500);
     return () => clearTimeout(timeoutID);
-  }, [loading]);
+  }, [loading, showLoader]);
 
   return (
     <AnimatePresence mode="wait">
@@ -42,7 +42,7 @@ export function LoadingModal({ children, loading }: LoadingModalProps) {
           <ClipLoader color={COLORS.accentMain} />
           <div className={s.loaderText}>
             <p>Getting data...</p>
-            <p>Sometimes it takes a second :)</p>
+            <p>Sometimes it takes a second</p>
           </div>
         </motion.div>
       ) : (
