@@ -7,12 +7,11 @@ interface PropType {
   room: string;
   next_class: any;
   subject: string;
-  building: string; // building name
+  building: string;
   current_class: string;
 }
 
 function ClassroomCards(props: PropType) {
-  console.log(props);
   return (
     <Link
       className={styles.link}
@@ -26,7 +25,7 @@ function ClassroomCards(props: PropType) {
             <>Currently busy</>
           ) : props.next_class ? (
             <>
-              {props.next_class.subject} at {props.next_class.time_start}
+              Free until {props.next_class.time_start}
             </>
           ) : (
             <>Free until end of day</>

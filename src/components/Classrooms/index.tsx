@@ -24,6 +24,7 @@ function ClassroomCardsContainer(props: any) {
   const [params] = useSearchParams();
   const [hour, minute] = time.split(":");
   const buildingId = params.get("building");
+  const name = params.get("name");
 
   const urlParam = new URLSearchParams({ hour, minute, day: String(day) });
   const url = `${API.getBuilding}/${buildingId}?${urlParam.toString()}`;
@@ -33,7 +34,7 @@ function ClassroomCardsContainer(props: any) {
   return (
     <>
       <Container>
-        <PageTitle name={payload?.building} />
+        <PageTitle name={name} />
         <div className={styles.dropdownContainer}>
           <label>
             Time:
@@ -64,7 +65,7 @@ function ClassroomCardsContainer(props: any) {
               return (
                 <ClassroomCard
                   key={item.room_id}
-                  building={props.name}
+                  building={name}
                   room_id={item.id}
                   room={item.room}
                   subject={item.subject}
