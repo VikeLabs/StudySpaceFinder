@@ -14,6 +14,8 @@ export interface Building {
 }
 
 export interface Classroom {
+  id: number;
+  current_class: string;
   room_id: number;
   room: string;
   next_class?: string;
