@@ -4,7 +4,7 @@
   justify-content: space-between;
   border: 0px groove rgba(0, 0, 0, 0.18);
   border-radius: 0.25em;
-  padding: 1rem;
+  padding: 1.5rem;
   -webkit-box-shadow: 2px 2px 2px 0px rgba(121, 58, 255, 0.38);
   box-shadow: 2px 2px 2px 0px var(--shadow-color);
   width: 100%;
@@ -12,13 +12,14 @@
   transition: background-color 0.5s;
 }
 
-.cardOuter:hover {
+a:hover{
+  text-decoration: none;
+}
+
+.cardContainer:hover {
   transform: scale(1.02);
-  transition: 0.5s all ease-in-out;
+  transition: 0.1s all ease-in-out;
   background-color: whitesmoke;
-  transition: padding-left 3s;
-  transition: padding-right 3s;
-  transition: background-color 0.5s;
 }
 
 .cardText {

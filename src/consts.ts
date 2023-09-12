@@ -36,7 +36,6 @@ export const DISCLAIMER =
 export const CONTRIBUTORS = [
   { name: "Scott", github: "https://github.com/Scott-Kenning" },
   { name: "Liam", github: "https://github.com/liamsquires" },
-  { name: "Devin", github: "https://github.com/DevinFrioud" },
   { name: "Hal", github: "https://github.com/hn275" },
 ];
 

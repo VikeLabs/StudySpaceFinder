@@ -24,3 +24,4 @@ export interface ClassroomSummary {
   building: string;
   data: Classroom[];
 }
+

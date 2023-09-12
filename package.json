@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@daypilot/daypilot-lite-react": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -28,6 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "cypress:open": "cypress open",
     "server:start": "cd ./server && docker compose up",
     "server:clean": "cd ./server && docker compose down"
   },
@@ -52,6 +54,7 @@
   "devDependencies": {
     "@types/react-calendar": "^3.9.0",
     "@types/shortid": "^0.0.29",
+    "cypress": "^12.13.0",
     "prettier": "^2.8.2"
   }
 }

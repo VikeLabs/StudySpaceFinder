@@ -1,0 +1,81 @@
+.section {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--fg-main);
+  padding: 0 20%;
+  margin-top: 3em;
+
+}
+
+.innerContainer {
+  gap: 4em;
+}
+
+.firstSection {
+}
+
+.section h2 {
+  margin-bottom: 0.5em;
+}
+
+.section:last-child {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.section:last-child a {
+  font-style: italic;
+}
+
+.section a {
+  width: max-content;
+}
+
+.link {
+  color: #0000EE;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.githubCard {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e1e4e8; /* A light grey color, similar to GitHub's */
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+  background-color: #595966 ;
+}
+
+.githubCard:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.githubCard svg {
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 9999px;
+}
+
+.githubCard span {
+  font-weight: bold;
+  color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .section {
+    padding: 0 10%;
+  }
+}
