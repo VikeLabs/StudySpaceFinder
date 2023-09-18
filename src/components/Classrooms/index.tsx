@@ -10,7 +10,7 @@ import { useFetch } from "hooks/useFetch";
 import { Classroom, ClassroomSummary } from "types";
 import { LoadingModal } from "components/common/LoadingModal";
 
-function ClassroomCardsContainer() {
+function ClassroomCardsContainer(props: any) {
   const getCurrentTime = () => {
     const date = new Date();
     const hours = date.getHours();
@@ -24,15 +24,17 @@ function ClassroomCardsContainer() {
   const [params] = useSearchParams();
   const [hour, minute] = time.split(":");
   const buildingId = params.get("building");
+  const name = params.get("name");
 
   const urlParam = new URLSearchParams({ hour, minute, day: String(day) });
   const url = `${API.getBuilding}/${buildingId}?${urlParam.toString()}`;
-  const [payload, loading, error] = useFetch<ClassroomSummary>(url);
+  const [payload, loading, error] = useFetch<any>(url);
+  console.log(payload);
 
   return (
     <>
       <Container>
-        <PageTitle name={payload?.building} />
+        <PageTitle name={name} />
         <div className={styles.dropdownContainer}>
           <label>
             Time:
@@ -53,14 +55,26 @@ function ClassroomCardsContainer() {
         </div>
         {error ? (
           <p>{error}</p>
-        ) : (
+        ) : loading ? (
           <LoadingModal loading={loading}>
-            <div className={styles.ClassroomCardsContainer}>
-              {payload?.data.map((item: Classroom) => {
-                return <ClassroomCard key={item.room_id} building={payload.building} room_id={item.room_id} room={item.room} subject={item.subject} next_class={item.next_class} />;
-              })}
-            </div>
+            <></>
           </LoadingModal>
+        ) : (
+          <div className={styles.ClassroomCardsContainer}>
+            {payload?.map((item: Classroom) => {
+              return (
+                <ClassroomCard
+                  key={item.room_id}
+                  building={name}
+                  room_id={item.id}
+                  room={item.room}
+                  subject={item.subject}
+                  next_class={item.next_class}
+                  current_class={item.current_class}
+                />
+              );
+            })}
+          </div>
         )}
       </Container>
     </>
