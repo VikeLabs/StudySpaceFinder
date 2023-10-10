@@ -5,7 +5,10 @@ import Container from "components/common/Container";
 import { PageTitle } from "components/common/PageTitle";
 import { useFetch } from "hooks/useFetch";
 import { API } from "consts";
+import { decodeHtmlEntities } from "util/decodeHTML";
 import "./calendar.css";
+import { decode } from "punycode";
+import { LoadingModal } from "components/common/LoadingModal";
 
 interface ScheduledClass {
   time_start: string;
@@ -26,7 +29,6 @@ const RoomCalendar: React.FC = () => {
   );
   const url = `${API.getRoom}/${roomId}`;
   const [data, loading, error] = useFetch<CalendarData | null>(url);
-  console.log(data);
 
   let calendarEvents: any[] = [];
   if (data) {
@@ -90,12 +92,16 @@ const RoomCalendar: React.FC = () => {
     theme: "calendar_default",
   };
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return (
+    <LoadingModal loading={loading}>
+      <></>
+    </LoadingModal>
+  );
   if (error) return <p>{error}</p>;
   return (
     <Container>
       <PageTitle
-        name={data ? building + " " + room + " Weekly Schedule" : ""}
+        name={data ? decodeHtmlEntities(decodeURI(building)) + " " + room + " Weekly Schedule" : ""}
       />
       <div className="calendarContainer">
         <DayPilotCalendar {...calendarSettings} />

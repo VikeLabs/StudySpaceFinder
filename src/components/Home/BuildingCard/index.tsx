@@ -10,7 +10,7 @@ function BuildingCard({ building }: PropType) {
   return (
     <Link
       className={style.buildingCard}
-      to={`classrooms?building=${building.id}&name=${building.name}`}
+      to={`classrooms?building=${building.id}`}
     >
       {building.name}
     </Link>
