@@ -9,6 +9,7 @@ import styles from "./Classrooms.module.css";
 import { useFetch } from "hooks/useFetch";
 import { Classroom, ClassroomSummary } from "types";
 import { LoadingModal } from "components/common/LoadingModal";
+import { decodeHtmlEntities } from "util/decodeHTML";
 
 function ClassroomCardsContainer(props: any) {
   const getCurrentTime = () => {
@@ -24,17 +25,15 @@ function ClassroomCardsContainer(props: any) {
   const [params] = useSearchParams();
   const [hour, minute] = time.split(":");
   const buildingId = params.get("building");
-  const name = params.get("name");
 
   const urlParam = new URLSearchParams({ hour, minute, day: String(day) });
   const url = `${API.getBuilding}/${buildingId}?${urlParam.toString()}`;
   const [payload, loading, error] = useFetch<any>(url);
-  console.log(payload);
 
   return (
     <>
       <Container>
-        <PageTitle name={name} />
+        <PageTitle name={decodeHtmlEntities(payload?.building?.name || "")} />
         <div className={styles.dropdownContainer}>
           <label>
             Time:
@@ -61,11 +60,11 @@ function ClassroomCardsContainer(props: any) {
           </LoadingModal>
         ) : (
           <div className={styles.ClassroomCardsContainer}>
-            {payload?.map((item: Classroom) => {
+            {payload?.rooms.map((item: Classroom) => {
               return (
                 <ClassroomCard
                   key={item.room_id}
-                  building={name}
+                  building={payload.building.name}
                   room_id={item.id}
                   room={item.room}
                   subject={item.subject}
