@@ -3,12 +3,13 @@ import style from "./Container.module.css";
 
 interface Props {
   children: ReactNode;
+  bottomPadding?: boolean;
 }
 
-function Container({ children }: Props) {
+function Container({ children, bottomPadding = true }: Props) {
   return (
     <div className={style.outerContainer}>
-      <div className={style.innerContainer}>{children}</div>
+      <div className={bottomPadding ? style.innerContainer : style.innerContainerNBP}>{children}</div>
     </div>
   );
 }

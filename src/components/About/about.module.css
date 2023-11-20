@@ -10,9 +10,8 @@
 
 .innerContainer {
   gap: 4em;
-}
-
-.firstSection {
+  background-color: rgb(230, 230, 230);
+  padding-bottom: 4em;
 }
 
 .section h2 {
@@ -22,7 +21,6 @@
 .section:last-child {
   display: flex;
   margin-top: 4rem;
-  align-items: center;
   width: 100%;
   margin-bottom: 0;
 }
@@ -42,6 +40,13 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+.githubContainer {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  align-items: center;
 }
 
 .githubCard {
